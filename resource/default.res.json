@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,background_png,square_ske_json,square_tex_json,square_tex_png,pppp_png,chess2_png,room_boss_png,room_trap_png,room_battle_png,room_f_png,room_blank_png,room_v_png,game_bg_jpg,role_03_tex_json,role_03_ske_json,role_03_tex_png,skull_tex_json,skull_tex_png,skull_ske_json,role_02_tex_json,role_02_tex_png,role_02_ske_json,role_01_ske_json,role_01_tex_json,role_01_tex_png",
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,room_v_png,room_trap_png,room_boss_png,room_f_png,room_blank_png,room_battle_png,line_vertical_png,line_horizontal_png,game_bg_jpg,skull_ske_json,skull_tex_json,skull_tex_png,role_03_ske_json,role_03_tex_json,role_03_tex_png,role_02_ske_json,role_02_tex_json,role_02_tex_png,role_01_ske_json,role_01_tex_json,role_01_tex_png,canvas_mesh_tex_png,canvas_mesh_ske_json,canvas_mesh_tex_json,pppp_png",
 			"name": "preload"
 		}
 	],
@@ -132,144 +132,134 @@
 			"name": "egret_icon_png"
 		},
 		{
-			"url": "config/description.json",
+			"name": "description_json",
 			"type": "json",
-			"name": "description_json"
-		},
-		{
-			"url": "background.png",
-			"type": "image",
-			"name": "background_png"
-		},
-		{
-			"url": "square/square_ske.json",
-			"type": "json",
-			"name": "square_ske_json"
-		},
-		{
-			"url": "square/square_tex.json",
-			"type": "json",
-			"name": "square_tex_json"
-		},
-		{
-			"url": "square/square_tex.png",
-			"type": "image",
-			"name": "square_tex_png"
-		},
-		{
-			"url": "pppp.png",
-			"type": "image",
-			"name": "pppp_png"
-		},
-		{
-			"url": "square/pppp.png",
-			"type": "image",
-			"name": "pppp2_png"
-		},
-		{
-			"url": "square/chess.png",
-			"type": "image",
-			"name": "chess_png"
-		},
-		{
-			"name": "chess2_png",
-			"type": "image",
-			"url": "chess.png"
-		},
-		{
-			"name": "room_boss_png",
-			"type": "image",
-			"url": "demo_imgs/room_boss.png"
-		},
-		{
-			"name": "room_trap_png",
-			"type": "image",
-			"url": "demo_imgs/room_trap.png"
-		},
-		{
-			"name": "room_battle_png",
-			"type": "image",
-			"url": "demo_imgs/room_battle.png"
-		},
-		{
-			"name": "room_f_png",
-			"type": "image",
-			"url": "demo_imgs/room_f.png"
-		},
-		{
-			"name": "room_blank_png",
-			"type": "image",
-			"url": "demo_imgs/room_blank.png"
+			"url": "config/description.json"
 		},
 		{
 			"name": "room_v_png",
 			"type": "image",
-			"url": "demo_imgs/room_v.png"
+			"url": "game_core/room_v.png"
+		},
+		{
+			"name": "room_trap_png",
+			"type": "image",
+			"url": "game_core/room_trap.png"
+		},
+		{
+			"name": "room_boss_png",
+			"type": "image",
+			"url": "game_core/room_boss.png"
+		},
+		{
+			"name": "room_f_png",
+			"type": "image",
+			"url": "game_core/room_f.png"
+		},
+		{
+			"name": "room_blank_png",
+			"type": "image",
+			"url": "game_core/room_blank.png"
+		},
+		{
+			"name": "room_battle_png",
+			"type": "image",
+			"url": "game_core/room_battle.png"
+		},
+		{
+			"name": "line_vertical_png",
+			"type": "image",
+			"url": "game_core/line_vertical.png"
+		},
+		{
+			"name": "line_horizontal_png",
+			"type": "image",
+			"url": "game_core/line_horizontal.png"
 		},
 		{
 			"name": "game_bg_jpg",
 			"type": "image",
-			"url": "demo_imgs/game_bg.jpg"
-		},
-		{
-			"name": "role_03_tex_json",
-			"type": "json",
-			"url": "characters/role_03/role_03_tex.json"
-		},
-		{
-			"name": "role_03_ske_json",
-			"type": "json",
-			"url": "characters/role_03/role_03_ske.json"
-		},
-		{
-			"name": "role_03_tex_png",
-			"type": "image",
-			"url": "characters/role_03/role_03_tex.png"
-		},
-		{
-			"name": "skull_tex_json",
-			"type": "json",
-			"url": "characters/skull/skull_tex.json"
-		},
-		{
-			"name": "skull_tex_png",
-			"type": "image",
-			"url": "characters/skull/skull_tex.png"
+			"url": "game_core/game_bg.jpg"
 		},
 		{
 			"name": "skull_ske_json",
 			"type": "json",
-			"url": "characters/skull/skull_ske.json"
+			"url": "game_core/characters/skull/skull_ske.json"
 		},
 		{
-			"name": "role_02_tex_json",
+			"name": "skull_tex_json",
 			"type": "json",
-			"url": "characters/role_02/role_02_tex.json"
+			"url": "game_core/characters/skull/skull_tex.json"
 		},
 		{
-			"name": "role_02_tex_png",
+			"name": "skull_tex_png",
 			"type": "image",
-			"url": "characters/role_02/role_02_tex.png"
+			"url": "game_core/characters/skull/skull_tex.png"
+		},
+		{
+			"name": "role_03_ske_json",
+			"type": "json",
+			"url": "game_core/characters/role_03/role_03_ske.json"
+		},
+		{
+			"name": "role_03_tex_json",
+			"type": "json",
+			"url": "game_core/characters/role_03/role_03_tex.json"
+		},
+		{
+			"name": "role_03_tex_png",
+			"type": "image",
+			"url": "game_core/characters/role_03/role_03_tex.png"
 		},
 		{
 			"name": "role_02_ske_json",
 			"type": "json",
-			"url": "characters/role_02/role_02_ske.json"
+			"url": "game_core/characters/role_02/role_02_ske.json"
+		},
+		{
+			"name": "role_02_tex_json",
+			"type": "json",
+			"url": "game_core/characters/role_02/role_02_tex.json"
+		},
+		{
+			"name": "role_02_tex_png",
+			"type": "image",
+			"url": "game_core/characters/role_02/role_02_tex.png"
 		},
 		{
 			"name": "role_01_ske_json",
 			"type": "json",
-			"url": "characters/role_01/role_01_ske.json"
+			"url": "game_core/characters/role_01/role_01_ske.json"
 		},
 		{
 			"name": "role_01_tex_json",
 			"type": "json",
-			"url": "characters/role_01/role_01_tex.json"
+			"url": "game_core/characters/role_01/role_01_tex.json"
 		},
 		{
 			"name": "role_01_tex_png",
 			"type": "image",
-			"url": "characters/role_01/role_01_tex.png"
+			"url": "game_core/characters/role_01/role_01_tex.png"
+		},
+		{
+			"name": "canvas_mesh_tex_png",
+			"type": "image",
+			"url": "game_core/canvas_mesh/canvas_mesh_tex.png"
+		},
+		{
+			"name": "canvas_mesh_ske_json",
+			"type": "json",
+			"url": "game_core/canvas_mesh/canvas_mesh_ske.json"
+		},
+		{
+			"name": "canvas_mesh_tex_json",
+			"type": "json",
+			"url": "game_core/canvas_mesh/canvas_mesh_tex.json"
+		},
+		{
+			"name": "pppp_png",
+			"type": "image",
+			"url": "pppp.png"
 		}
 	]
 }
