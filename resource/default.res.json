@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png",
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,role_01_ske_json,role_01_tex_json,role_01_tex_png,role_02_ske_json,role_02_tex_json,role_02_tex_png,role_03_ske_json,role_03_tex_json,role_03_tex_png,skull_ske_json,skull_tex_json,skull_tex_png,background_png,role2_effect_ske_json,role2_effect_tex_json,role2_effect_tex_png,role1_effect_ske_json,role1_effect_tex_json,role1_effect_tex_png,skull-gongji_ske_json,skull-gongji_tex_json,skull-gongji_tex_png,role3_effect_tex_json,role3_effect_tex_png,role3_effect_ske_json",
 			"name": "preload"
 		}
 	],
@@ -120,6 +120,146 @@
 			"url": "assets/ScrollBar/track_sb.png",
 			"type": "image",
 			"name": "track_sb_png"
+		},
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "role_01_ske_json",
+			"type": "json",
+			"url": "role_01/role_01_ske.json"
+		},
+		{
+			"name": "role_01_tex_json",
+			"type": "json",
+			"url": "role_01/role_01_tex.json"
+		},
+		{
+			"name": "role_01_tex_png",
+			"type": "image",
+			"url": "role_01/role_01_tex.png"
+		},
+		{
+			"name": "role_02_ske_json",
+			"type": "json",
+			"url": "role_02/role_02_ske.json"
+		},
+		{
+			"name": "role_02_tex_json",
+			"type": "json",
+			"url": "role_02/role_02_tex.json"
+		},
+		{
+			"name": "role_02_tex_png",
+			"type": "image",
+			"url": "role_02/role_02_tex.png"
+		},
+		{
+			"name": "role_03_ske_json",
+			"type": "json",
+			"url": "role_03/role_03_ske.json"
+		},
+		{
+			"name": "role_03_tex_json",
+			"type": "json",
+			"url": "role_03/role_03_tex.json"
+		},
+		{
+			"name": "role_03_tex_png",
+			"type": "image",
+			"url": "role_03/role_03_tex.png"
+		},
+		{
+			"name": "skull_ske_json",
+			"type": "json",
+			"url": "skull/skull_ske.json"
+		},
+		{
+			"name": "skull_tex_json",
+			"type": "json",
+			"url": "skull/skull_tex.json"
+		},
+		{
+			"name": "skull_tex_png",
+			"type": "image",
+			"url": "skull/skull_tex.png"
+		},
+		{
+			"name": "background_png",
+			"type": "image",
+			"url": "background.png"
+		},
+		{
+			"name": "role2_effect_ske_json",
+			"type": "json",
+			"url": "effects/role2_effect/role2_effect_ske.json"
+		},
+		{
+			"name": "role2_effect_tex_json",
+			"type": "json",
+			"url": "effects/role2_effect/role2_effect_tex.json"
+		},
+		{
+			"name": "role2_effect_tex_png",
+			"type": "image",
+			"url": "effects/role2_effect/role2_effect_tex.png"
+		},
+		{
+			"name": "role1_effect_ske_json",
+			"type": "json",
+			"url": "effects/role1_effect/role1_effect_ske.json"
+		},
+		{
+			"name": "role1_effect_tex_json",
+			"type": "json",
+			"url": "effects/role1_effect/role1_effect_tex.json"
+		},
+		{
+			"name": "role1_effect_tex_png",
+			"type": "image",
+			"url": "effects/role1_effect/role1_effect_tex.png"
+		},
+		{
+			"name": "skull-gongji_ske_json",
+			"type": "json",
+			"url": "effects/skull_effect/skull-gongji_ske.json"
+		},
+		{
+			"name": "skull-gongji_tex_json",
+			"type": "json",
+			"url": "effects/skull_effect/skull-gongji_tex.json"
+		},
+		{
+			"name": "skull-gongji_tex_png",
+			"type": "image",
+			"url": "effects/skull_effect/skull-gongji_tex.png"
+		},
+		{
+			"name": "role3_effect_tex_json",
+			"type": "json",
+			"url": "effects/role3_effect/role3_effect_tex.json"
+		},
+		{
+			"name": "role3_effect_tex_png",
+			"type": "image",
+			"url": "effects/role3_effect/role3_effect_tex.png"
+		},
+		{
+			"name": "role3_effect_ske_json",
+			"type": "json",
+			"url": "effects/role3_effect/role3_effect_ske.json"
 		}
 	]
 }
