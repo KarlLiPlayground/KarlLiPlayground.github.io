@@ -1,0 +1,22 @@
+{
+    "projectName": "bottom",
+    "files": [
+        "./../../切图/battle/bottom/bottom_skill_03.png",
+        "./../../切图/battle/bottom/bottom_skill_02.png",
+        "./../../切图/battle/bottom/bottom_skill_01.png",
+        "./../../切图/battle/bottom/bottom_common_02.png",
+        "./../../切图/battle/bottom/bottom_common_01.png",
+        "./../../切图/battle/bottom/bottom_button_skill04.png",
+        "./../../切图/battle/bottom/bottom_button_skill03.png",
+        "./../../切图/battle/bottom/bottom_button_skill02.png",
+        "./../../切图/battle/bottom/bottom_button_skill01.png"
+    ],
+    "options": {
+        "layoutMath": "2",
+        "sizeMode": "free",
+        "useExtension": 0,
+        "layoutGap": 1,
+        "extend": 1
+    },
+    "version": 5
+}

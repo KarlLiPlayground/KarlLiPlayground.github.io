@@ -1,0 +1,43 @@
+{
+    "projectName": "battleSettlement",
+    "files": [
+        "./../../切图/battleSettlement/common_mask.png",
+        "./../../切图/battleSettlement/common_iconbg_02.png",
+        "./../../切图/battleSettlement/common_iconbg_01.png",
+        "./../../切图/battleSettlement/common_icon_01.png",
+        "./../../切图/battleSettlement/common_button_close.png",
+        "./../../切图/battleSettlement/common_button_01.png",
+        "./../../切图/battleSettlement/battleSettlement_stick_monster.png",
+        "./../../切图/battleSettlement/battleSettlement_stick_facilities.png",
+        "./../../切图/battleSettlement/battleSettlement_stick_bg.png",
+        "./../../切图/battleSettlement/battleSettlement_panel_win.png",
+        "./../../切图/battleSettlement/battleSettlement_panel_img_07.png",
+        "./../../切图/battleSettlement/battleSettlement_panel_img_06.png",
+        "./../../切图/battleSettlement/battleSettlement_panel_img_05.png",
+        "./../../切图/battleSettlement/battleSettlement_panel_img_04.png",
+        "./../../切图/battleSettlement/battleSettlement_panel_img_03.png",
+        "./../../切图/battleSettlement/battleSettlement_panel_img_02.png",
+        "./../../切图/battleSettlement/battleSettlement_panel_img_01.png",
+        "./../../切图/battleSettlement/battleSettlement_panel_03.png",
+        "./../../切图/battleSettlement/battleSettlement_panel_02.png",
+        "./../../切图/battleSettlement/battleSettlement_panel_01.png",
+        "./../../切图/battleSettlement/battleSettlement_namebg.png",
+        "./../../切图/battleSettlement/battleSettlement_name.png",
+        "./../../切图/battleSettlement/battleSettlement_head_04.png",
+        "./../../切图/battleSettlement/battleSettlement_head_03.png",
+        "./../../切图/battleSettlement/battleSettlement_head_02.png",
+        "./../../切图/battleSettlement/battleSettlement_head_01.png",
+        "./../../切图/battleSettlement/battleSettlement_expStick_04.png",
+        "./../../切图/battleSettlement/battleSettlement_expStick_03.png",
+        "./../../切图/battleSettlement/battleSettlement_expStick_02.png",
+        "./../../切图/battleSettlement/battleSettlement_expStick_01.png"
+    ],
+    "options": {
+        "layoutMath": "2",
+        "sizeMode": "free",
+        "useExtension": 0,
+        "layoutGap": 1,
+        "extend": 1
+    },
+    "version": 5
+}

@@ -1,0 +1,27 @@
+{
+	"groups": [
+		{
+			"keys": "ZL_res_desc_txt,bottom_json,top_json",
+			"name": "ZL"
+		}
+	],
+	"resources": [
+		{
+			"url": "ZL/ZL_res_desc.txt",
+			"type": "text",
+			"name": "ZL_res_desc_txt"
+		},
+		{
+			"url": "ZL/game_ui/bottom/bottom.json",
+			"type": "sheet",
+			"name": "bottom_json",
+			"subkeys": "bottom_button_skill01,bottom_button_skill02,bottom_button_skill03,bottom_button_skill04,bottom_common_01,bottom_common_02,bottom_skill_01,bottom_skill_02,bottom_skill_03"
+		},
+		{
+			"url": "ZL/game_ui/top/top.json",
+			"type": "sheet",
+			"name": "top_json",
+			"subkeys": "top_bloodStick_01,top_bloodStick_02,top_bloodStick_03,top_button_auto,top_button_goFar,top_button_goNear,top_button_handmove,top_button_more,top_button_x1,top_button_x2,top_common_01,top_common_02,top_common_03,top_icon_gold,top_icon_task"
+		}
+	]
+}
