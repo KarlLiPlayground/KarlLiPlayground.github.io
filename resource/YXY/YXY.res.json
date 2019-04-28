@@ -1,0 +1,21 @@
+{
+	"groups": [
+		{
+			"keys": "YXY_res_desc_txt,battleSettlement_json",
+			"name": "YXY"
+		}
+	],
+	"resources": [ 
+		{
+			"url": "YXY/YXY_res_desc.txt",
+			"type": "text",
+			"name": "YXY_res_desc_txt"
+		},
+		{
+			"url": "YXY/game_win/battleSettlement.json",
+			"type": "sheet",
+			"name": "battleSettlement_json",
+			"subkeys": "battleSettlement_expStick_01,battleSettlement_expStick_02,battleSettlement_expStick_03,battleSettlement_expStick_04,battleSettlement_head_01,battleSettlement_head_02,battleSettlement_head_03,battleSettlement_head_04,battleSettlement_name,battleSettlement_namebg,battleSettlement_panel_01,battleSettlement_panel_02,battleSettlement_panel_03,battleSettlement_panel_img_01,battleSettlement_panel_img_02,battleSettlement_panel_img_03,battleSettlement_panel_img_04,battleSettlement_panel_img_05,battleSettlement_panel_img_06,battleSettlement_panel_img_07,battleSettlement_panel_win,battleSettlement_stick_bg,battleSettlement_stick_facilities,battleSettlement_stick_monster,common_button_01,common_button_close,common_icon_01,common_iconbg_01,common_iconbg_02,common_mask"
+		}
+	]
+}

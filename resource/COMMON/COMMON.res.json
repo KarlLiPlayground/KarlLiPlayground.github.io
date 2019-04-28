@@ -1,0 +1,15 @@
+{
+	"groups": [
+		{
+			"keys": "COMMON_res_desc_txt",
+			"name": "COMMON"
+		}
+	],
+	"resources": [
+		{
+			"url": "COMMON/COMMON_res_desc.txt",
+			"type": "text",
+			"name": "COMMON_res_desc_txt"
+		}
+	]
+}
