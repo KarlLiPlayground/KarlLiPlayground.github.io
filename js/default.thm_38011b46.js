@@ -661,9 +661,9 @@ window.skins=window.skins||{};
 		__extends(common_Button_Red_Skin$Skin1, _super);
 		function common_Button_Red_Skin$Skin1() {
 			_super.call(this);
-			this.skinParts = ["labelDisplay"];
+			this.skinParts = [];
 			
-			this.elementsContent = [this._Image1_i(),this.labelDisplay_i()];
+			this.elementsContent = [this._Image1_i()];
 			this.states = [
 				new eui.State ("up",
 					[
@@ -690,38 +690,38 @@ window.skins=window.skins||{};
 			t.percentWidth = 100;
 			return t;
 		};
-		_proto.labelDisplay_i = function () {
-			var t = new eui.Label();
-			this.labelDisplay = t;
-			t.horizontalCenter = 0;
-			t.size = 32;
-			t.stroke = 2;
-			t.strokeColor = 0xcc3c54;
-			t.textColor = 0xffffff;
-			t.verticalCenter = 0;
-			return t;
-		};
 		return common_Button_Red_Skin$Skin1;
 	})(eui.Skin);
 
 	function common_Button_Red_Skin() {
 		_super.call(this);
-		this.skinParts = ["common_red_btn"];
+		this.skinParts = ["common_red_btn","labelDisplay"];
 		
 		this.height = 74;
 		this.width = 180;
-		this.elementsContent = [this.common_red_btn_i()];
+		this.elementsContent = [this.common_red_btn_i(),this.labelDisplay_i()];
 	}
 	var _proto = common_Button_Red_Skin.prototype;
 
 	_proto.common_red_btn_i = function () {
 		var t = new eui.Button();
 		this.common_red_btn = t;
-		t.height = 75;
-		t.width = 180;
+		t.percentHeight = 100;
+		t.percentWidth = 100;
 		t.x = 0;
 		t.y = 0;
 		t.skinName = common_Button_Red_Skin$Skin1;
+		return t;
+	};
+	_proto.labelDisplay_i = function () {
+		var t = new game.BaseLabel();
+		this.labelDisplay = t;
+		t.horizontalCenter = 0;
+		t.size = 32;
+		t.stroke = 2;
+		t.strokeColor = 0xcc3c54;
+		t.textColor = 0xffffff;
+		t.verticalCenter = 0;
 		return t;
 	};
 	return common_Button_Red_Skin;
@@ -740,41 +740,41 @@ window.skins=window.skins||{};
 	_proto.common_icon_default_i = function () {
 		var t = new eui.Image();
 		this.common_icon_default = t;
-		t.height = 104;
+		t.percentHeight = 100;
 		t.source = "common_iconbg_01";
-		t.width = 104;
+		t.percentWidth = 100;
 		return t;
 	};
 	_proto.common_icon_bg_i = function () {
 		var t = new eui.Image();
 		this.common_icon_bg = t;
-		t.height = 104;
+		t.percentHeight = 100;
 		t.source = "common_iconbg_02";
-		t.width = 104;
+		t.percentWidth = 100;
 		return t;
 	};
 	_proto.common_icon_img_i = function () {
 		var t = new eui.Image();
 		this.common_icon_img = t;
-		t.height = 88;
+		t.percentHeight = 84.6;
 		t.source = "common_icon_01";
-		t.width = 90;
+		t.top = "7.6%";
+		t.percentWidth = 86.5;
 		t.x = 7;
-		t.y = 8;
 		return t;
 	};
 	_proto.common_icon_text_i = function () {
-		var t = new eui.Label();
+		var t = new game.BaseLabel();
 		this.common_icon_text = t;
-		t.height = 26;
+		t.percentHeight = 25;
 		t.size = 26;
 		t.stroke = 2;
 		t.strokeColor = 0x000000;
 		t.text = " x 5";
 		t.textAlign = "right";
+		t.top = "69.3%";
 		t.verticalAlign = "middle";
-		t.width = 98;
-		t.y = 72;
+		t.percentWidth = 94.2;
 		return t;
 	};
 	return common_IconItem_Skin;
@@ -805,12 +805,11 @@ window.skins=window.skins||{};
 	_proto.thumb_i = function () {
 		var t = new eui.Image();
 		this.thumb = t;
-		t.height = 12;
+		t.percentHeight = 85.71;
+		t.left = "0.518%";
 		t.scale9Grid = new egret.Rectangle(10,5,176,4);
 		t.source = "battleSettlement_stick_facilities";
-		t.width = 191;
-		t.x = 1;
-		t.y = 1;
+		t.percentWidth = 98.96;
 		return t;
 	};
 	return win_ProcessBar_Facility_Skin;
@@ -829,12 +828,12 @@ window.skins=window.skins||{};
 	_proto.thumb_i = function () {
 		var t = new eui.Image();
 		this.thumb = t;
-		t.height = 12;
-		t.scale9Grid = new egret.Rectangle(24,6,145,4);
+		t.percentHeight = 85.71;
+		t.left = "0.518%";
+		t.scale9Grid = new egret.Rectangle(10,5,176,4);
 		t.source = "battleSettlement_stick_monster";
-		t.width = 191;
-		t.x = 1;
-		t.y = 1;
+		t.top = "7.1%";
+		t.percentWidth = 98.96;
 		return t;
 	};
 	return win_ProcessBar_Monster_Skin;
@@ -846,275 +845,305 @@ window.skins=window.skins||{};
 		
 		this.height = 38;
 		this.width = 407;
-		this.elementsContent = [this._Image1_i(),this._Image2_i(),this.thumb_i(),this.stick_i(),this.label_i()];
+		this.elementsContent = [this._Image1_i(),this.thumb_i(),this._Image2_i(),this.stick_i(),this.label_i()];
 	}
 	var _proto = win_ProcessBar_EXP_Skin.prototype;
 
 	_proto._Image1_i = function () {
 		var t = new eui.Image();
-		t.height = 38;
+		t.percentHeight = 100;
 		t.source = "battleSettlement_expStick_04";
-		t.width = 407;
-		t.x = -1;
-		return t;
-	};
-	_proto._Image2_i = function () {
-		var t = new eui.Image();
-		t.height = 38;
-		t.source = "battleSettlement_expStick_01";
-		t.width = 407;
+		t.top = "-2.6%";
+		t.percentWidth = 100;
 		return t;
 	};
 	_proto.thumb_i = function () {
 		var t = new eui.Image();
 		this.thumb = t;
-		t.height = 36;
-		t.scale9Grid = new egret.Rectangle(55,16,320,8);
+		t.percentHeight = 100;
 		t.source = "battleSettlement_expStick_02";
-		t.width = 405;
-		t.x = 1;
-		t.y = 1;
+		t.percentWidth = 100;
+		return t;
+	};
+	_proto._Image2_i = function () {
+		var t = new eui.Image();
+		t.percentHeight = 100;
+		t.source = "battleSettlement_expStick_01";
+		t.percentWidth = 100;
 		return t;
 	};
 	_proto.stick_i = function () {
 		var t = new eui.Image();
 		this.stick = t;
-		t.height = 26;
+		t.percentHeight = 68.42;
 		t.source = "battleSettlement_expStick_03";
+		t.top = "21.05%";
 		t.visible = false;
-		t.width = 2;
-		t.y = 8;
+		t.percentWidth = 0.49;
 		return t;
 	};
 	_proto.label_i = function () {
-		var t = new eui.Label();
+		var t = new game.BaseLabel();
 		this.label = t;
-		t.height = 22;
+		t.percentHeight = 57.89;
 		t.size = 22;
 		t.stroke = 2;
 		t.strokeColor = 0xcc3530;
 		t.text = "120\300";
 		t.textAlign = "center";
 		t.textColor = 0xffffff;
+		t.top = "28.94%";
 		t.percentWidth = 100;
-		t.y = 11;
 		return t;
 	};
 	return win_ProcessBar_EXP_Skin;
 })(eui.Skin);generateEUI.paths['resource/YXY/game_skins/win/battle_Win_Skin.exml'] = window.battle_Win_Skin = (function (_super) {
 	__extends(battle_Win_Skin, _super);
+	var battle_Win_Skin$Skin2 = 	(function (_super) {
+		__extends(battle_Win_Skin$Skin2, _super);
+		function battle_Win_Skin$Skin2() {
+			_super.call(this);
+			this.skinParts = [];
+			
+			this.elementsContent = [this._Image1_i()];
+			this.states = [
+				new eui.State ("up",
+					[
+					])
+				,
+				new eui.State ("down",
+					[
+						new eui.SetProperty("_Image1","source","common_button_close")
+					])
+				,
+				new eui.State ("disabled",
+					[
+						new eui.SetProperty("_Image1","source","common_button_close")
+					])
+			];
+		}
+		var _proto = battle_Win_Skin$Skin2.prototype;
+
+		_proto._Image1_i = function () {
+			var t = new eui.Image();
+			this._Image1 = t;
+			t.percentHeight = 100;
+			t.source = "common_button_close";
+			t.percentWidth = 100;
+			return t;
+		};
+		return battle_Win_Skin$Skin2;
+	})(eui.Skin);
+
 	function battle_Win_Skin() {
 		_super.call(this);
-		this.skinParts = ["win_group_bg","win_role","win_group_head","win_lv","win_name","win_group_name","win_facility_label","win_monster_label","win_exp_label","win_reward_label","win_processbar_facility","win_processbar_monster","win_facility_number","win_monster_number","win_processbar_exp","win_icon1","win_icon2","win_icon3","win_btn","win_group_center"];
+		this.skinParts = ["win_role","win_group_head","win_lv","win_name","win_group_name","win_facility_label","win_monster_label","win_exp_label","win_reward_label","win_processbar_facility","win_processbar_monster","win_facility_number","win_monster_number","win_processbar_exp","win_icon1","win_icon2","win_icon3","win_btn","win_group_center","win_close","win_group_bg_1"];
 		
 		this.height = 1136;
 		this.width = 640;
-		this.elementsContent = [this._Image1_i(),this._Image2_i(),this.win_group_bg_i(),this.win_group_head_i(),this.win_group_name_i(),this.win_group_center_i()];
+		this.elementsContent = [this._Group1_i()];
 	}
 	var _proto = battle_Win_Skin.prototype;
 
+	_proto._Group1_i = function () {
+		var t = new eui.Group();
+		t.percentHeight = 100;
+		t.horizontalCenter = 0;
+		t.percentWidth = 100;
+		t.elementsContent = [this.win_group_bg_1_i()];
+		return t;
+	};
+	_proto.win_group_bg_1_i = function () {
+		var t = new eui.Group();
+		this.win_group_bg_1 = t;
+		t.height = 723;
+		t.horizontalCenter = 2;
+		t.top = "21%";
+		t.touchEnabled = false;
+		t.percentWidth = 84.3;
+		t.y = 248;
+		t.elementsContent = [this._Image1_i(),this._Image2_i(),this._Image3_i(),this.win_group_head_i(),this.win_group_name_i(),this.win_group_center_i(),this.win_close_i()];
+		return t;
+	};
 	_proto._Image1_i = function () {
 		var t = new eui.Image();
-		t.height = 1130;
-		t.scale9Grid = new egret.Rectangle(13,13,81,81);
-		t.source = "battlewin_png";
-		t.visible = false;
-		t.width = 640;
-		t.x = 0;
-		t.y = 0;
+		t.percentHeight = 43;
+		t.source = "battleSettlement_panel_01";
+		t.percentWidth = 100;
 		return t;
 	};
 	_proto._Image2_i = function () {
 		var t = new eui.Image();
-		t.height = 1130;
-		t.scale9Grid = new egret.Rectangle(13,13,81,81);
-		t.source = "common_mask";
-		t.visible = false;
-		t.width = 640;
-		t.x = 0;
-		t.y = 0;
-		return t;
-	};
-	_proto.win_group_bg_i = function () {
-		var t = new eui.Group();
-		this.win_group_bg = t;
-		t.horizontalCenter = 2;
-		t.width = 540;
-		t.y = 248;
-		t.elementsContent = [this._Image3_i(),this._Image4_i(),this._Image5_i()];
+		t.bottom = "33%";
+		t.percentHeight = 25;
+		t.source = "battleSettlement_panel_02";
+		t.percentWidth = 100;
 		return t;
 	};
 	_proto._Image3_i = function () {
 		var t = new eui.Image();
-		t.height = 308;
-		t.horizontalCenter = 0;
-		t.source = "battleSettlement_panel_01";
-		t.width = 540;
-		return t;
-	};
-	_proto._Image4_i = function () {
-		var t = new eui.Image();
-		t.height = 170;
-		t.horizontalCenter = 0;
-		t.scale9Grid = new egret.Rectangle(67,7,406,48);
-		t.source = "battleSettlement_panel_02";
-		t.width = 540;
-		t.y = 308;
-		return t;
-	};
-	_proto._Image5_i = function () {
-		var t = new eui.Image();
-		t.height = 245;
-		t.horizontalCenter = 0;
+		t.bottom = 0;
+		t.percentHeight = 34;
 		t.source = "battleSettlement_panel_03";
-		t.width = 540;
-		t.y = 478;
+		t.percentWidth = 100;
 		return t;
 	};
 	_proto.win_group_head_i = function () {
 		var t = new eui.Group();
 		this.win_group_head = t;
-		t.height = 321;
-		t.width = 342;
-		t.x = 159;
-		t.y = 108;
-		t.elementsContent = [this._Image6_i(),this._Image7_i(),this._Image8_i(),this._Image9_i(),this._Image10_i(),this._Image11_i(),this._Image12_i(),this._Image13_i(),this._Image14_i(),this.win_role_i()];
+		t.height = 342;
+		t.horizontalCenter = 0;
+		t.top = "-19.3%";
+		t.touchEnabled = false;
+		t.percentWidth = 68.4;
+		t.y = -140;
+		t.elementsContent = [this._Image4_i(),this._Image5_i(),this._Image6_i(),this._Image7_i(),this._Image8_i(),this._Image9_i(),this._Image10_i(),this._Image11_i(),this._Image12_i(),this.win_role_i()];
+		return t;
+	};
+	_proto._Image4_i = function () {
+		var t = new eui.Image();
+		t.percentHeight = 100;
+		t.horizontalCenter = 0;
+		t.source = "battleSettlement_head_01";
+		t.percentWidth = 93.86;
+		return t;
+	};
+	_proto._Image5_i = function () {
+		var t = new eui.Image();
+		t.percentHeight = 27.485;
+		t.left = "3.9%";
+		t.source = "battleSettlement_head_02";
+		t.top = "49%";
+		t.percentWidth = 27.485;
+		t.x = 12;
 		return t;
 	};
 	_proto._Image6_i = function () {
 		var t = new eui.Image();
-		t.height = 342;
-		t.source = "battleSettlement_head_01";
-		t.width = 321;
+		t.percentHeight = 27.485;
+		t.left = "10.3%";
+		t.source = "battleSettlement_head_02";
+		t.top = "65%";
+		t.percentWidth = 27.485;
+		t.x = 34;
 		return t;
 	};
 	_proto._Image7_i = function () {
 		var t = new eui.Image();
-		t.height = 94;
-		t.source = "battleSettlement_head_02";
-		t.width = 94;
-		t.x = 4;
-		t.y = 169;
+		t.percentHeight = 19.883;
+		t.left = "64.9%";
+		t.source = "battleSettlement_head_03";
+		t.top = "67%";
+		t.percentWidth = 19.883;
+		t.x = 222;
 		return t;
 	};
 	_proto._Image8_i = function () {
 		var t = new eui.Image();
-		t.height = 94;
-		t.source = "battleSettlement_head_02";
-		t.width = 94;
-		t.x = 28;
-		t.y = 225;
+		t.percentHeight = 19.883;
+		t.left = "47.3%";
+		t.source = "battleSettlement_head_03";
+		t.top = "64%";
+		t.percentWidth = 19.883;
+		t.x = 162;
 		return t;
 	};
 	_proto._Image9_i = function () {
 		var t = new eui.Image();
-		t.height = 68;
-		t.source = "battleSettlement_head_03";
-		t.width = 68;
-		t.x = 214;
-		t.y = 230;
+		t.percentHeight = 11.988;
+		t.left = "76.6%";
+		t.source = "battleSettlement_head_04";
+		t.top = "49%";
+		t.percentWidth = 11.695;
+		t.x = 262;
 		return t;
 	};
 	_proto._Image10_i = function () {
 		var t = new eui.Image();
-		t.height = 68;
-		t.source = "battleSettlement_head_03";
-		t.width = 68;
-		t.x = 154;
-		t.y = 220;
+		t.percentHeight = 11.988;
+		t.left = "59%";
+		t.source = "battleSettlement_head_04";
+		t.top = "73%";
+		t.percentWidth = 11.695;
+		t.x = 202;
 		return t;
 	};
 	_proto._Image11_i = function () {
 		var t = new eui.Image();
-		t.height = 41;
+		t.percentHeight = 5.847;
+		t.left = "88%";
 		t.source = "battleSettlement_head_04";
-		t.width = 40;
-		t.x = 254;
-		t.y = 170;
+		t.top = "46%";
+		t.percentWidth = 5.847;
+		t.x = 301;
 		return t;
 	};
 	_proto._Image12_i = function () {
 		var t = new eui.Image();
-		t.height = 41;
-		t.source = "battleSettlement_head_04";
-		t.width = 40;
-		t.x = 194;
-		t.y = 251;
-		return t;
-	};
-	_proto._Image13_i = function () {
-		var t = new eui.Image();
-		t.height = 20;
-		t.source = "battleSettlement_head_04";
-		t.width = 20;
-		t.x = 283;
-		t.y = 160;
-		return t;
-	};
-	_proto._Image14_i = function () {
-		var t = new eui.Image();
-		t.height = 50;
+		t.percentHeight = 14.619;
+		t.left = "43.8%";
 		t.source = "battleSettlement_head_03";
-		t.width = 50;
-		t.x = 142;
-		t.y = 243;
+		t.top = "71%";
+		t.percentWidth = 14.619;
+		t.x = 150;
 		return t;
 	};
 	_proto.win_role_i = function () {
 		var t = new eui.Image();
 		this.win_role = t;
-		t.height = 240;
+		t.percentHeight = 70.175;
+		t.horizontalCenter = 0;
 		t.source = "common_icon_01";
-		t.width = 240;
-		t.x = 34;
-		t.y = 49;
+		t.top = "14%";
+		t.percentWidth = 70.175;
 		return t;
 	};
 	_proto.win_group_name_i = function () {
 		var t = new eui.Group();
 		this.win_group_name = t;
 		t.height = 140;
-		t.width = 146;
-		t.x = 412;
-		t.y = 307;
-		t.elementsContent = [this._Image15_i(),this.win_lv_i(),this.win_name_i()];
+		t.left = "69%";
+		t.top = "8.2%";
+		t.touchEnabled = false;
+		t.percentWidth = 27;
+		t.y = 59;
+		t.elementsContent = [this._Image13_i(),this.win_lv_i(),this.win_name_i()];
 		return t;
 	};
-	_proto._Image15_i = function () {
+	_proto._Image13_i = function () {
 		var t = new eui.Image();
-		t.height = 140;
+		t.percentHeight = 100;
 		t.source = "battleSettlement_namebg";
-		t.visible = false;
-		t.width = 146;
+		t.percentWidth = 100;
 		return t;
 	};
 	_proto.win_lv_i = function () {
-		var t = new eui.Label();
+		var t = new game.BaseLabel();
 		this.win_lv = t;
-		t.height = 24;
+		t.percentHeight = 17.14;
 		t.size = 24;
 		t.stroke = 2;
 		t.strokeColor = 0x80631f;
 		t.text = "Lv . 10";
 		t.textAlign = "center";
-		t.width = 146;
+		t.top = "55%";
+		t.percentWidth = 100;
 		t.x = 0;
-		t.y = 78;
 		return t;
 	};
 	_proto.win_name_i = function () {
-		var t = new eui.Label();
+		var t = new game.BaseLabel();
 		this.win_name = t;
-		t.height = 32;
+		t.percentHeight = 14.28;
 		t.size = 32;
 		t.stroke = 2;
 		t.strokeColor = 0x80631f;
 		t.text = "NAME";
 		t.textAlign = "center";
 		t.textColor = 0xffdf8d;
-		t.width = 146;
+		t.top = "28%";
+		t.percentWidth = 100;
 		t.x = 4;
-		t.y = 40;
 		return t;
 	};
 	_proto.win_group_center_i = function () {
@@ -1122,296 +1151,321 @@ window.skins=window.skins||{};
 		this.win_group_center = t;
 		t.height = 500;
 		t.horizontalCenter = 0;
-		t.width = 540;
+		t.left = "0.4%";
+		t.top = "26.4%";
+		t.touchEnabled = false;
+		t.percentWidth = 100;
 		t.x = 5;
-		t.y = 439;
-		t.elementsContent = [this._Image16_i(),this._Image17_i(),this._Image18_i(),this._Image19_i(),this._Image20_i(),this._Image21_i(),this._Image22_i(),this._Image23_i(),this._Image24_i(),this._Image25_i(),this._Image26_i(),this._Image27_i(),this._Image28_i(),this._Image29_i(),this.win_facility_label_i(),this.win_monster_label_i(),this.win_exp_label_i(),this.win_reward_label_i(),this.win_processbar_facility_i(),this.win_processbar_monster_i(),this.win_facility_number_i(),this.win_monster_number_i(),this.win_processbar_exp_i(),this.win_icon1_i(),this.win_icon2_i(),this.win_icon3_i(),this.win_btn_i(),this._Image30_i(),this._Image31_i()];
+		t.elementsContent = [this._Image14_i(),this._Image15_i(),this._Image16_i(),this._Image17_i(),this._Image18_i(),this._Image19_i(),this._Image20_i(),this._Image21_i(),this._Image22_i(),this._Image23_i(),this._Image24_i(),this._Image25_i(),this._Image26_i(),this._Image27_i(),this.win_facility_label_i(),this.win_monster_label_i(),this.win_exp_label_i(),this.win_reward_label_i(),this.win_processbar_facility_i(),this.win_processbar_monster_i(),this.win_facility_number_i(),this.win_monster_number_i(),this.win_processbar_exp_i(),this.win_icon1_i(),this.win_icon2_i(),this.win_icon3_i(),this.win_btn_i(),this._Image28_i(),this._Image29_i()];
+		return t;
+	};
+	_proto._Image14_i = function () {
+		var t = new eui.Image();
+		t.left = "6.4%";
+		t.source = "battleSettlement_panel_img_01";
+		t.top = "0.8%";
+		t.percentWidth = 89;
+		return t;
+	};
+	_proto._Image15_i = function () {
+		var t = new eui.Image();
+		t.percentHeight = 14;
+		t.left = "37.22%";
+		t.source = "battleSettlement_panel_win";
+		t.top = "-1.8%";
+		t.percentWidth = 28.88;
 		return t;
 	};
 	_proto._Image16_i = function () {
 		var t = new eui.Image();
-		t.source = "battleSettlement_panel_img_01";
-		t.x = 35;
-		t.y = 4;
+		t.percentHeight = 2.6;
+		t.left = "9.6%";
+		t.source = "battleSettlement_panel_img_04";
+		t.top = "15.2%";
+		t.percentWidth = 2.77;
 		return t;
 	};
 	_proto._Image17_i = function () {
 		var t = new eui.Image();
-		t.height = 70;
-		t.source = "battleSettlement_panel_win";
-		t.width = 156;
-		t.x = 201;
-		t.y = -9;
+		t.percentHeight = 2.6;
+		t.left = "9.6%";
+		t.source = "battleSettlement_panel_img_04";
+		t.top = "28.2%";
+		t.percentWidth = 2.77;
 		return t;
 	};
 	_proto._Image18_i = function () {
 		var t = new eui.Image();
-		t.height = 13;
+		t.percentHeight = 2.6;
+		t.left = "9.6%";
 		t.source = "battleSettlement_panel_img_04";
-		t.width = 15;
-		t.x = 52;
-		t.y = 76;
+		t.top = "43.8%";
+		t.percentWidth = 2.77;
 		return t;
 	};
 	_proto._Image19_i = function () {
 		var t = new eui.Image();
-		t.height = 13;
+		t.percentHeight = 2.6;
+		t.left = "42.22%";
 		t.source = "battleSettlement_panel_img_04";
-		t.width = 15;
-		t.x = 52;
-		t.y = 141;
+		t.top = "35.4%";
+		t.percentWidth = 2.77;
 		return t;
 	};
 	_proto._Image20_i = function () {
 		var t = new eui.Image();
-		t.height = 13;
-		t.source = "battleSettlement_panel_img_04";
-		t.width = 15;
-		t.x = 52;
-		t.y = 219;
+		t.percentHeight = 2.6;
+		t.left = "90.18%";
+		t.source = "battleSettlement_panel_img_05";
+		t.top = "43.8%";
+		t.percentWidth = 2.77;
 		return t;
 	};
 	_proto._Image21_i = function () {
 		var t = new eui.Image();
-		t.height = 13;
-		t.source = "battleSettlement_panel_img_04";
-		t.width = 15;
-		t.x = 228;
-		t.y = 175.5;
+		t.percentHeight = 2.6;
+		t.left = "58.41%";
+		t.source = "battleSettlement_panel_img_05";
+		t.top = "35.4%";
+		t.percentWidth = 2.77;
 		return t;
 	};
 	_proto._Image22_i = function () {
 		var t = new eui.Image();
-		t.height = 13;
-		t.source = "battleSettlement_panel_img_05";
-		t.width = 15;
-		t.x = 487;
-		t.y = 219;
+		t.percentHeight = 9;
+		t.left = "13.14%";
+		t.source = "battleSettlement_panel_img_03";
+		t.top = "11.8%";
+		t.percentWidth = 74.81;
 		return t;
 	};
 	_proto._Image23_i = function () {
 		var t = new eui.Image();
-		t.height = 13;
-		t.source = "battleSettlement_panel_img_05";
-		t.width = 15;
-		t.x = 318.5;
-		t.y = 179;
+		t.percentHeight = 9;
+		t.left = "13.14%";
+		t.source = "battleSettlement_panel_img_03";
+		t.top = "25%";
+		t.percentWidth = 74.81;
 		return t;
 	};
 	_proto._Image24_i = function () {
 		var t = new eui.Image();
-		t.height = 45;
-		t.horizontalCenter = 3;
+		t.percentHeight = 10;
+		t.left = "13.14%";
 		t.source = "battleSettlement_panel_img_03";
-		t.width = 404;
-		t.y = 59;
+		t.top = "39.4%";
+		t.percentWidth = 74.81;
 		return t;
 	};
 	_proto._Image25_i = function () {
 		var t = new eui.Image();
-		t.height = 45;
-		t.horizontalCenter = 7;
-		t.source = "battleSettlement_panel_img_03";
-		t.width = 404;
-		t.y = 125;
+		t.percentHeight = 5.8;
+		t.left = "37.96%";
+		t.source = "battleSettlement_stick_bg";
+		t.top = "14%";
+		t.percentWidth = 54.62;
 		return t;
 	};
 	_proto._Image26_i = function () {
 		var t = new eui.Image();
-		t.height = 55;
-		t.horizontalCenter = 2;
-		t.source = "battleSettlement_panel_img_03";
-		t.width = 404;
-		t.y = 197;
+		t.percentHeight = 1.8;
+		t.left = "10.84%";
+		t.source = "battleSettlement_panel_img_02";
+		t.top = "54.8%";
+		t.percentWidth = 80;
 		return t;
 	};
 	_proto._Image27_i = function () {
 		var t = new eui.Image();
-		t.height = 29;
+		t.percentHeight = 5.8;
+		t.left = "37.96%";
 		t.source = "battleSettlement_stick_bg";
-		t.width = 295;
-		t.x = 205;
-		t.y = 71;
-		return t;
-	};
-	_proto._Image28_i = function () {
-		var t = new eui.Image();
-		t.height = 9;
-		t.source = "battleSettlement_panel_img_02";
-		t.width = 432;
-		t.x = 58.54;
-		t.y = 274;
-		return t;
-	};
-	_proto._Image29_i = function () {
-		var t = new eui.Image();
-		t.height = 29;
-		t.source = "battleSettlement_stick_bg";
-		t.width = 295;
-		t.x = 205;
-		t.y = 135.5;
+		t.top = "27%";
+		t.percentWidth = 54.62;
 		return t;
 	};
 	_proto.win_facility_label_i = function () {
-		var t = new eui.Label();
+		var t = new game.BaseLabel();
 		this.win_facility_label = t;
-		t.height = 26;
+		t.percentHeight = 5.2;
+		t.left = "13.15%";
 		t.size = 26;
 		t.text = "升级的设施";
 		t.textColor = 0x765851;
-		t.width = 150;
-		t.x = 71.04;
-		t.y = 70;
+		t.top = "14%";
+		t.percentWidth = 27.77;
 		return t;
 	};
 	_proto.win_monster_label_i = function () {
-		var t = new eui.Label();
+		var t = new game.BaseLabel();
 		this.win_monster_label = t;
-		t.height = 26;
+		t.percentHeight = 5.2;
+		t.left = "13.15%";
 		t.size = 26;
 		t.text = "升级的怪兽";
 		t.textColor = 0x765851;
-		t.width = 150;
-		t.x = 71.04;
-		t.y = 135;
+		t.top = "27.2%%";
+		t.percentWidth = 27.77;
 		return t;
 	};
 	_proto.win_exp_label_i = function () {
-		var t = new eui.Label();
+		var t = new game.BaseLabel();
 		this.win_exp_label = t;
-		t.height = 26;
+		t.percentHeight = 5.2;
+		t.left = "46.46%";
 		t.size = 26;
 		t.text = "EXP";
+		t.textAlign = "center";
 		t.textColor = 0x765851;
-		t.width = 62;
-		t.x = 257;
-		t.y = 172;
+		t.top = "34.4%";
+		t.percentWidth = 11.48;
 		return t;
 	};
 	_proto.win_reward_label_i = function () {
-		var t = new eui.Label();
+		var t = new game.BaseLabel();
 		this.win_reward_label = t;
-		t.backgroundColor = 0x765851;
-		t.height = 30;
+		t.background = true;
+		t.backgroundColor = 0xefe5ca;
+		t.percentHeight = 6;
+		t.left = "37.37%";
 		t.size = 30;
 		t.text = "获得奖励";
 		t.textAlign = "center";
 		t.textColor = 0x765851;
-		t.width = 540;
-		t.x = 1;
-		t.y = 258;
+		t.top = "51.7%";
+		t.percentWidth = 27.77;
 		return t;
 	};
 	_proto.win_processbar_facility_i = function () {
 		var t = new eui.ProgressBar();
 		this.win_processbar_facility = t;
+		t.percentHeight = 2.8;
+		t.left = "42.40%";
 		t.skinName = "win_ProcessBar_Facility_Skin";
+		t.top = "14.7%";
 		t.value = 0;
-		t.x = 229;
-		t.y = 73.66;
+		t.percentWidth = 35.74;
 		return t;
 	};
 	_proto.win_processbar_monster_i = function () {
 		var t = new eui.ProgressBar();
 		this.win_processbar_monster = t;
+		t.percentHeight = 2.8;
+		t.left = "42.40%";
 		t.skinName = "win_ProcessBar_Monster_Skin";
+		t.top = "27.6%";
 		t.value = 0;
-		t.x = 229;
-		t.y = 138.33;
+		t.percentWidth = 35.74;
 		return t;
 	};
 	_proto.win_facility_number_i = function () {
-		var t = new eui.Label();
+		var t = new game.BaseLabel();
 		this.win_facility_number = t;
-		t.height = 26;
+		t.percentHeight = 5.2;
+		t.left = "69.25%";
 		t.size = 26;
 		t.stroke = 2;
 		t.strokeColor = 0x000000;
 		t.text = "x 3";
 		t.textAlign = "right";
+		t.top = "12.8%";
 		t.verticalAlign = "middle";
-		t.width = 98;
-		t.x = 373;
-		t.y = 64;
+		t.percentWidth = 18.14;
 		return t;
 	};
 	_proto.win_monster_number_i = function () {
-		var t = new eui.Label();
+		var t = new game.BaseLabel();
 		this.win_monster_number = t;
-		t.height = 26;
+		t.percentHeight = 5.2;
+		t.left = "69.25%";
 		t.size = 26;
 		t.stroke = 2;
 		t.strokeColor = 0x000000;
 		t.text = "x 3";
 		t.textAlign = "right";
+		t.top = "26%";
 		t.verticalAlign = "middle";
-		t.width = 98;
-		t.x = 374;
-		t.y = 130;
+		t.percentWidth = 18.14;
 		return t;
 	};
 	_proto.win_processbar_exp_i = function () {
 		var t = new game.ExpProcessBarView();
 		this.win_processbar_exp = t;
+		t.percentHeight = 7.6;
+		t.left = "13.71%";
 		t.skinName = "win_ProcessBar_EXP_Skin";
+		t.top = "40.3%";
 		t.value = 0;
-		t.x = 74.04;
+		t.percentWidth = 75.37;
 		t.y = 205;
 		return t;
 	};
 	_proto.win_icon1_i = function () {
 		var t = new game.CommonIconItemView();
 		this.win_icon1 = t;
+		t.percentHeight = 20.8;
+		t.left = "20.55%";
 		t.skinName = "common_IconItem_Skin";
-		t.width = 104;
-		t.x = 111;
-		t.y = 292;
+		t.top = "58.4%";
+		t.percentWidth = 19.25;
 		return t;
 	};
 	_proto.win_icon2_i = function () {
 		var t = new game.CommonIconItemView();
 		this.win_icon2 = t;
+		t.percentHeight = 20.8;
+		t.left = "40.7%";
 		t.skinName = "common_IconItem_Skin";
-		t.width = 104;
-		t.x = 220;
-		t.y = 292;
+		t.top = "58.4%";
+		t.percentWidth = 19.25;
 		return t;
 	};
 	_proto.win_icon3_i = function () {
 		var t = new game.CommonIconItemView();
 		this.win_icon3 = t;
+		t.percentHeight = 20.8;
+		t.left = "61.2%";
 		t.skinName = "common_IconItem_Skin";
-		t.width = 104;
-		t.x = 331;
-		t.y = 292;
+		t.top = "58.4%";
+		t.percentWidth = 19.25;
 		return t;
 	};
 	_proto.win_btn_i = function () {
 		var t = new game.CommonRedBtnView();
 		this.win_btn = t;
-		t.height = 74;
+		t.percentHeight = 14.8;
+		t.left = "33.88%";
 		t.skinName = "common_Button_Red_Skin";
-		t.width = 180;
-		t.x = 183;
-		t.y = 412;
+		t.top = "82.4%";
+		t.percentWidth = 33.33;
 		return t;
 	};
-	_proto._Image30_i = function () {
+	_proto._Image28_i = function () {
 		var t = new eui.Image();
-		t.height = 71;
+		t.percentHeight = 14.2;
+		t.left = "18%";
 		t.source = "battleSettlement_panel_img_06";
-		t.width = 127;
-		t.x = 90.32;
-		t.y = 399.42;
+		t.top = "79.8%";
+		t.percentWidth = 23.51;
 		return t;
 	};
-	_proto._Image31_i = function () {
+	_proto._Image29_i = function () {
 		var t = new eui.Image();
-		t.height = 71;
+		t.percentHeight = 14.2;
+		t.left = "64.9%";
 		t.source = "battleSettlement_panel_img_07";
-		t.width = 127;
-		t.x = 324.95;
-		t.y = 398.75;
+		t.top = "79.75%";
+		t.percentWidth = 23.51;
+		return t;
+	};
+	_proto.win_close_i = function () {
+		var t = new eui.Button();
+		this.win_close = t;
+		t.height = 47;
+		t.left = "87.6%";
+		t.top = "2.8%";
+		t.percentWidth = 9.2;
+		t.skinName = battle_Win_Skin$Skin2;
 		return t;
 	};
 	return battle_Win_Skin;
@@ -1888,9 +1942,9 @@ window.skins=window.skins||{};
 	return progress_top;
 })(eui.Skin);generateEUI.paths['resource/ZL/skins/top/GameUIViewTop.exml'] = window.GameUIViewTopSkin = (function (_super) {
 	__extends(GameUIViewTopSkin, _super);
-	var GameUIViewTopSkin$Skin2 = 	(function (_super) {
-		__extends(GameUIViewTopSkin$Skin2, _super);
-		function GameUIViewTopSkin$Skin2() {
+	var GameUIViewTopSkin$Skin3 = 	(function (_super) {
+		__extends(GameUIViewTopSkin$Skin3, _super);
+		function GameUIViewTopSkin$Skin3() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -1909,7 +1963,7 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = GameUIViewTopSkin$Skin2.prototype;
+		var _proto = GameUIViewTopSkin$Skin3.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -1925,7 +1979,7 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return GameUIViewTopSkin$Skin2;
+		return GameUIViewTopSkin$Skin3;
 	})(eui.Skin);
 
 	function GameUIViewTopSkin() {
@@ -2019,7 +2073,7 @@ window.skins=window.skins||{};
 		t.scaleY = 1;
 		t.verticalCenter = 0;
 		t.percentWidth = 8;
-		t.skinName = GameUIViewTopSkin$Skin2;
+		t.skinName = GameUIViewTopSkin$Skin3;
 		return t;
 	};
 	_proto.btn_area_i = function () {

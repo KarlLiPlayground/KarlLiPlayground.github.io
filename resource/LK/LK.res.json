@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "LK_res_desc_txt,game_bg_jpg,loading_icon_png,room_v_png,room_trap_png,room_f_png,room_boss_png,room_blank_png,room_battle_png,line_vertical_png,line_horizontal_png",
+			"keys": "LK_res_desc_txt,game_bg_jpg,loading_icon_png,room_v_png,room_trap_png,room_f_png,room_boss_png,room_blank_png,room_battle_png,line_vertical_png,line_horizontal_png,character_shadow_png,health_back_png,health_front_png",
 			"name": "LK"
 		}
 	],
@@ -60,6 +60,21 @@
 			"url": "LK/game_core/room_v.png",
 			"type": "image",
 			"name": "room_v_png"
+		},
+		{
+			"url": "LK/game_core/character_effects/character_shadow.png",
+			"type": "image",
+			"name": "character_shadow_png"
+		},
+		{
+			"url": "LK/game_core/character_effects/health_back.png",
+			"type": "image",
+			"name": "health_back_png"
+		},
+		{
+			"url": "LK/game_core/character_effects/health_front.png",
+			"type": "image",
+			"name": "health_front_png"
 		}
 	]
 }
