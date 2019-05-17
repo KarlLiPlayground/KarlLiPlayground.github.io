@@ -1,0 +1,10 @@
+{ 
+    "gamewin":
+    {
+        "jump":"跳过",
+        "facility":"升级的设施",
+        "monster":"升级的怪兽",
+        "exp":"EXP",
+        "reward":"获得奖励"
+    }
+}

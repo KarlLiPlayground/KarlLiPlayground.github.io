@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "LK_res_desc_txt,game_bg_jpg,loading_icon_png,room_v_png,room_trap_png,room_f_png,room_boss_png,room_blank_png,room_battle_png,line_vertical_png,line_horizontal_png,character_shadow_png,health_back_png,health_front_png,character_config_json",
+			"keys": "LK_res_desc_txt,game_bg_jpg,loading_icon_png,room_v_png,room_trap_png,room_f_png,room_boss_png,room_blank_png,room_battle_png,line_vertical_png,line_horizontal_png,character_shadow_png,health_back_png,health_front_png,character_config_json,ui_local_lk_cn_json,ui_local_lk_en_json",
 			"name": "LK"
 		}
 	],
@@ -80,6 +80,16 @@
 			"url": "LK/game_core/character_config.json",
 			"type": "json",
 			"name": "character_config_json"
+		},
+		{
+			"url": "localization/cn/ui_local_lk_cn.json",
+			"type": "json",
+			"name": "ui_local_lk_cn_json"
+		},
+		{
+			"url": "localization/en/ui_local_lk_en.json",
+			"type": "json",
+			"name": "ui_local_lk_en_json"
 		}
 	]
 }

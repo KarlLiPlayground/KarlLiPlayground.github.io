@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "ZL_res_desc_txt,bottom_json,top_json",
+			"keys": "ZL_res_desc_txt,bottom_json,top_json,ui_local_zl_en_json,ui_local_zl_cn_json",
 			"name": "ZL"
 		}
 	],
@@ -22,6 +22,16 @@
 			"type": "sheet",
 			"name": "top_json",
 			"subkeys": "top_bloodStick_01,top_bloodStick_02,top_bloodStick_03,top_button_auto,top_button_goFar,top_button_goNear,top_button_handmove,top_button_more,top_button_x1,top_button_x2,top_common_01,top_common_02,top_common_03,top_icon_gold,top_icon_task"
+		},
+		{
+			"url": "localization/cn/ui_local_zl_cn.json",
+			"type": "json",
+			"name": "ui_local_zl_cn_json"
+		},
+		{
+			"url": "localization/en/ui_local_zl_en.json",
+			"type": "json",
+			"name": "ui_local_zl_en_json"
 		}
 	]
 }
