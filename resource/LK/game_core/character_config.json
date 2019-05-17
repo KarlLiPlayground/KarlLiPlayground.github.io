@@ -15,7 +15,7 @@
             "tex_png":"resource/LK/game_core/characters/kulouzhanshizhengti/kulouzhanshizhengti_tex.png",
             "armature_name":"Armature",
             "character_name":"kulouzhanshizhengti",
-            "attack_anim_name":"attack"
+            "attack_anim_name":"attacktest"
         },
 
         { 
@@ -24,7 +24,7 @@
             "tex_png":"resource/LK/game_core/characters/silingfazhengti/silingfazhengti_tex.png",
             "armature_name":"Armature死灵法_切图",
             "character_name":"silingfazhengti",
-            "attack_anim_name":"attack_03"
+            "attack_anim_name":"attack_02"
         },
 
         { 
@@ -33,7 +33,7 @@
             "tex_png":"resource/LK/game_core/characters/knight/wutouqishi_tex.png",
             "armature_name":"Armature",
             "character_name":"wutouqishi",
-            "attack_anim_name":"attack02"
+            "attack_anim_name":"attack01test"
         }
     ]
 }
