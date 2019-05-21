@@ -778,18 +778,111 @@ window.skins=window.skins||{};
 		return t;
 	};
 	return common_IconItem_Skin;
-})(eui.Skin);generateEUI.paths['resource/YXY/game_skins/TestABCSkin.exml'] = window.TestABCSkin = (function (_super) {
-	__extends(TestABCSkin, _super);
-	function TestABCSkin() {
-		_super.call(this);
-		this.skinParts = [];
-		
-		this.height = 300;
-		this.width = 400;
-	}
-	var _proto = TestABCSkin.prototype;
+})(eui.Skin);generateEUI.paths['resource/YXY/game_skins/tabViewSkin.exml'] = window.tabViewSkin = (function (_super) {
+	__extends(tabViewSkin, _super);
+	var tabViewSkin$Skin2 = 	(function (_super) {
+		__extends(tabViewSkin$Skin2, _super);
+		var tabViewSkin$Skin2$Skin3 = 		(function (_super) {
+			__extends(tabViewSkin$Skin2$Skin3, _super);
+			function tabViewSkin$Skin2$Skin3() {
+				_super.call(this);
+				this.skinParts = ["thumb"];
+				
+				this.elementsContent = [this.thumb_i()];
+			}
+			var _proto = tabViewSkin$Skin2$Skin3.prototype;
 
-	return TestABCSkin;
+			_proto.thumb_i = function () {
+				var t = new eui.Image();
+				this.thumb = t;
+				t.scale9Grid = new egret.Rectangle(1,1,4,4);
+				t.source = "battleSettlement_expStick_03";
+				t.width = 8;
+				return t;
+			};
+			return tabViewSkin$Skin2$Skin3;
+		})(eui.Skin);
+
+		function tabViewSkin$Skin2() {
+			_super.call(this);
+			this.skinParts = ["verticalScrollBar"];
+			
+			this.elementsContent = [this.verticalScrollBar_i()];
+		}
+		var _proto = tabViewSkin$Skin2.prototype;
+
+		_proto.verticalScrollBar_i = function () {
+			var t = new eui.VScrollBar();
+			this.verticalScrollBar = t;
+			t.percentHeight = 100;
+			t.minHeight = 100;
+			t.right = 0;
+			t.width = 8;
+			t.skinName = tabViewSkin$Skin2$Skin3;
+			return t;
+		};
+		return tabViewSkin$Skin2;
+	})(eui.Skin);
+
+	function tabViewSkin() {
+		_super.call(this);
+		this.skinParts = ["mapList","mapScroller"];
+		
+		this.height = 605;
+		this.width = 500;
+		this.elementsContent = [this.mapScroller_i()];
+	}
+	var _proto = tabViewSkin.prototype;
+
+	_proto.mapScroller_i = function () {
+		var t = new eui.Scroller();
+		this.mapScroller = t;
+		t.height = 605;
+		t.scrollPolicyH = "off";
+		t.width = 500;
+		t.x = 0;
+		t.y = 0;
+		t.viewport = this.mapList_i();
+		t.skinName = tabViewSkin$Skin2;
+		return t;
+	};
+	_proto.mapList_i = function () {
+		var t = new eui.List();
+		this.mapList = t;
+		t.height = 605;
+		t.width = 500;
+		t.layout = this._TileLayout1_i();
+		return t;
+	};
+	_proto._TileLayout1_i = function () {
+		var t = new eui.TileLayout();
+		t.horizontalGap = 2;
+		t.requestedColumnCount = 1;
+		t.verticalGap = 3;
+		return t;
+	};
+	return tabViewSkin;
+})(eui.Skin);generateEUI.paths['resource/YXY/game_skins/test_item.exml'] = window.test_item = (function (_super) {
+	__extends(test_item, _super);
+	function test_item() {
+		_super.call(this);
+		this.skinParts = ["bgAsset"];
+		
+		this.height = 100;
+		this.width = 100;
+		this.elementsContent = [this.bgAsset_i()];
+	}
+	var _proto = test_item.prototype;
+
+	_proto.bgAsset_i = function () {
+		var t = new eui.Image();
+		this.bgAsset = t;
+		t.percentHeight = 100;
+		t.source = "battleSettlement_expStick_04";
+		t.percentWidth = 100;
+		return t;
+	};
+	return test_item;
 })(eui.Skin);generateEUI.paths['resource/YXY/game_skins/win/win_ProcessBar_Facility_Skin.exml'] = window.win_ProcessBar_Facility_Skin = (function (_super) {
 	__extends(win_ProcessBar_Facility_Skin, _super);
 	function win_ProcessBar_Facility_Skin() {
@@ -899,9 +992,9 @@ window.skins=window.skins||{};
 	return win_ProcessBar_EXP_Skin;
 })(eui.Skin);generateEUI.paths['resource/YXY/game_skins/win/battle_Win_Skin.exml'] = window.battle_Win_Skin = (function (_super) {
 	__extends(battle_Win_Skin, _super);
-	var battle_Win_Skin$Skin2 = 	(function (_super) {
-		__extends(battle_Win_Skin$Skin2, _super);
-		function battle_Win_Skin$Skin2() {
+	var battle_Win_Skin$Skin4 = 	(function (_super) {
+		__extends(battle_Win_Skin$Skin4, _super);
+		function battle_Win_Skin$Skin4() {
 			_super.call(this);
 			this.skinParts = [];
 			
@@ -922,7 +1015,7 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = battle_Win_Skin$Skin2.prototype;
+		var _proto = battle_Win_Skin$Skin4.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -932,7 +1025,7 @@ window.skins=window.skins||{};
 			t.percentWidth = 100;
 			return t;
 		};
-		return battle_Win_Skin$Skin2;
+		return battle_Win_Skin$Skin4;
 	})(eui.Skin);
 
 	function battle_Win_Skin() {
@@ -1465,7 +1558,7 @@ window.skins=window.skins||{};
 		t.left = "87.6%";
 		t.top = "2.8%";
 		t.percentWidth = 9.2;
-		t.skinName = battle_Win_Skin$Skin2;
+		t.skinName = battle_Win_Skin$Skin4;
 		return t;
 	};
 	return battle_Win_Skin;
@@ -1942,9 +2035,9 @@ window.skins=window.skins||{};
 	return progress_top;
 })(eui.Skin);generateEUI.paths['resource/ZL/skins/top/GameUIViewTop.exml'] = window.GameUIViewTopSkin = (function (_super) {
 	__extends(GameUIViewTopSkin, _super);
-	var GameUIViewTopSkin$Skin3 = 	(function (_super) {
-		__extends(GameUIViewTopSkin$Skin3, _super);
-		function GameUIViewTopSkin$Skin3() {
+	var GameUIViewTopSkin$Skin5 = 	(function (_super) {
+		__extends(GameUIViewTopSkin$Skin5, _super);
+		function GameUIViewTopSkin$Skin5() {
 			_super.call(this);
 			this.skinParts = ["labelDisplay"];
 			
@@ -1963,7 +2056,7 @@ window.skins=window.skins||{};
 					])
 			];
 		}
-		var _proto = GameUIViewTopSkin$Skin3.prototype;
+		var _proto = GameUIViewTopSkin$Skin5.prototype;
 
 		_proto._Image1_i = function () {
 			var t = new eui.Image();
@@ -1979,7 +2072,7 @@ window.skins=window.skins||{};
 			t.verticalCenter = 0;
 			return t;
 		};
-		return GameUIViewTopSkin$Skin3;
+		return GameUIViewTopSkin$Skin5;
 	})(eui.Skin);
 
 	function GameUIViewTopSkin() {
@@ -2073,7 +2166,7 @@ window.skins=window.skins||{};
 		t.scaleY = 1;
 		t.verticalCenter = 0;
 		t.percentWidth = 8;
-		t.skinName = GameUIViewTopSkin$Skin3;
+		t.skinName = GameUIViewTopSkin$Skin5;
 		return t;
 	};
 	_proto.btn_area_i = function () {
