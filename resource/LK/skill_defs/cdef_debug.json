@@ -1,0 +1,29 @@
+{
+    "skills": [
+        {
+            "type": 0,
+            "action_id": 1,
+            "cd": 0,
+            "processes": [
+                {
+                    "type": 100,
+                    "selector": {
+                        "target": 1,
+                        "scope": 0,
+                        "regulation": 0
+                    }
+                },
+                {
+                    "type": 1,
+                    "target": {
+                        "selector_id": 0
+                    },
+                    "value": {
+                        "num": 1.0
+                    },
+                    "element": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,39 +1,11 @@
 {
-    "characters":[
-        { 
-            "ske":"resource/LK/game_core/characters/gugong/gugong_ske.json",
-            "tex":"resource/LK/game_core/characters/gugong/gugong_tex.json",
-            "tex_png":"resource/LK/game_core/characters/gugong/gugong_tex.png",
-            "armature_name":"Armature",
-            "character_name":"gugong",
-            "attack_anim_name":"attack01"
-        },
-        
-        { 
-            "ske":"resource/LK/game_core/characters/kulouzhanshizhengti/kulouzhanshizhengti_ske.json",
-            "tex":"resource/LK/game_core/characters/kulouzhanshizhengti/kulouzhanshizhengti_tex.json",
-            "tex_png":"resource/LK/game_core/characters/kulouzhanshizhengti/kulouzhanshizhengti_tex.png",
-            "armature_name":"Armature",
-            "character_name":"kulouzhanshizhengti",
-            "attack_anim_name":"attack"
-        },
-
-        { 
-            "ske":"resource/LK/game_core/characters/silingfazhengti/silingfazhengti_ske.json",
-            "tex":"resource/LK/game_core/characters/silingfazhengti/silingfazhengti_tex.json",
-            "tex_png":"resource/LK/game_core/characters/silingfazhengti/silingfazhengti_tex.png",
-            "armature_name":"Armature死灵法_切图",
-            "character_name":"silingfazhengti",
-            "attack_anim_name":"attack"
-        },
-
-        { 
-            "ske":"resource/LK/game_core/characters/knight/wutouqishi_ske.json",
-            "tex":"resource/LK/game_core/characters/knight/wutouqishi_tex.json",
-            "tex_png":"resource/LK/game_core/characters/knight/wutouqishi_tex.png",
-            "armature_name":"Armature",
-            "character_name":"wutouqishi",
-            "attack_anim_name":"attack01"
+    "characters": [
+        {
+            "ske": "resource/LK/game_core/characters/Judushilaimu/Judushilaimu_ske.json",
+            "tex": "resource/LK/game_core/characters/Judushilaimu/Judushilaimu_tex.json",
+            "tex_png": "resource/LK/game_core/characters/Judushilaimu/Judushilaimu_tex.png",
+            "armature_name": "Armature",
+            "character_name": "Judushilaimu"
         }
     ]
 }

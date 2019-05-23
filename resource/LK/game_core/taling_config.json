@@ -1,0 +1,11 @@
+{ 
+    "characters": [
+        {
+            "ske": "resource/LK/game_core/taling/gaosizhe/gaosizhe_ske.json",
+            "tex": "resource/LK/game_core/taling/gaosizhe/gaosizhe_tex.json",
+            "tex_png": "resource/LK/game_core/taling/gaosizhe/gaosizhe_tex.png",
+            "armature_name": "Armature",
+            "character_name": "gaosizhe"
+        }
+    ]
+}
