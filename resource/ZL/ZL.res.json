@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "ZL_res_desc_txt,bottom_json,top_json,ui_local_zl_en_json,ui_local_zl_cn_json",
+			"keys": "ZL_res_desc_txt,ui_local_zl_en_json,ui_local_zl_cn_json,Unit_Icon_Vip_png,Main_Icon_Monster_01_png,Main_Frame_Monster_png,Main_Frame_Level_png,Common_Pic_MagicArts_png,Common_Pic_GoldBar_png,Common_Pic_Bottom_BloodStrip_03_png,Common_Pic_Bottom_BloodStrip_02_png,Common_Pic_Bottom_BloodStrip_01_png,Common_Pic_BattleBG_png,Common_Pic_Battle_BloodStrip_02_png,Common_Pic_Battle_BloodStrip_01_png,Common_Icon_More_png,Common_Icon_MagicCrystal_03_png,Common_Icon_MagicCrystal_02_png,Common_Icon_MagicCrystal_01_png,Common_Icon_Gold_png,Common_Icon_Event_png,Common_Button_Speed_x2_png,Common_Button_Speed_x1_png,Common_Button_right_png,Common_Button_Nearest_png,Common_Button_Manual_png,Common_Button_left_png,Common_Button_Farthest_png,Common_Button_Auto_png,Bottom_Button_ButtonSkill_04_png,Bottom_Button_ButtonSkill_03_png,Bottom_Button_ButtonSkill_02_png,Bottom_Button_ButtonSkill_01_png,Battle_SmallBloodStick_02_png,Battle_SmallBloodStick_01_png,Battle_Pic_TopBar_png,Battle_Pic_BottomBar_02_png,Battle_Pic_BottomBar_01_png,Battle_Icon_Buff_03_png,Battle_Icon_Buff_02_png,Battle_Icon_Buff_01_png,Battle_Button_TS_png,Battle_Button_TopName_png,Common_Icon_Gold2_png",
 			"name": "ZL"
 		}
 	],
@@ -12,18 +12,6 @@
 			"name": "ZL_res_desc_txt"
 		},
 		{
-			"url": "ZL/game_ui/bottom/bottom.json",
-			"type": "sheet",
-			"name": "bottom_json",
-			"subkeys": "bottom_button_skill01,bottom_button_skill02,bottom_button_skill03,bottom_button_skill04,bottom_common_01,bottom_common_02,bottom_skill_01,bottom_skill_02,bottom_skill_03"
-		},
-		{
-			"url": "ZL/game_ui/top/top.json",
-			"type": "sheet",
-			"name": "top_json",
-			"subkeys": "top_bloodStick_01,top_bloodStick_02,top_bloodStick_03,top_button_auto,top_button_goFar,top_button_goNear,top_button_handmove,top_button_more,top_button_x1,top_button_x2,top_common_01,top_common_02,top_common_03,top_icon_gold,top_icon_task"
-		},
-		{
 			"url": "localization/cn/ui_local_zl_cn.json",
 			"type": "json",
 			"name": "ui_local_zl_cn_json"
@@ -32,6 +20,211 @@
 			"url": "localization/en/ui_local_zl_en.json",
 			"type": "json",
 			"name": "ui_local_zl_en_json"
+		},
+		{
+			"url": "ZL/game_ui/Battle_Button_TS.png",
+			"type": "image",
+			"name": "Battle_Button_TS_png"
+		},
+		{
+			"url": "ZL/game_ui/Battle_Button_TopName.png",
+			"type": "image",
+			"name": "Battle_Button_TopName_png"
+		},
+		{
+			"url": "ZL/game_ui/Battle_Icon_Buff_01.png",
+			"type": "image",
+			"name": "Battle_Icon_Buff_01_png"
+		},
+		{
+			"url": "ZL/game_ui/Battle_Icon_Buff_02.png",
+			"type": "image",
+			"name": "Battle_Icon_Buff_02_png"
+		},
+		{
+			"url": "ZL/game_ui/Battle_Icon_Buff_03.png",
+			"type": "image",
+			"name": "Battle_Icon_Buff_03_png"
+		},
+		{
+			"url": "ZL/game_ui/Battle_Pic_BottomBar_01.png",
+			"type": "image",
+			"name": "Battle_Pic_BottomBar_01_png"
+		},
+		{
+			"url": "ZL/game_ui/Battle_Pic_BottomBar_02.png",
+			"type": "image",
+			"name": "Battle_Pic_BottomBar_02_png"
+		},
+		{
+			"url": "ZL/game_ui/Battle_Pic_TopBar.png",
+			"type": "image",
+			"name": "Battle_Pic_TopBar_png"
+		},
+		{
+			"url": "ZL/game_ui/Battle_SmallBloodStick_01.png",
+			"type": "image",
+			"name": "Battle_SmallBloodStick_01_png"
+		},
+		{
+			"url": "ZL/game_ui/Battle_SmallBloodStick_02.png",
+			"type": "image",
+			"name": "Battle_SmallBloodStick_02_png"
+		},
+		{
+			"url": "ZL/game_ui/Bottom_Button_ButtonSkill_01.png",
+			"type": "image",
+			"name": "Bottom_Button_ButtonSkill_01_png"
+		},
+		{
+			"url": "ZL/game_ui/Bottom_Button_ButtonSkill_02.png",
+			"type": "image",
+			"name": "Bottom_Button_ButtonSkill_02_png"
+		},
+		{
+			"url": "ZL/game_ui/Bottom_Button_ButtonSkill_03.png",
+			"type": "image",
+			"name": "Bottom_Button_ButtonSkill_03_png"
+		},
+		{
+			"url": "ZL/game_ui/Bottom_Button_ButtonSkill_04.png",
+			"type": "image",
+			"name": "Bottom_Button_ButtonSkill_04_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Button_Auto.png",
+			"type": "image",
+			"name": "Common_Button_Auto_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Button_Farthest.png",
+			"type": "image",
+			"name": "Common_Button_Farthest_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Button_Manual.png",
+			"type": "image",
+			"name": "Common_Button_Manual_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Button_Nearest.png",
+			"type": "image",
+			"name": "Common_Button_Nearest_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Button_Speed_x1.png",
+			"type": "image",
+			"name": "Common_Button_Speed_x1_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Button_Speed_x2.png",
+			"type": "image",
+			"name": "Common_Button_Speed_x2_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Button_left.png",
+			"type": "image",
+			"name": "Common_Button_left_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Button_right.png",
+			"type": "image",
+			"name": "Common_Button_right_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Icon_Event.png",
+			"type": "image",
+			"name": "Common_Icon_Event_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Icon_Gold.png",
+			"type": "image",
+			"name": "Common_Icon_Gold_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Icon_MagicCrystal_01.png",
+			"type": "image",
+			"name": "Common_Icon_MagicCrystal_01_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Icon_MagicCrystal_02.png",
+			"type": "image",
+			"name": "Common_Icon_MagicCrystal_02_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Icon_MagicCrystal_03.png",
+			"type": "image",
+			"name": "Common_Icon_MagicCrystal_03_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Icon_More.png",
+			"type": "image",
+			"name": "Common_Icon_More_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Pic_BattleBG.png",
+			"type": "image",
+			"name": "Common_Pic_BattleBG_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Pic_Battle_BloodStrip_01.png",
+			"type": "image",
+			"name": "Common_Pic_Battle_BloodStrip_01_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Pic_Battle_BloodStrip_02.png",
+			"type": "image",
+			"name": "Common_Pic_Battle_BloodStrip_02_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Pic_Bottom_BloodStrip_01.png",
+			"type": "image",
+			"name": "Common_Pic_Bottom_BloodStrip_01_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Pic_Bottom_BloodStrip_02.png",
+			"type": "image",
+			"name": "Common_Pic_Bottom_BloodStrip_02_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Pic_Bottom_BloodStrip_03.png",
+			"type": "image",
+			"name": "Common_Pic_Bottom_BloodStrip_03_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Pic_GoldBar.png",
+			"type": "image",
+			"name": "Common_Pic_GoldBar_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Pic_MagicArts.png",
+			"type": "image",
+			"name": "Common_Pic_MagicArts_png"
+		},
+		{
+			"url": "ZL/game_ui/Main_Frame_Level.png",
+			"type": "image",
+			"name": "Main_Frame_Level_png"
+		},
+		{
+			"url": "ZL/game_ui/Main_Frame_Monster.png",
+			"type": "image",
+			"name": "Main_Frame_Monster_png"
+		},
+		{
+			"url": "ZL/game_ui/Main_Icon_Monster_01.png",
+			"type": "image",
+			"name": "Main_Icon_Monster_01_png"
+		},
+		{
+			"url": "ZL/game_ui/Unit_Icon_Vip.png",
+			"type": "image",
+			"name": "Unit_Icon_Vip_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Icon_Gold2.png",
+			"type": "image",
+			"name": "Common_Icon_Gold2_png"
 		}
 	]
 }

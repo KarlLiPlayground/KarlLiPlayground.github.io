@@ -19,7 +19,7 @@
                         "selector_id": 0
                     },
                     "value":1.0,
-                    "element": 1
+                    "element": 7
                 }
             ]
         }, 
@@ -42,7 +42,7 @@
                         "selector_id": 0
                     },
                     "value":5.0,
-                    "element": 2
+                    "element": 3
                 }
             ]
         }

@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "LK_res_desc_txt,game_bg_jpg,loading_icon_png,room_v_png,room_trap_png,room_f_png,room_boss_png,room_blank_png,room_battle_png,line_vertical_png,line_horizontal_png,character_shadow_png,health_back_png,health_front_png,character_config_json,ui_local_lk_cn_json,ui_local_lk_en_json,taling_config_json,cdef_debug_json",
+			"keys": "LK_res_desc_txt,game_bg_jpg,loading_icon_png,character_shadow_png,health_back_png,health_front_png,character_config_json,ui_local_lk_cn_json,ui_local_lk_en_json,taling_config_json,cdef_debug_json,cdef_debug_def_json,Battle_Block_01_png,Battle_Block_02_png,Battle_Block_03_png,Battle_Block_04_png,Battle_Block_05_png,Battle_Block_07_png,Battle_Block_08_png,Battle_Block_06_png",
 			"name": "LK"
 		}
 	],
@@ -20,46 +20,6 @@
 			"url": "LK/game_core/game_bg.jpg",
 			"type": "image",
 			"name": "game_bg_jpg"
-		},
-		{
-			"url": "LK/game_core/line_horizontal.png",
-			"type": "image",
-			"name": "line_horizontal_png"
-		},
-		{
-			"url": "LK/game_core/line_vertical.png",
-			"type": "image",
-			"name": "line_vertical_png"
-		},
-		{
-			"url": "LK/game_core/room_battle.png",
-			"type": "image",
-			"name": "room_battle_png"
-		},
-		{
-			"url": "LK/game_core/room_blank.png",
-			"type": "image",
-			"name": "room_blank_png"
-		},
-		{
-			"url": "LK/game_core/room_boss.png",
-			"type": "image",
-			"name": "room_boss_png"
-		},
-		{
-			"url": "LK/game_core/room_f.png",
-			"type": "image",
-			"name": "room_f_png"
-		},
-		{
-			"url": "LK/game_core/room_trap.png",
-			"type": "image",
-			"name": "room_trap_png"
-		},
-		{
-			"url": "LK/game_core/room_v.png",
-			"type": "image",
-			"name": "room_v_png"
 		},
 		{
 			"url": "LK/game_core/character_effects/character_shadow.png",
@@ -100,6 +60,51 @@
 			"url": "LK/skill_defs/cdef_debug.json",
 			"type": "json",
 			"name": "cdef_debug_json"
+		},
+		{
+			"url": "LK/skill_defs/cdef_debug_def.json",
+			"type": "json",
+			"name": "cdef_debug_def_json"
+		},
+		{
+			"url": "LK/game_core/rooms/Battle_Block_01.png",
+			"type": "image",
+			"name": "Battle_Block_01_png"
+		},
+		{
+			"url": "LK/game_core/rooms/Battle_Block_02.png",
+			"type": "image",
+			"name": "Battle_Block_02_png"
+		},
+		{
+			"url": "LK/game_core/rooms/Battle_Block_03.png",
+			"type": "image",
+			"name": "Battle_Block_03_png"
+		},
+		{
+			"url": "LK/game_core/rooms/Battle_Block_04.png",
+			"type": "image",
+			"name": "Battle_Block_04_png"
+		},
+		{
+			"url": "LK/game_core/rooms/Battle_Block_05.png",
+			"type": "image",
+			"name": "Battle_Block_05_png"
+		},
+		{
+			"url": "LK/game_core/rooms/Battle_Block_07.png",
+			"type": "image",
+			"name": "Battle_Block_07_png"
+		},
+		{
+			"url": "LK/game_core/rooms/Battle_Block_08.png",
+			"type": "image",
+			"name": "Battle_Block_08_png"
+		},
+		{
+			"url": "LK/game_core/rooms/Battle_Block_06.png",
+			"type": "image",
+			"name": "Battle_Block_06_png"
 		}
 	]
 }
