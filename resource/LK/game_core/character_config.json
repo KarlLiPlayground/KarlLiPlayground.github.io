@@ -1,11 +1,44 @@
 {
     "characters": [
         {
-            "ske": "resource/LK/game_core/characters/Judushilaimu/Judushilaimu_ske.json",
-            "tex": "resource/LK/game_core/characters/Judushilaimu/Judushilaimu_tex.json",
-            "tex_png": "resource/LK/game_core/characters/Judushilaimu/Judushilaimu_tex.png",
+            "file_key": "gaosizhe",
             "armature_name": "Armature",
-            "character_name": "Judushilaimu"
+            "character_name": "gaosizhe"
+        },
+        {
+            "file_key": "jinshushilaimu",
+            "armature_name": "Armature",
+            "character_name": "jinshushilaimu"
+        },
+        {
+            "file_key": "judushilaimu",
+            "armature_name": "Armature",
+            "character_name": "judushilaimu"
+        },
+        {
+            "file_key": "kulougongjianshou",
+            "armature_name": "Armature",
+            "character_name": "kulougongjianshou"
+        },
+        {
+            "file_key": "kulouzhanshi",
+            "armature_name": "Armature",
+            "character_name": "kulouzhanshi"
+        },
+        {
+            "file_key": "shilaimu",
+            "armature_name": "Armature",
+            "character_name": "shilaimu"
+        },
+        {
+            "file_key": "shilaimuwang",
+            "armature_name": "Armature",
+            "character_name": "shilaimuwang"
+        },
+        {
+            "file_key": "silingfashi",
+            "armature_name": "Armature死灵法_切图",
+            "character_name": "silingfashi"
         }
     ]
 }
