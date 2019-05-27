@@ -41,6 +41,7 @@
 		"resource/ZL/skins/bottom/bottom_skill.exml",
 		"resource/ZL/skins/bottom/skill_item.exml",
 		"resource/ZL/skins/bottom/GameUIViewBottom.exml",
+		"resource/ZL/skins/bottom/skill_list_item.exml",
 		"resource/ZL/skins/top/btn_area.exml",
 		"resource/ZL/skins/top/btn_auto.exml",
 		"resource/ZL/skins/top/btn_x.exml",
