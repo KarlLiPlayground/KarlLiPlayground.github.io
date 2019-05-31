@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "LK_res_desc_txt,game_bg_jpg,loading_icon_png,character_shadow_png,health_back_png,health_front_png,character_config_json,ui_local_lk_cn_json,ui_local_lk_en_json,taling_config_json,cdef_debug_json,cdef_debug_def_json,Battle_Block_01_png,Battle_Block_02_png,Battle_Block_03_png,Battle_Block_04_png,Battle_Block_05_png,Battle_Block_07_png,Battle_Block_08_png,Battle_Block_06_png",
+			"keys": "LK_res_desc_txt,game_bg_jpg,loading_icon_png,character_shadow_png,health_back_png,health_front_png,character_config_json,ui_local_lk_cn_json,ui_local_lk_en_json,taling_config_json,Battle_Block_01_png,Battle_Block_02_png,Battle_Block_03_png,Battle_Block_04_png,Battle_Block_05_png,Battle_Block_07_png,Battle_Block_08_png,Battle_Block_06_png,cdef_debug_assault2_json,cdef_debug_defence2_json",
 			"name": "LK"
 		}
 	],
@@ -57,16 +57,6 @@
 			"name": "taling_config_json"
 		},
 		{
-			"url": "LK/skill_defs/cdef_debug.json",
-			"type": "json",
-			"name": "cdef_debug_json"
-		},
-		{
-			"url": "LK/skill_defs/cdef_debug_def.json",
-			"type": "json",
-			"name": "cdef_debug_def_json"
-		},
-		{
 			"url": "LK/game_core/rooms/Battle_Block_01.png",
 			"type": "image",
 			"name": "Battle_Block_01_png"
@@ -105,6 +95,16 @@
 			"url": "LK/game_core/rooms/Battle_Block_06.png",
 			"type": "image",
 			"name": "Battle_Block_06_png"
+		},
+		{
+			"url": "LK/skill_defs/cdef_debug_assault2.json",
+			"type": "json",
+			"name": "cdef_debug_assault2_json"
+		},
+		{
+			"url": "LK/skill_defs/cdef_debug_defence2.json",
+			"type": "json",
+			"name": "cdef_debug_defence2_json"
 		}
 	]
 }

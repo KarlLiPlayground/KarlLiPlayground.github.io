@@ -828,8 +828,8 @@ window.skins=window.skins||{};
 		_super.call(this);
 		this.skinParts = ["mapList","mapScroller"];
 		
-		this.height = 605;
-		this.width = 500;
+		this.height = 368;
+		this.width = 281;
 		this.elementsContent = [this.mapScroller_i()];
 	}
 	var _proto = tabViewSkin.prototype;
@@ -837,9 +837,9 @@ window.skins=window.skins||{};
 	_proto.mapScroller_i = function () {
 		var t = new eui.Scroller();
 		this.mapScroller = t;
-		t.height = 605;
+		t.height = 300;
 		t.scrollPolicyH = "off";
-		t.width = 500;
+		t.width = 281;
 		t.x = 0;
 		t.y = 0;
 		t.viewport = this.mapList_i();
@@ -849,8 +849,8 @@ window.skins=window.skins||{};
 	_proto.mapList_i = function () {
 		var t = new eui.List();
 		this.mapList = t;
-		t.height = 605;
-		t.width = 500;
+		t.height = 300;
+		t.width = 281;
 		t.layout = this._TileLayout1_i();
 		return t;
 	};
@@ -979,7 +979,7 @@ window.skins=window.skins||{};
 		var t = new eui.Label();
 		this.label = t;
 		t.percentHeight = 57.89;
-		t.size = 14;
+		t.size = 12;
 		t.stroke = 2;
 		t.strokeColor = 0xcc3530;
 		t.text = "120\300";
