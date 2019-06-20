@@ -1,9 +1,14 @@
 { 
     "characters": [
         {
-            "file_key":"abeijiula",
+            "file_key":"TS01",
             "armature_name": "Armature",
-            "character_name": "abeijiula"
-        }
+            "character_name": "aiweika"
+        },
+        {
+            "file_key":"attack1_procedure_effect_1",
+            "armature_name": "Armature",
+            "character_name": "attack1_procedure_effect_1"
+        }  
     ]
 }

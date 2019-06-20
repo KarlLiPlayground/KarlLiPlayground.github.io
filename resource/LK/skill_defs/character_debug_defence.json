@@ -1,0 +1,45 @@
+{
+    "skills": [
+        {
+            "skill_id": 101,
+            "unlock_rank": 9,
+            "skill_no": "CX103",
+            "type": 0,
+            "run_mode": 0,
+            "action_id": 1,
+            "exec_sequence": {
+                "processes": [
+                    {
+                        "type": 100,
+                        "selector_type": 0,
+                        "selector": {
+                            "scope": 0,
+                            "target": 1,
+                            "regulation": 0
+                        }
+                    },
+                    {
+                        "type": 1,
+                        "target": {
+                            "selector_id": 0
+                        },
+                        "element": 0,
+                        "base_coe":2.0,
+                        "numeric": {
+                            "type": 0,
+                            "expression": {
+                                "num": {
+                                    "src_type": 1,
+                                    "src": {
+                                        "property_name": "current_attack",
+                                        "initiative": 0
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

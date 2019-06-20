@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "LK_res_desc_txt,game_bg_jpg,loading_icon_png,character_shadow_png,health_back_png,health_front_png,character_config_json,ui_local_lk_cn_json,ui_local_lk_en_json,taling_config_json,Battle_Block_01_png,Battle_Block_02_png,Battle_Block_03_png,Battle_Block_04_png,Battle_Block_05_png,Battle_Block_07_png,Battle_Block_08_png,Battle_Block_06_png,cdef_debug_assault2_json,cdef_debug_defence2_json",
+			"keys": "LK_res_desc_txt,game_bg_jpg,loading_icon_png,character_shadow_png,health_back_png,health_front_png,character_config_json,ui_local_lk_cn_json,ui_local_lk_en_json,taling_config_json,Battle_Block_01_png,Battle_Block_02_png,Battle_Block_03_png,Battle_Block_04_png,Battle_Block_05_png,Battle_Block_07_png,Battle_Block_08_png,Battle_Block_06_png,Common_Pic_Battle_BloodStrip_01_png,Battle_SmallBloodStick_01_png,Common_Pic_Battle_BloodStrip_02_png,Battle_SmallBloodStick_02_png,se_list_json,character_debug_assault_json,character_debug_defence_json,assault_num_json,defence_num_json,character_debug_taling_json",
 			"name": "LK"
 		}
 	],
@@ -97,14 +97,54 @@
 			"name": "Battle_Block_06_png"
 		},
 		{
-			"url": "LK/skill_defs/cdef_debug_assault2.json",
-			"type": "json",
-			"name": "cdef_debug_assault2_json"
+			"url": "LK/health_bar/Battle_SmallBloodStick_01.png",
+			"type": "image",
+			"name": "Battle_SmallBloodStick_01_png"
 		},
 		{
-			"url": "LK/skill_defs/cdef_debug_defence2.json",
+			"url": "LK/health_bar/Battle_SmallBloodStick_02.png",
+			"type": "image",
+			"name": "Battle_SmallBloodStick_02_png"
+		},
+		{
+			"url": "LK/health_bar/Common_Pic_Battle_BloodStrip_01.png",
+			"type": "image",
+			"name": "Common_Pic_Battle_BloodStrip_01_png"
+		},
+		{
+			"url": "LK/health_bar/Common_Pic_Battle_BloodStrip_02.png",
+			"type": "image",
+			"name": "Common_Pic_Battle_BloodStrip_02_png"
+		},
+		{
+			"url": "LK/skill_defs/se_list.json",
 			"type": "json",
-			"name": "cdef_debug_defence2_json"
+			"name": "se_list_json"
+		},
+		{
+			"url": "LK/skill_defs/character_debug_assault.json",
+			"type": "json",
+			"name": "character_debug_assault_json"
+		},
+		{
+			"url": "LK/skill_defs/character_debug_defence.json",
+			"type": "json",
+			"name": "character_debug_defence_json"
+		},
+		{
+			"url": "LK/character_debug/assault_num.json",
+			"type": "json",
+			"name": "assault_num_json"
+		},
+		{
+			"url": "LK/character_debug/defence_num.json",
+			"type": "json",
+			"name": "defence_num_json"
+		},
+		{
+			"url": "LK/skill_defs/character_debug_taling.json",
+			"type": "json",
+			"name": "character_debug_taling_json"
 		}
 	]
 }

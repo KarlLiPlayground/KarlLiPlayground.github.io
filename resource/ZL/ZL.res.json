@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "ZL_res_desc_txt,ui_local_zl_en_json,ui_local_zl_cn_json,Unit_Icon_Vip_png,Main_Icon_Monster_01_png,Main_Frame_Monster_png,Main_Frame_Level_png,Common_Pic_MagicArts_png,Common_Pic_GoldBar_png,Common_Pic_Bottom_BloodStrip_03_png,Common_Pic_Bottom_BloodStrip_02_png,Common_Pic_Bottom_BloodStrip_01_png,Common_Pic_BattleBG_png,Common_Pic_Battle_BloodStrip_02_png,Common_Pic_Battle_BloodStrip_01_png,Common_Icon_More_png,Common_Icon_MagicCrystal_03_png,Common_Icon_MagicCrystal_02_png,Common_Icon_MagicCrystal_01_png,Common_Icon_Gold_png,Common_Icon_Event_png,Common_Button_Speed_x2_png,Common_Button_Speed_x1_png,Common_Button_right_png,Common_Button_Nearest_png,Common_Button_Manual_png,Common_Button_left_png,Common_Button_Farthest_png,Common_Button_Auto_png,Bottom_Button_ButtonSkill_04_png,Bottom_Button_ButtonSkill_03_png,Bottom_Button_ButtonSkill_02_png,Bottom_Button_ButtonSkill_01_png,Battle_SmallBloodStick_02_png,Battle_SmallBloodStick_01_png,Battle_Pic_TopBar_png,Battle_Pic_BottomBar_02_png,Battle_Pic_BottomBar_01_png,Battle_Icon_Buff_03_png,Battle_Icon_Buff_02_png,Battle_Icon_Buff_01_png,Battle_Button_TS_png,Battle_Button_TopName_png,Common_Icon_Gold2_png",
+			"keys": "ZL_res_desc_txt,ui_local_zl_en_json,ui_local_zl_cn_json,Univ_Frame_03_png,Univ_Frame_02_png,Univ_Frame_01_png,Unit_Icon_Vip_png,Unit_Icon_Plus_png,Unit_Icon_Hp_png,Unit_Icon_AtkSpeed_png,Unit_Icon_Atk_png,Main_Icon_Monster_01_png,Main_Icon_Chat_png,Common_Pic_Top_BloodStrip_02_png,Common_Pic_Top_BloodStrip_01_png,Common_Pic_Side_png,Common_Pic_SecondaryPopup_02_png,Common_Pic_SecondaryPopup_01_png,Common_Pic_Red_png,Common_Pic_Popup_png,Common_Pic_Mask_png,Common_Pic_Line_02_png,Common_Pic_Line_01_png,Common_Pic_GoldBar_png,Common_Icon_More_png,Common_Icon_Map_png,Common_Icon_MagicCrystal_png,Common_Icon_Gold_png,Common_Icon_Gold_Star_png,Common_Icon_FriendRequest_png,Common_Icon_Event_png,Common_Frame_SuspendedMask_png,Common_Frame_MP_png,Common_Button_Speed_x2_png,Common_Button_Speed_x1_png,Common_Button_Simple_png,Common_Button_right_png,Common_Button_Reset_png,Common_Button_Red_png,Common_Button_Preserve_png,Common_Button_Order_png,Common_Button_Nearest_png,Common_Button_Manual_png,Common_Button_left_png,Common_Button_Farthest_png,Common_Button_ButtonEquit_png,Common_Button_Blue_png,Common_Button_Auto_png,Bottom_Button_ButtonSkill_04_png,Bottom_Button_ButtonSkill_03_png,Bottom_Button_ButtonSkill_02_png,Bottom_Button_ButtonSkill_01_png,Battle_Pic_TopBar_png,Battle_Pic_BottomBar_03_png,Battle_Pic_BottomBar_02_png,Battle_Pic_BottomBar_01_png,Battle_Icon_Buff_03_png,Battle_Icon_Buff_02_png,Battle_Icon_Buff_01_png,Battle_Button_TopName_png,Common_Frame_Suspended_png,Common_Icon_BlockBg_01_png,Common_Icon_BlockBg_02_png,Common_Icon_Block_01_png,Common_Icon_Equit_01_png,Common_Icon_Frame_Blue_png,Common_Icon_Frame_Green_png,Common_Icon_Frame_Orange_png,Common_Icon_Frame_Selection_png,Common_Icon_Frame_Violet_png,Common_Icon_Frame_White_png,Common_Icon_Monster_01_png,Common_Icon_Label_Blue_png,Common_Icon_Label_Green_png,Common_Icon_Label_Orange_png,Common_Icon_Label_Violet_png,Common_Icon_Label_White_png,Common_Icon_Boss_png,Common_Icon_Divine_01_png,Common_Icon_Divine_02_png,Common_Icon_Divine_03_png,Common_Icon_Divine_04_png,Common_Icon_EXPup_png,Common_Icon_Location_png,Common_Pic_Base_png,Common_Pic_Blank_01_png,Common_Pic_Blank_02_png,Common_Pic_Blank_03_png,Common_Pic_Blank_04_png,Common_Pic_Event_01_png,Common_Pic_Event_02_png,Common_Pic_Event_03_png,Common_Pic_Lock_png,Event_Pic_BlankBG_01_png,Event_Pic_BlankBG_02_png,Event_Pic_Popup_png,Unit_Frame_Sel_png",
 			"name": "ZL"
 		}
 	],
@@ -20,11 +20,6 @@
 			"url": "localization/en/ui_local_zl_en.json",
 			"type": "json",
 			"name": "ui_local_zl_en_json"
-		},
-		{
-			"url": "ZL/game_ui/Battle_Button_TS.png",
-			"type": "image",
-			"name": "Battle_Button_TS_png"
 		},
 		{
 			"url": "ZL/game_ui/Battle_Button_TopName.png",
@@ -57,19 +52,14 @@
 			"name": "Battle_Pic_BottomBar_02_png"
 		},
 		{
+			"url": "ZL/game_ui/Battle_Pic_BottomBar_03.png",
+			"type": "image",
+			"name": "Battle_Pic_BottomBar_03_png"
+		},
+		{
 			"url": "ZL/game_ui/Battle_Pic_TopBar.png",
 			"type": "image",
 			"name": "Battle_Pic_TopBar_png"
-		},
-		{
-			"url": "ZL/game_ui/Battle_SmallBloodStick_01.png",
-			"type": "image",
-			"name": "Battle_SmallBloodStick_01_png"
-		},
-		{
-			"url": "ZL/game_ui/Battle_SmallBloodStick_02.png",
-			"type": "image",
-			"name": "Battle_SmallBloodStick_02_png"
 		},
 		{
 			"url": "ZL/game_ui/Bottom_Button_ButtonSkill_01.png",
@@ -97,6 +87,16 @@
 			"name": "Common_Button_Auto_png"
 		},
 		{
+			"url": "ZL/game_ui/Common_Button_Blue.png",
+			"type": "image",
+			"name": "Common_Button_Blue_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Button_ButtonEquit.png",
+			"type": "image",
+			"name": "Common_Button_ButtonEquit_png"
+		},
+		{
 			"url": "ZL/game_ui/Common_Button_Farthest.png",
 			"type": "image",
 			"name": "Common_Button_Farthest_png"
@@ -110,6 +110,31 @@
 			"url": "ZL/game_ui/Common_Button_Nearest.png",
 			"type": "image",
 			"name": "Common_Button_Nearest_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Button_Order.png",
+			"type": "image",
+			"name": "Common_Button_Order_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Button_Preserve.png",
+			"type": "image",
+			"name": "Common_Button_Preserve_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Button_Red.png",
+			"type": "image",
+			"name": "Common_Button_Red_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Button_Reset.png",
+			"type": "image",
+			"name": "Common_Button_Reset_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Button_Simple.png",
+			"type": "image",
+			"name": "Common_Button_Simple_png"
 		},
 		{
 			"url": "ZL/game_ui/Common_Button_Speed_x1.png",
@@ -132,9 +157,24 @@
 			"name": "Common_Button_right_png"
 		},
 		{
+			"url": "ZL/game_ui/Common_Frame_MP.png",
+			"type": "image",
+			"name": "Common_Frame_MP_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Frame_SuspendedMask.png",
+			"type": "image",
+			"name": "Common_Frame_SuspendedMask_png"
+		},
+		{
 			"url": "ZL/game_ui/Common_Icon_Event.png",
 			"type": "image",
 			"name": "Common_Icon_Event_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Icon_FriendRequest.png",
+			"type": "image",
+			"name": "Common_Icon_FriendRequest_png"
 		},
 		{
 			"url": "ZL/game_ui/Common_Icon_Gold.png",
@@ -142,19 +182,19 @@
 			"name": "Common_Icon_Gold_png"
 		},
 		{
-			"url": "ZL/game_ui/Common_Icon_MagicCrystal_01.png",
+			"url": "ZL/game_ui/Common_Icon_Gold_Star.png",
 			"type": "image",
-			"name": "Common_Icon_MagicCrystal_01_png"
+			"name": "Common_Icon_Gold_Star_png"
 		},
 		{
-			"url": "ZL/game_ui/Common_Icon_MagicCrystal_02.png",
+			"url": "ZL/game_ui/Common_Icon_MagicCrystal.png",
 			"type": "image",
-			"name": "Common_Icon_MagicCrystal_02_png"
+			"name": "Common_Icon_MagicCrystal_png"
 		},
 		{
-			"url": "ZL/game_ui/Common_Icon_MagicCrystal_03.png",
+			"url": "ZL/game_ui/Common_Icon_Map.png",
 			"type": "image",
-			"name": "Common_Icon_MagicCrystal_03_png"
+			"name": "Common_Icon_Map_png"
 		},
 		{
 			"url": "ZL/game_ui/Common_Icon_More.png",
@@ -162,54 +202,64 @@
 			"name": "Common_Icon_More_png"
 		},
 		{
-			"url": "ZL/game_ui/Common_Pic_BattleBG.png",
-			"type": "image",
-			"name": "Common_Pic_BattleBG_png"
-		},
-		{
-			"url": "ZL/game_ui/Common_Pic_Battle_BloodStrip_01.png",
-			"type": "image",
-			"name": "Common_Pic_Battle_BloodStrip_01_png"
-		},
-		{
-			"url": "ZL/game_ui/Common_Pic_Battle_BloodStrip_02.png",
-			"type": "image",
-			"name": "Common_Pic_Battle_BloodStrip_02_png"
-		},
-		{
-			"url": "ZL/game_ui/Common_Pic_Bottom_BloodStrip_01.png",
-			"type": "image",
-			"name": "Common_Pic_Bottom_BloodStrip_01_png"
-		},
-		{
-			"url": "ZL/game_ui/Common_Pic_Bottom_BloodStrip_02.png",
-			"type": "image",
-			"name": "Common_Pic_Bottom_BloodStrip_02_png"
-		},
-		{
-			"url": "ZL/game_ui/Common_Pic_Bottom_BloodStrip_03.png",
-			"type": "image",
-			"name": "Common_Pic_Bottom_BloodStrip_03_png"
-		},
-		{
 			"url": "ZL/game_ui/Common_Pic_GoldBar.png",
 			"type": "image",
 			"name": "Common_Pic_GoldBar_png"
 		},
 		{
-			"url": "ZL/game_ui/Common_Pic_MagicArts.png",
+			"url": "ZL/game_ui/Common_Pic_Line_01.png",
 			"type": "image",
-			"name": "Common_Pic_MagicArts_png"
+			"name": "Common_Pic_Line_01_png"
 		},
 		{
-			"url": "ZL/game_ui/Main_Frame_Level.png",
+			"url": "ZL/game_ui/Common_Pic_Line_02.png",
 			"type": "image",
-			"name": "Main_Frame_Level_png"
+			"name": "Common_Pic_Line_02_png"
 		},
 		{
-			"url": "ZL/game_ui/Main_Frame_Monster.png",
+			"url": "ZL/game_ui/Common_Pic_Mask.png",
 			"type": "image",
-			"name": "Main_Frame_Monster_png"
+			"name": "Common_Pic_Mask_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Pic_Popup.png",
+			"type": "image",
+			"name": "Common_Pic_Popup_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Pic_Red.png",
+			"type": "image",
+			"name": "Common_Pic_Red_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Pic_SecondaryPopup_01.png",
+			"type": "image",
+			"name": "Common_Pic_SecondaryPopup_01_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Pic_SecondaryPopup_02.png",
+			"type": "image",
+			"name": "Common_Pic_SecondaryPopup_02_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Pic_Side.png",
+			"type": "image",
+			"name": "Common_Pic_Side_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Pic_Top_BloodStrip_01.png",
+			"type": "image",
+			"name": "Common_Pic_Top_BloodStrip_01_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Pic_Top_BloodStrip_02.png",
+			"type": "image",
+			"name": "Common_Pic_Top_BloodStrip_02_png"
+		},
+		{
+			"url": "ZL/game_ui/Main_Icon_Chat.png",
+			"type": "image",
+			"name": "Main_Icon_Chat_png"
 		},
 		{
 			"url": "ZL/game_ui/Main_Icon_Monster_01.png",
@@ -217,14 +267,229 @@
 			"name": "Main_Icon_Monster_01_png"
 		},
 		{
+			"url": "ZL/game_ui/Unit_Icon_Atk.png",
+			"type": "image",
+			"name": "Unit_Icon_Atk_png"
+		},
+		{
+			"url": "ZL/game_ui/Unit_Icon_AtkSpeed.png",
+			"type": "image",
+			"name": "Unit_Icon_AtkSpeed_png"
+		},
+		{
+			"url": "ZL/game_ui/Unit_Icon_Hp.png",
+			"type": "image",
+			"name": "Unit_Icon_Hp_png"
+		},
+		{
+			"url": "ZL/game_ui/Unit_Icon_Plus.png",
+			"type": "image",
+			"name": "Unit_Icon_Plus_png"
+		},
+		{
 			"url": "ZL/game_ui/Unit_Icon_Vip.png",
 			"type": "image",
 			"name": "Unit_Icon_Vip_png"
 		},
 		{
-			"url": "ZL/game_ui/Common_Icon_Gold2.png",
+			"url": "ZL/game_ui/Univ_Frame_01.png",
 			"type": "image",
-			"name": "Common_Icon_Gold2_png"
+			"name": "Univ_Frame_01_png"
+		},
+		{
+			"url": "ZL/game_ui/Univ_Frame_02.png",
+			"type": "image",
+			"name": "Univ_Frame_02_png"
+		},
+		{
+			"url": "ZL/game_ui/Univ_Frame_03.png",
+			"type": "image",
+			"name": "Univ_Frame_03_png"
+		},
+		{
+			"url": "ZL/game_ui/Common_Frame_Suspended.png",
+			"type": "image",
+			"name": "Common_Frame_Suspended_png"
+		},
+		{
+			"url": "ZL/game_ui/border/Common_Icon_BlockBg_01.png",
+			"type": "image",
+			"name": "Common_Icon_BlockBg_01_png"
+		},
+		{
+			"url": "ZL/game_ui/border/Common_Icon_BlockBg_02.png",
+			"type": "image",
+			"name": "Common_Icon_BlockBg_02_png"
+		},
+		{
+			"url": "ZL/game_ui/border/Common_Icon_Block_01.png",
+			"type": "image",
+			"name": "Common_Icon_Block_01_png"
+		},
+		{
+			"url": "ZL/game_ui/border/Common_Icon_Equit_01.png",
+			"type": "image",
+			"name": "Common_Icon_Equit_01_png"
+		},
+		{
+			"url": "ZL/game_ui/border/Common_Icon_Frame_Blue.png",
+			"type": "image",
+			"name": "Common_Icon_Frame_Blue_png"
+		},
+		{
+			"url": "ZL/game_ui/border/Common_Icon_Frame_Green.png",
+			"type": "image",
+			"name": "Common_Icon_Frame_Green_png"
+		},
+		{
+			"url": "ZL/game_ui/border/Common_Icon_Frame_Orange.png",
+			"type": "image",
+			"name": "Common_Icon_Frame_Orange_png"
+		},
+		{
+			"url": "ZL/game_ui/border/Common_Icon_Frame_Selection.png",
+			"type": "image",
+			"name": "Common_Icon_Frame_Selection_png"
+		},
+		{
+			"url": "ZL/game_ui/border/Common_Icon_Frame_Violet.png",
+			"type": "image",
+			"name": "Common_Icon_Frame_Violet_png"
+		},
+		{
+			"url": "ZL/game_ui/border/Common_Icon_Frame_White.png",
+			"type": "image",
+			"name": "Common_Icon_Frame_White_png"
+		},
+		{
+			"url": "ZL/game_ui/border/Common_Icon_Monster_01.png",
+			"type": "image",
+			"name": "Common_Icon_Monster_01_png"
+		},
+		{
+			"url": "ZL/game_ui/corner_mark/Common_Icon_Label_Blue.png",
+			"type": "image",
+			"name": "Common_Icon_Label_Blue_png"
+		},
+		{
+			"url": "ZL/game_ui/corner_mark/Common_Icon_Label_Green.png",
+			"type": "image",
+			"name": "Common_Icon_Label_Green_png"
+		},
+		{
+			"url": "ZL/game_ui/corner_mark/Common_Icon_Label_Orange.png",
+			"type": "image",
+			"name": "Common_Icon_Label_Orange_png"
+		},
+		{
+			"url": "ZL/game_ui/corner_mark/Common_Icon_Label_Violet.png",
+			"type": "image",
+			"name": "Common_Icon_Label_Violet_png"
+		},
+		{
+			"url": "ZL/game_ui/corner_mark/Common_Icon_Label_White.png",
+			"type": "image",
+			"name": "Common_Icon_Label_White_png"
+		},
+		{
+			"url": "ZL/game_ui/adventure/Common_Icon_Boss.png",
+			"type": "image",
+			"name": "Common_Icon_Boss_png"
+		},
+		{
+			"url": "ZL/game_ui/adventure/Common_Icon_Divine_01.png",
+			"type": "image",
+			"name": "Common_Icon_Divine_01_png"
+		},
+		{
+			"url": "ZL/game_ui/adventure/Common_Icon_Divine_02.png",
+			"type": "image",
+			"name": "Common_Icon_Divine_02_png"
+		},
+		{
+			"url": "ZL/game_ui/adventure/Common_Icon_Divine_03.png",
+			"type": "image",
+			"name": "Common_Icon_Divine_03_png"
+		},
+		{
+			"url": "ZL/game_ui/adventure/Common_Icon_Divine_04.png",
+			"type": "image",
+			"name": "Common_Icon_Divine_04_png"
+		},
+		{
+			"url": "ZL/game_ui/adventure/Common_Icon_EXPup.png",
+			"type": "image",
+			"name": "Common_Icon_EXPup_png"
+		},
+		{
+			"url": "ZL/game_ui/adventure/Common_Icon_Location.png",
+			"type": "image",
+			"name": "Common_Icon_Location_png"
+		},
+		{
+			"url": "ZL/game_ui/adventure/Common_Pic_Base.png",
+			"type": "image",
+			"name": "Common_Pic_Base_png"
+		},
+		{
+			"url": "ZL/game_ui/adventure/Common_Pic_Blank_01.png",
+			"type": "image",
+			"name": "Common_Pic_Blank_01_png"
+		},
+		{
+			"url": "ZL/game_ui/adventure/Common_Pic_Blank_02.png",
+			"type": "image",
+			"name": "Common_Pic_Blank_02_png"
+		},
+		{
+			"url": "ZL/game_ui/adventure/Common_Pic_Blank_03.png",
+			"type": "image",
+			"name": "Common_Pic_Blank_03_png"
+		},
+		{
+			"url": "ZL/game_ui/adventure/Common_Pic_Blank_04.png",
+			"type": "image",
+			"name": "Common_Pic_Blank_04_png"
+		},
+		{
+			"url": "ZL/game_ui/adventure/Common_Pic_Event_01.png",
+			"type": "image",
+			"name": "Common_Pic_Event_01_png"
+		},
+		{
+			"url": "ZL/game_ui/adventure/Common_Pic_Event_02.png",
+			"type": "image",
+			"name": "Common_Pic_Event_02_png"
+		},
+		{
+			"url": "ZL/game_ui/adventure/Common_Pic_Event_03.png",
+			"type": "image",
+			"name": "Common_Pic_Event_03_png"
+		},
+		{
+			"url": "ZL/game_ui/adventure/Common_Pic_Lock.png",
+			"type": "image",
+			"name": "Common_Pic_Lock_png"
+		},
+		{
+			"url": "ZL/game_ui/adventure/Event_Pic_BlankBG_01.png",
+			"type": "image",
+			"name": "Event_Pic_BlankBG_01_png"
+		},
+		{
+			"url": "ZL/game_ui/adventure/Event_Pic_BlankBG_02.png",
+			"type": "image",
+			"name": "Event_Pic_BlankBG_02_png"
+		},
+		{
+			"url": "ZL/game_ui/adventure/Event_Pic_Popup.png",
+			"type": "image",
+			"name": "Event_Pic_Popup_png"
+		},
+		{
+			"url": "ZL/game_ui/adventure/Unit_Frame_Sel.png",
+			"type": "image",
+			"name": "Unit_Frame_Sel_png"
 		}
 	]
 }
