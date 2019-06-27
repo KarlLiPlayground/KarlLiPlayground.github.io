@@ -1566,7 +1566,7 @@ window.skins=window.skins||{};
 	__extends(adventure_enter, _super);
 	function adventure_enter() {
 		_super.call(this);
-		this.skinParts = ["group_left","group_map","reward_start","reward_img","reward_num","reward","group_reward","group_ad","btn_back_out","btn_pause"];
+		this.skinParts = ["group_L_map","group_L","group_RT_map","rt_map_area","rt_map_boss","rt_map_location","group_RT","reward_start","reward_img","reward_num","reward","group_reward","group_ad","btn_back_out","btn_pause"];
 		
 		this.height = 640;
 		this.width = 1136;
@@ -1590,7 +1590,7 @@ window.skins=window.skins||{};
 		t.height = 592;
 		t.horizontalCenter = 40;
 		t.width = 943;
-		t.elementsContent = [this._Image1_i(),this._Rect2_i(),this.group_left_i(),this._Group2_i()];
+		t.elementsContent = [this._Image1_i(),this.group_L_i(),this._Group2_i()];
 		return t;
 	};
 	_proto._Image1_i = function () {
@@ -1604,22 +1604,23 @@ window.skins=window.skins||{};
 		t.percentWidth = 100;
 		return t;
 	};
-	_proto._Rect2_i = function () {
-		var t = new eui.Rect();
-		t.fillAlpha = 0.2;
+	_proto.group_L_i = function () {
+		var t = new eui.Group();
+		this.group_L = t;
 		t.height = 545;
-		t.left = 27;
+		t.left = 30;
 		t.verticalCenter = 0;
 		t.width = 545;
+		t.elementsContent = [this.group_L_map_i()];
 		return t;
 	};
-	_proto.group_left_i = function () {
+	_proto.group_L_map_i = function () {
 		var t = new eui.Group();
-		this.group_left = t;
-		t.height = 545;
-		t.left = 27;
+		this.group_L_map = t;
+		t.percentHeight = 100;
+		t.horizontalCenter = 0;
 		t.verticalCenter = 0;
-		t.width = 545;
+		t.percentWidth = 100;
 		return t;
 	};
 	_proto._Group2_i = function () {
@@ -1628,29 +1629,64 @@ window.skins=window.skins||{};
 		t.right = 90;
 		t.verticalCenter = 0;
 		t.width = 262;
-		t.elementsContent = [this._Rect3_i(),this.group_map_i(),this.group_reward_i(),this.group_ad_i(),this.btn_back_out_i(),this.btn_pause_i()];
+		t.elementsContent = [this.group_RT_i(),this.group_reward_i(),this.group_ad_i(),this.btn_back_out_i(),this.btn_pause_i()];
 		return t;
 	};
-	_proto._Rect3_i = function () {
-		var t = new eui.Rect();
-		t.fillAlpha = 0.2;
+	_proto.group_RT_i = function () {
+		var t = new eui.Group();
+		this.group_RT = t;
 		t.height = 178;
 		t.horizontalCenter = 0;
+		t.top = 28;
+		t.width = 178;
+		t.elementsContent = [this.group_RT_map_i(),this.rt_map_area_i(),this.rt_map_boss_i(),this.rt_map_location_i()];
+		return t;
+	};
+	_proto.group_RT_map_i = function () {
+		var t = new eui.Group();
+		this.group_RT_map = t;
+		t.percentHeight = 100;
+		t.horizontalCenter = 0;
+		t.verticalCenter = 0;
+		t.percentWidth = 100;
+		return t;
+	};
+	_proto.rt_map_area_i = function () {
+		var t = new eui.Image();
+		this.rt_map_area = t;
+		t.height = 74;
 		t.scaleX = 1;
 		t.scaleY = 1;
-		t.strokeAlpha = 1;
-		t.top = 25;
-		t.width = 178;
-		t.y = 0;
+		t.source = "Unit_Frame_Sel_png";
+		t.width = 74;
+		t.x = -32;
+		t.y = 45;
 		return t;
 	};
-	_proto.group_map_i = function () {
-		var t = new eui.Group();
-		this.group_map = t;
-		t.height = 178;
-		t.horizontalCenter = 0;
-		t.top = 25;
-		t.width = 178;
+	_proto.rt_map_boss_i = function () {
+		var t = new eui.Image();
+		this.rt_map_boss = t;
+		t.height = 38;
+		t.left = -12;
+		t.scaleX = 1;
+		t.scaleY = 1;
+		t.source = "Common_Icon_Boss_png";
+		t.top = -18;
+		t.width = 34;
+		t.x = -12;
+		t.y = -18;
+		return t;
+	};
+	_proto.rt_map_location_i = function () {
+		var t = new eui.Image();
+		this.rt_map_location = t;
+		t.height = 23;
+		t.scaleX = 1;
+		t.scaleY = 1;
+		t.source = "Common_Icon_Location_png";
+		t.width = 20;
+		t.x = -5;
+		t.y = 51;
 		return t;
 	};
 	_proto.group_reward_i = function () {
@@ -1836,6 +1872,136 @@ window.skins=window.skins||{};
 		return t;
 	};
 	return adventure_enter;
+})(eui.Skin);generateEUI.paths['resource/ZL/skins/adventure/adventure_map_item.exml'] = window.adventure_map_item = (function (_super) {
+	__extends(adventure_map_item, _super);
+	function adventure_map_item() {
+		_super.call(this);
+		this.skinParts = ["map_item_img","map_item_boss","map_item_location"];
+		
+		this.height = 14;
+		this.width = 14;
+		this.elementsContent = [this.map_item_img_i(),this.map_item_boss_i(),this.map_item_location_i()];
+	}
+	var _proto = adventure_map_item.prototype;
+
+	_proto.map_item_img_i = function () {
+		var t = new eui.Image();
+		this.map_item_img = t;
+		t.percentHeight = 100;
+		t.horizontalCenter = 0;
+		t.verticalCenter = 0;
+		t.percentWidth = 100;
+		return t;
+	};
+	_proto.map_item_boss_i = function () {
+		var t = new eui.Image();
+		this.map_item_boss = t;
+		t.bottom = 0;
+		t.height = 38;
+		t.horizontalCenter = 0;
+		t.source = "Common_Icon_Boss_png";
+		t.visible = false;
+		t.width = 34;
+		return t;
+	};
+	_proto.map_item_location_i = function () {
+		var t = new eui.Image();
+		this.map_item_location = t;
+		t.bottom = 0;
+		t.height = 23;
+		t.horizontalCenter = 0;
+		t.source = "Common_Icon_Location_png";
+		t.visible = false;
+		t.width = 20;
+		return t;
+	};
+	return adventure_map_item;
+})(eui.Skin);generateEUI.paths['resource/ZL/skins/adventure/adventure_reward_des.exml'] = window.adventure_reward_des = (function (_super) {
+	__extends(adventure_reward_des, _super);
+	function adventure_reward_des() {
+		_super.call(this);
+		this.skinParts = ["des_bg","des_name","des_content","des"];
+		
+		this.height = 640;
+		this.width = 1136;
+		this.elementsContent = [this.des_bg_i(),this.des_i()];
+	}
+	var _proto = adventure_reward_des.prototype;
+
+	_proto.des_bg_i = function () {
+		var t = new eui.Rect();
+		this.des_bg = t;
+		t.fillAlpha = 0;
+		t.percentHeight = 100;
+		t.horizontalCenter = 0;
+		t.strokeAlpha = 0;
+		t.verticalCenter = 0;
+		t.percentWidth = 100;
+		return t;
+	};
+	_proto.des_i = function () {
+		var t = new eui.Group();
+		this.des = t;
+		t.height = 100;
+		t.right = 345;
+		t.verticalCenter = -10;
+		t.width = 300;
+		t.elementsContent = [this._Image1_i(),this.des_name_i(),this._Image2_i(),this.des_content_i()];
+		return t;
+	};
+	_proto._Image1_i = function () {
+		var t = new eui.Image();
+		t.percentHeight = 100;
+		t.horizontalCenter = 0;
+		t.scale9Grid = new egret.Rectangle(18,20,12,12);
+		t.scaleX = 1;
+		t.scaleY = 1;
+		t.source = "Common_Pic_SecondaryPopup_02_png";
+		t.verticalCenter = 0;
+		t.percentWidth = 100;
+		return t;
+	};
+	_proto.des_name_i = function () {
+		var t = new eui.Label();
+		this.des_name = t;
+		t.height = 20;
+		t.horizontalCenter = 0;
+		t.left = 15;
+		t.right = 15;
+		t.size = 16;
+		t.text = "烈焰风暴";
+		t.textAlign = "left";
+		t.textColor = 0xe0ba6c;
+		t.top = 10;
+		t.verticalAlign = "middle";
+		return t;
+	};
+	_proto._Image2_i = function () {
+		var t = new eui.Image();
+		t.height = 1;
+		t.left = 15;
+		t.source = "Common_Pic_Line_02_png";
+		t.top = 30;
+		t.width = 154;
+		return t;
+	};
+	_proto.des_content_i = function () {
+		var t = new eui.Label();
+		this.des_content = t;
+		t.bottom = 10;
+		t.height = 54;
+		t.horizontalCenter = 0;
+		t.left = 15;
+		t.lineSpacing = 5;
+		t.right = 15;
+		t.size = 14;
+		t.text = "状态描述状态描述状态描述状态描述状态描述";
+		t.textAlign = "left";
+		t.textColor = 0x575757;
+		t.verticalAlign = "top";
+		return t;
+	};
+	return adventure_reward_des;
 })(eui.Skin);generateEUI.paths['resource/ZL/skins/bottom/BottomSkillItemDes.exml'] = window.BottomSkillItemDesSkin = (function (_super) {
 	__extends(BottomSkillItemDesSkin, _super);
 	function BottomSkillItemDesSkin() {

@@ -6,9 +6,9 @@
             "character_name": "aiweika"
         },
         {
-            "file_key":"attack1_procedure_effect_1",
+            "file_key":"attack_1_procedure_1",
             "armature_name": "Armature",
-            "character_name": "attack1_procedure_effect_1"
+            "character_name": "attack_1_procedure_1"
         }  
     ]
 }

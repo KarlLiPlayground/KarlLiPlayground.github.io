@@ -39,6 +39,8 @@
 		"resource/YXY/game_skins/win/win_ProcessBar_EXP_Skin.exml",
 		"resource/YXY/game_skins/win/battle_Win_Skin.exml",
 		"resource/ZL/skins/adventure/adventure_enter.exml",
+		"resource/ZL/skins/adventure/adventure_map_item.exml",
+		"resource/ZL/skins/adventure/adventure_reward_des.exml",
 		"resource/ZL/skins/bottom/BottomSkillItemDes.exml",
 		"resource/ZL/skins/bottom/BottomSkillListItemDes.exml",
 		"resource/ZL/skins/bottom/progress_skill.exml",
