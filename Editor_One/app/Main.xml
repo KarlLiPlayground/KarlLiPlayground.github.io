@@ -1,0 +1,280 @@
+﻿<project version="2.9" name="Editor_One" ID="1EB7A8F1-5F7C-E911-9605-38C9861F66CD">
+  <params>
+    <pageParam version="5.3" minAllowVersion="5.3"/>
+    <projectParam version="2.9" minAllowVersion="2.9" platform="MtDesktop" pageSize="(781,604)" backgroundColor="4279309603" fontSize="12" fontFamily="PingFang HK" projectType="ptPersonalProject" isShowTitleIndex="False"/>
+    <previewParam version="1.0"/>
+    <colorParam version="1.0"/>
+  </params>
+  <pages>
+    <page name="页面-首页" ID="D0B9A8F1-5F7C-E911-9605-38C9861F66CD" expanded="False" code="3pBBGR12lY" thumbCode="3pBBGR12lY" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+      </images>
+    </page>
+    <page name="页面-首页-弹出框" ID="726BD080-5199-E911-8D3A-38C9861F66CD" expanded="True" code="lvWUvBDx1y" thumbCode="lvWUvBDx1y" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+      </images>
+    </page>
+    <page name="页面-主页面" ID="AA36888B-EA80-E911-A1D3-38C9861F66CD" expanded="True" code="O6tqpaRNrM" thumbCode="O6tqpaRNrM" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+      </images>
+    </page>
+    <page name="页面-角色设计区" ID="CA51571B-EC80-E911-A1D3-38C9861F66CD" expanded="True" code="Yy2OO3YdAx" thumbCode="Yy2OO3YdAx" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+      </images>
+    </page>
+    <page name="页面-角色设计区-弹出框" ID="2C7C5C4D-4799-E911-8D3A-38C9861F66CD" expanded="True" code="qcEhH8onbM" thumbCode="qcEhH8onbM" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+      </images>
+    </page>
+    <page name="页面-主动技能设计区" ID="94674E51-EE80-E911-A1D3-38C9861F66CD" expanded="True" code="AghNeSBKfx" thumbCode="AghNeSBKfx" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+        <image key="D5D159D47A213D1F6A7A5494EF7FDD05.png"/>
+      </images>
+    </page>
+    <page name="页面-被动技能设计区" ID="C4E49A87-DA9B-E911-93B5-38C9861F66CD" expanded="True" code="BoiEjSiVfd" thumbCode="BoiEjSiVfd" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+      </images>
+    </page>
+    <page name="页面-特殊状态设计区" ID="5E31765F-5C99-E911-8D3A-38C9861F66CD" expanded="True" code="u58QgI6J8a" thumbCode="u58QgI6J8a" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+      </images>
+    </page>
+    <page name="页面-技能设计区-弹出框" ID="A4D88F1C-5299-E911-8D3A-38C9861F66CD" expanded="False" code="zxEkCGSgWd" thumbCode="zxEkCGSgWd" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+      </images>
+    </page>
+    <page name="页面-版本信息" ID="64284B27-F38B-E911-B252-38C9861F66CD" expanded="True" code="TTuua6rVUR" thumbCode="TTuua6rVUR" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="页面-导出" ID="64F55802-F28B-E911-B252-38C9861F66CD" expanded="True" code="ADyeuf9Zjo" thumbCode="ADyeuf9Zjo" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+      </images>
+    </page>
+    <page name="页面-通用弹出框" ID="425A10E4-5D99-E911-8D3A-38C9861F66CD" expanded="True" code="4qRc2wNsTm" thumbCode="4qRc2wNsTm" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+      </images>
+    </page>
+    <page name="过程-伤害" ID="D8E37F61-B39B-E911-93B5-38C9861F66CD" expanded="True" code="m2ztLAZZTY" thumbCode="m2ztLAZZTY" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+      </images>
+    </page>
+    <page name="过程-治疗" ID="C6D08A9C-599D-E911-814C-38C9861F66CD" expanded="False" code="GkkaX1KhQV" thumbCode="GkkaX1KhQV" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+      </images>
+    </page>
+    <page name="过程-生命减少" ID="EE0DB0C5-5A9D-E911-814C-38C9861F66CD" expanded="False" code="peZzVKkk8F" thumbCode="peZzVKkk8F" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+      </images>
+    </page>
+    <page name="过程-生命增加" ID="9A1FDED9-5A9D-E911-814C-38C9861F66CD" expanded="False" code="l9Hfpawc8j" thumbCode="l9Hfpawc8j" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+      </images>
+    </page>
+    <page name="过程-秒杀" ID="387451F1-5A9D-E911-814C-38C9861F66CD" expanded="False" code="GS9mA1QfJX" thumbCode="GS9mA1QfJX" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+      </images>
+    </page>
+    <page name="过程-添加特殊效果" ID="7ED01201-5B9D-E911-814C-38C9861F66CD" expanded="False" code="g5AaDb4wSU" thumbCode="g5AaDb4wSU" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+        <image key="D5D159D47A213D1F6A7A5494EF7FDD05.png"/>
+      </images>
+    </page>
+    <page name="过程-删除特殊效果" ID="8294476D-5B9D-E911-814C-38C9861F66CD" expanded="False" code="8DnCb6w6km" thumbCode="8DnCb6w6km" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+        <image key="D5D159D47A213D1F6A7A5494EF7FDD05.png"/>
+      </images>
+    </page>
+    <page name="过程-修改特殊效果" ID="720B998C-5B9D-E911-814C-38C9861F66CD" expanded="False" code="iV3QtdCT6Y" thumbCode="iV3QtdCT6Y" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+      </images>
+    </page>
+    <page name="过程-修改主动技能CD" ID="BA2034AD-5B9D-E911-814C-38C9861F66CD" expanded="False" code="9nkgOBpBeK" thumbCode="9nkgOBpBeK" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+        <image key="D5D159D47A213D1F6A7A5494EF7FDD05.png"/>
+      </images>
+    </page>
+    <page name="过程-再次行动" ID="527C3B93-5C9D-E911-814C-38C9861F66CD" expanded="False" code="bTdsB1kn6Y" thumbCode="bTdsB1kn6Y" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+      </images>
+    </page>
+    <page name="过程-再次释放主动技能" ID="3CEDB59F-5C9D-E911-814C-38C9861F66CD" expanded="False" code="Eqzj7zXrG1" thumbCode="Eqzj7zXrG1" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+      </images>
+    </page>
+    <page name="过程-角色属性修改" ID="88EEE2BB-5C9D-E911-814C-38C9861F66CD" expanded="True" code="uydLvcM5FS" thumbCode="uydLvcM5FS" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+      </images>
+    </page>
+    <page name="过程-角色模板属性修改" ID="8689573A-5D9D-E911-814C-38C9861F66CD" expanded="False" code="zDJctCyHpt" thumbCode="zDJctCyHpt" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+      </images>
+    </page>
+    <page name="过程-角色特殊状态修改" ID="0E87B683-619D-E911-814C-38C9861F66CD" expanded="False" code="AWoDxYfM6s" thumbCode="AWoDxYfM6s" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+      </images>
+    </page>
+    <page name="过程-伤害公式修改" ID="181EA467-5D9D-E911-814C-38C9861F66CD" expanded="False" code="cRYhZHI3LX" thumbCode="cRYhZHI3LX" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+        <image key="D5D159D47A213D1F6A7A5494EF7FDD05.png"/>
+      </images>
+    </page>
+    <page name="过程-伤害结果修改" ID="D42D9F53-5F9D-E911-814C-38C9861F66CD" expanded="True" code="8ujSU6AzOz" thumbCode="8ujSU6AzOz" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+      </images>
+    </page>
+    <page name="过程-传送" ID="2A779705-619D-E911-814C-38C9861F66CD" expanded="False" code="BTQunA2IyD" thumbCode="BTQunA2IyD" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+      </images>
+    </page>
+    <page name="过程-金币收益" ID="1EF44324-619D-E911-814C-38C9861F66CD" expanded="False" code="dGd7dfR15L" thumbCode="xvYCbBCR3y" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+      </images>
+    </page>
+    <page name="数值表达式" ID="26E7B3C3-CB9B-E911-93B5-38C9861F66CD" expanded="False" status="psGreen" isfolder="True" isshownode="True">
+      <page name="分子-数值表达式" ID="30D0B3D1-A79B-E911-93B5-38C9861F66CD" expanded="True" code="qDOQrIUgDc" thumbCode="qDOQrIUgDc" status="psWhite" isfolder="False" isshownode="True">
+        <images>
+          <image key="D5D159D47A213D1F6A7A5494EF7FDD05.png"/>
+          <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+        </images>
+      </page>
+      <page name="单个数值" ID="706E2AF9-CB9B-E911-93B5-38C9861F66CD" expanded="True" code="d9B366W1j4" thumbCode="d9B366W1j4" status="psWhite" isfolder="False" isshownode="True">
+        <images>
+          <image key="D5D159D47A213D1F6A7A5494EF7FDD05.png"/>
+          <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+        </images>
+      </page>
+      <page name="运算节点" ID="70F2781F-CE9B-E911-93B5-38C9861F66CD" expanded="True" code="gYfYuADrbq" thumbCode="gYfYuADrbq" status="psWhite" isfolder="False" isshownode="True">
+        <images>
+          <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+        </images>
+      </page>
+    </page>
+    <page name="逻辑表达式" ID="9833A687-CF9B-E911-93B5-38C9861F66CD" expanded="False" status="psGreen" isfolder="True" isshownode="True">
+      <page name="比较器" ID="D2A1AF25-D09B-E911-93B5-38C9861F66CD" expanded="True" code="XT87wPaKfx" thumbCode="XT87wPaKfx" status="psWhite" isfolder="False" isshownode="True">
+        <images>
+          <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+        </images>
+      </page>
+      <page name="分子-逻辑表达式" ID="F04DF5A2-CF9B-E911-93B5-38C9861F66CD" expanded="False" code="QrjMbW77q4" thumbCode="QrjMbW77q4" status="psWhite" isfolder="False" isshownode="True">
+        <images>
+          <image key="D5D159D47A213D1F6A7A5494EF7FDD05.png"/>
+          <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+        </images>
+      </page>
+    </page>
+    <page name="验证器" ID="02BF004F-D19B-E911-93B5-38C9861F66CD" expanded="False" status="psGreen" isfolder="True" isshownode="True">
+      <page name="分子-验证器" ID="46D80D58-D19B-E911-93B5-38C9861F66CD" expanded="True" code="sgIgzBAxHh" thumbCode="sgIgzBAxHh" status="psWhite" isfolder="False" isshownode="True">
+        <images>
+          <image key="D5D159D47A213D1F6A7A5494EF7FDD05.png"/>
+          <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+        </images>
+      </page>
+      <page name="判断拥有特殊状态" ID="A85609E0-D19B-E911-93B5-38C9861F66CD" expanded="True" code="y1rWOfAxwx" thumbCode="y1rWOfAxwx" status="psWhite" isfolder="False" isshownode="True">
+        <images>
+          <image key="D5D159D47A213D1F6A7A5494EF7FDD05.png"/>
+          <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+        </images>
+      </page>
+    </page>
+    <page name="过程-召唤" ID="1E5A3109-609D-E911-814C-38C9861F66CD" expanded="False" status="psGreen" isfolder="True" isshownode="True">
+      <page name="过程-召唤" ID="E205756A-5F9D-E911-814C-38C9861F66CD" expanded="True" code="NQRpigOUzb" thumbCode="NQRpigOUzb" status="psWhite" isfolder="False" isshownode="True">
+        <images>
+          <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+        </images>
+      </page>
+      <page name="召唤目标" ID="B08AFD1A-609D-E911-814C-38C9861F66CD" expanded="True" code="c1zgEHFh8z" thumbCode="c1zgEHFh8z" status="psWhite" isfolder="False" isshownode="True">
+        <images>
+          <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+          <image key="D5D159D47A213D1F6A7A5494EF7FDD05.png"/>
+        </images>
+      </page>
+    </page>
+    <page name="过程-与逻辑控制相关" ID="1290E1EC-609D-E911-814C-38C9861F66CD" expanded="False" status="psGreen" isfolder="True" isshownode="True">
+      <page name="过程-角色选择器" ID="14369366-8E9C-E911-99DC-38C9861F66CD" expanded="True" code="YvTnfy8cxO" thumbCode="YvTnfy8cxO" status="psWhite" isfolder="False" isshownode="True">
+        <images>
+          <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+          <image key="D5D159D47A213D1F6A7A5494EF7FDD05.png"/>
+        </images>
+      </page>
+      <page name="过程-概率" ID="AEE5F530-629D-E911-814C-38C9861F66CD" expanded="False" code="FoQAe7UMBf" thumbCode="FoQAe7UMBf" status="psWhite" isfolder="False" isshownode="True">
+        <images>
+          <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+        </images>
+      </page>
+      <page name="过程-条件" ID="8ADC7150-629D-E911-814C-38C9861F66CD" expanded="False" code="echtWKdYLd" thumbCode="echtWKdYLd" status="psWhite" isfolder="False" isshownode="True">
+        <images>
+          <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+        </images>
+      </page>
+    </page>
+  </pages>
+  <trash>
+    <page name="过程-概率" ID="8CDDBB8C-F080-E911-A1D3-38C9861F66CD" expanded="True" code="PxXhgbx2B3" thumbCode="n1eBrUOcaR" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="页面-debug" ID="06E126D3-F28B-E911-B252-38C9861F66CD" expanded="False" code="2RnYgr7fAi" thumbCode="b6jl7d6R5w" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="过程—目标选择器" ID="CE215951-EF80-E911-A1D3-38C9861F66CD" expanded="True" code="6mPIMpbSTQ" thumbCode="c3WxbHp3oW" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="过程—概率" ID="BECDA931-9A86-E911-82D2-38C9861F66CD" expanded="True" code="KKXR6RvMSP" thumbCode="xBwi1tRAHJ" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="过程-伤害" ID="9CD11CDD-EF80-E911-A1D3-38C9861F66CD" expanded="True" code="ZqgEKsLMMO" thumbCode="lrMe8S1uly" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="过程-秒杀" ID="D41A9CEC-108C-E911-847A-38C9861F66CD" expanded="True" code="hj1Bn3WN4z" thumbCode="iMjnh4XxNg" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="过程-治疗" ID="1A6B1924-118C-E911-847A-38C9861F66CD" expanded="False" code="zP2LXzbgwc" thumbCode="NBWkBZwXVR" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="过程-添加特殊状态" ID="9611034E-F080-E911-A1D3-38C9861F66CD" expanded="True" code="BsahEJ21Ef" thumbCode="ctv2tBIpA4" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="过程-删除特殊状态" ID="5C6CA746-9B86-E911-82D2-38C9861F66CD" expanded="False" code="wbYWIBktn7" thumbCode="EePTTp6wHN" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="过程—修改【自己的】特殊状态值" ID="7A58337F-9A86-E911-82D2-38C9861F66CD" expanded="True" code="KwlMuDxKVB" thumbCode="dgr1dLtke5" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="过程—修改【自己的】技能CD" ID="1697A798-138C-E911-847A-38C9861F66CD" expanded="True" code="bvJomy8R3k" thumbCode="Ti5HwOoFfR" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="过程—伤害因子" ID="8AB1656A-9B86-E911-82D2-38C9861F66CD" expanded="True" code="xy4e1fcpNA" thumbCode="qKpCmATPAn" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="分子-数值表达式" ID="285A857F-9886-E911-82D2-38C9861F66CD" expanded="True" code="nfIT4yxX2m" thumbCode="d7Lnj9Q2CG" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="分子-验证器" ID="24A9B15B-0288-E911-82D2-38C9861F66CD" expanded="False" code="FImSWX5EBL" thumbCode="QgZMRQVLLM" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="页面-被动技能设计区" ID="6AC8A065-9686-E911-82D2-38C9861F66CD" expanded="False" code="HOL4STSiIm" thumbCode="TZ1ARf56el" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="页面-特殊状态设计区" ID="30A93776-108C-E911-847A-38C9861F66CD" expanded="True" code="n548pGTxW3" thumbCode="3b9EGWGcIs" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="页面" ID="682CC8BE-CB9B-E911-93B5-38C9861F66CD" expanded="True" code="mIJoWywzAw" thumbCode="" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True"/>
+    <page name="页面-被动技能设计区" ID="AA12663D-5C99-E911-8D3A-38C9861F66CD" expanded="False" code="57wIFTBldK" thumbCode="7jFbOjPl1j" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+      </images>
+    </page>
+    <page name="过程-伤害公式修改1" ID="72ED7E4D-5F9D-E911-814C-38C9861F66CD" expanded="False" code="vdWHwnXgzh" thumbCode="DIcYs7qgJt" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+        <image key="D5D159D47A213D1F6A7A5494EF7FDD05.png"/>
+      </images>
+    </page>
+    <page name="过程-房间选择器" ID="5C324CDB-619D-E911-814C-38C9861F66CD" expanded="False" code="BLa3s9QWbI" thumbCode="NJgjpQldYl" isLastOpen="True" status="psWhite" isfolder="False" isshownode="True">
+      <images>
+        <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+        <image key="D5D159D47A213D1F6A7A5494EF7FDD05.png"/>
+      </images>
+    </page>
+  </trash>
+  <deletes/>
+  <masters/>
+  <images>
+    <image key="D5D159D47A213D1F6A7A5494EF7FDD05.png"/>
+    <image key="E1B6B6AB595CA28A9B766A70BB7A18FD.png"/>
+  </images>
+</project>

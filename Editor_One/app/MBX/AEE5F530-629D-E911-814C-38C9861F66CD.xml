@@ -1,0 +1,46 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="14369366-8E9C-E911-99DC-38C9861F66CD" platform="MtDesktop" defaultW="781" defaultH="604" measureW="372" measureH="162" mobileScreenScale="0">
+  <controls controlCount="5">
+    <control controlID="2A1A0651-B59B-E911-93B5-38C9861F66CD" controlTypeID="Shape" x="20" y="36" w="334" h="93" zOrder="0">
+      <color>4280625462</color>
+      <borderColor>4280821800</borderColor>
+      <font family="PingFang+HK" displayName="PingFang+HK+Light" postScript="PingFangHK-Light" weightStyle="Light" weight="200" isBold="False" isItalic="False"/>
+      <textColor>4280821800</textColor>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="8E1A0651-B59B-E911-93B5-38C9861F66CD" controlTypeID="Image" x="20" y="10" w="334" h="26" zOrder="1">
+      <URL>E1B6B6AB595CA28A9B766A70BB7A18FD.png</URL>
+    </control>
+    <control controlID="D41A0651-B59B-E911-93B5-38C9861F66CD" controlTypeID="Label" x="42" y="13" w="56" h="20" zOrder="2">
+      <font family="PingFang+HK" displayName="PingFang+HK+Light" postScript="PingFangHK-Light" weightStyle="Light" weight="200" isBold="False" isItalic="False"/>
+      <text>%E6%A6%82%E7%8E%87%E8%BF%87%E7%A8%8B</text>
+      <textColor>4294967295</textColor>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="16213B3E-629D-E911-814C-38C9861F66CD" controlTypeID="Label" x="42" y="73" w="36" h="18" zOrder="3">
+      <font family="PingFang+HK" displayName="PingFang+HK+Light" postScript="PingFangHK-Light" weightStyle="Light" weight="200" isBold="False" isItalic="False"/>
+      <text>%E6%A6%82%E7%8E%87%E5%80%BC</text>
+      <textColor>4294967295</textColor>
+      <textSize>12</textSize>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="7A213B3E-629D-E911-814C-38C9861F66CD" controlTypeID="TextInput" x="131" y="70" w="205" h="24" zOrder="4">
+      <color>4282400836</color>
+      <borderVisible>False</borderVisible>
+      <font family="PingFang+HK" displayName="PingFang+HK+Regular" postScript="PingFangHK-Regular" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <text>0.3</text>
+      <textColor>4292927712</textColor>
+      <textSize>12</textSize>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4279309603</backgroundColor>
+    <fontSize>12</fontSize>
+    <fontFamily>PingFang+HK</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>
