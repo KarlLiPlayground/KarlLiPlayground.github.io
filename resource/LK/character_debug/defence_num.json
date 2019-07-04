@@ -4,5 +4,5 @@
     "accuracy": 1000,
     "dodge":100,
     "action_interval":1000,
-    "fill_room":false
+    "fill_room":true
 }

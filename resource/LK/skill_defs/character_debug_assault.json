@@ -1,1 +1,75 @@
-{"editor_class":"CharacterEntity","res_id":"1560853101225_1","name":"魔物娘A","character_no":"C789","skills":[{"editor_class":"ActiveSkillEntity","type":0,"res_id":"1560854826443_9","skill_name":"四连","skill_accuracy":0,"unlock_rank":0,"skill_no":"0","run_mode":0,"exec_sequence":{"editor_class":"SkillExecuteSequence","processes":[{"editor_class":"SelectorProcessEntity","type":100,"selector_type":0,"selector":{"editor_class":"SelectorSimple","scope":0,"target":1,"regulation":0}},{"editor_class":"DmgProcessEntity","type":1,"target":{"editor_class":"TargetMoleculeEntity","selector_id":0},"validator_enabled":false,"probability_enabled":false,"probability":{"editor_class":"ProbabilityMoleculeEntity","probability_id":null},"numeric":{"editor_class":"NumericExpressionEntity","type":0,"expression":{"editor_class":"NE_Single","num":{"editor_class":"NE_Numeric","src_type":1,"src":{"editor_class":"NE_NumericSrc_cpp","property_name":"current_attack","initiative":0}}}},"base_coe":0.25,"element":7},{"editor_class":"DmgProcessEntity","type":1,"target":{"editor_class":"TargetMoleculeEntity","selector_id":0},"validator_enabled":false,"probability_enabled":false,"probability":{"editor_class":"ProbabilityMoleculeEntity","probability_id":null},"numeric":{"editor_class":"NumericExpressionEntity","type":0,"expression":{"editor_class":"NE_Single","num":{"editor_class":"NE_Numeric","src_type":1,"src":{"editor_class":"NE_NumericSrc_cpp","property_name":"current_attack","initiative":0}}}},"base_coe":0.25,"element":7}]},"cd":0,"action_id":0}]}
+{
+    "active_skills": [
+        {
+            "skill_id": 101,
+            "skill_no": "CX103",
+            "type": 0, 
+            "cd": 0,
+            "sequences": [
+                {
+                    "run_mode": 0,
+                    "processes": [
+                        {
+                            "type": 1000,
+                            "selector": {
+                                "scope":0,
+                                "target":1
+                            },
+                            "children":[
+                                {
+                                    "type":1,
+                                    "base_coe":2.0,
+                                    "element":2,
+                                    "can_kill_target":true,
+                                    "numeric":{
+                                        "type":0,
+                                        "expression":{
+                                            "num":{
+                                                "src_type":1,
+                                                "src":{
+                                                    "property_name":"attack",
+                                                    "initiative":0
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "passive_skills":[
+        {
+            "skill_id": 101,
+            "skill_no": "CX103",
+            "type": 1, 
+            "skill_level": 1,
+            "sequences": [
+                {
+                    "run_mode":2,
+                    "internal_event":205,
+                    "processes": [
+                        {
+                            "type":50, 
+                            "position":0,
+                            "coe":{
+                                "type":0,
+                                "expression":{
+                                    "num":{
+                                        "src_type":0,
+                                        "src":{
+                                            "value":0.28
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
