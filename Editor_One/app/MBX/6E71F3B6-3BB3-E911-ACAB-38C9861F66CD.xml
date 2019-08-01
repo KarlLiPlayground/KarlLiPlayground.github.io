@@ -1,0 +1,56 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="6E71F3B6-3BB3-E911-ACAB-38C9861F66CD" platform="MtDesktop" defaultW="781" defaultH="604" measureW="781" measureH="604" mobileScreenScale="0">
+  <controls controlCount="6">
+    <control controlID="5651F8EB-5D99-E911-8D3A-38C9861F66CD" controlTypeID="Shape" x="20" y="46" w="262" h="164" zOrder="0">
+      <color>4280625462</color>
+      <borderColor>4280821800</borderColor>
+      <font family="PingFang+HK" displayName="PingFang+HK+Light" postScript="PingFangHK-Light" weightStyle="Light" weight="200" isBold="False" isItalic="False"/>
+      <textColor>4280821800</textColor>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="3C52F8EB-5D99-E911-8D3A-38C9861F66CD" controlTypeID="Image" x="20" y="20" w="262" h="26" zOrder="1">
+      <URL>E1B6B6AB595CA28A9B766A70BB7A18FD.png</URL>
+    </control>
+    <control controlID="DC52F8EB-5D99-E911-8D3A-38C9861F66CD" controlTypeID="Label" x="40" y="23" w="28" h="20" zOrder="2">
+      <font family="PingFang+HK" displayName="PingFang+HK+Light" postScript="PingFangHK-Light" weightStyle="Light" weight="200" isBold="False" isItalic="False"/>
+      <text>%E6%B6%88%E6%81%AF</text>
+      <textColor>4294967295</textColor>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="B254F8EB-5D99-E911-8D3A-38C9861F66CD" controlTypeID="Button" x="79" y="153" w="56" h="28" zOrder="3">
+      <color>4279309603</color>
+      <borderVisible>False</borderVisible>
+      <font family="PingFang+HK" displayName="PingFang+HK+Regular" postScript="PingFangHK-Regular" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <text>%E5%8F%96%E6%B6%88</text>
+      <textColor>4294967295</textColor>
+      <textSize>12</textSize>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="0255F8EB-5D99-E911-8D3A-38C9861F66CD" controlTypeID="Button" x="154" y="153" w="56" h="28" zOrder="4">
+      <color>4279309603</color>
+      <borderVisible>False</borderVisible>
+      <font family="PingFang+HK" displayName="PingFang+HK+Regular" postScript="PingFangHK-Regular" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <text>%E7%A1%AE%E8%AE%A4</text>
+      <textColor>4294967295</textColor>
+      <textSize>12</textSize>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="4E89E4F2-5D99-E911-8D3A-38C9861F66CD" controlTypeID="Label" x="97" y="92" w="84" h="20" zOrder="5">
+      <font family="PingFang+HK" displayName="PingFang+HK+Light" postScript="PingFangHK-Light" weightStyle="Light" weight="200" isBold="False" isItalic="False"/>
+      <text>%E7%A1%AE%E8%AE%A4%E8%A6%81%E5%88%A0%E9%99%A4%E5%90%97</text>
+      <textColor>4291611852</textColor>
+      <lineSpacing>0</lineSpacing>
+      <useDefaultTextSize>False</useDefaultTextSize>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4279309603</backgroundColor>
+    <fontSize>12</fontSize>
+    <fontFamily>PingFang+HK</fontFamily>
+    <guideLines/>
+  </param>
+</mockup>

@@ -1,4 +1,4 @@
-﻿<mockup version="5.3" minAllowVersion="5.3" ID="30D0B3D1-A79B-E911-93B5-38C9861F66CD" platform="MtDesktop" defaultW="781" defaultH="604" measureW="341" measureH="232" mobileScreenScale="0">
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="706E2AF9-CB9B-E911-93B5-38C9861F66CD" platform="MtDesktop" defaultW="781" defaultH="604" measureW="341" measureH="232" mobileScreenScale="0">
   <controls controlCount="16">
     <control controlID="2A99F9D8-C99B-E911-93B5-38C9861F66CD" controlTypeID="Shape" x="14" y="36" w="316" h="179" zOrder="0">
       <color>4280625462</color>
@@ -96,7 +96,7 @@
     <control controlID="B8EBF660-CD9B-E911-93B5-38C9861F66CD" controlTypeID="Image" x="20" y="89" w="295" h="9" zOrder="8">
       <URL>D5D159D47A213D1F6A7A5494EF7FDD05.png</URL>
     </control>
-    <control controlID="EC07CCE0-CD9B-E911-93B5-38C9861F66CD" controlTypeID="CompositeComboBox" x="118" y="154" w="197" h="24" zOrder="9">
+    <control controlID="EC07CCE0-CD9B-E911-93B5-38C9861F66CD" controlTypeID="CompositeComboBox" x="118" y="156" w="197" h="24" zOrder="9">
       <color>4282400836</color>
       <groupChildrenDescriptors>
         <control controlID="5008CCE0-CD9B-E911-93B5-38C9861F66CD" controlTypeID="TextInput" x="0" y="0" w="174" h="24" zOrder="0">

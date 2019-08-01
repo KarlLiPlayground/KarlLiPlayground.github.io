@@ -1,5 +1,5 @@
 ﻿<mockup version="5.3" minAllowVersion="5.3" ID="AA36888B-EA80-E911-A1D3-38C9861F66CD" platform="MtDesktop" defaultW="781" defaultH="604" measureW="781" measureH="667" mobileScreenScale="0">
-  <controls controlCount="19">
+  <controls controlCount="20">
     <control controlID="04003AFC-EA80-E911-A1D3-38C9861F66CD" controlTypeID="HRule" x="1" y="378" w="781" h="12" zOrder="0">
       <color>4278190080</color>
     </control>
@@ -120,6 +120,16 @@
       <font family="PingFang+HK" displayName="PingFang+HK+Light" postScript="PingFangHK-Light" weightStyle="Light" weight="200" isBold="False" isItalic="False"/>
       <text>%E6%93%8D%E4%BD%9C2%E5%87%BA%E7%8E%B0%E9%94%99%E8%AF%AF...++%E5%8E%9F%E5%9B%A0%E6%98%AF...</text>
       <textColor>4291611852</textColor>
+      <textSize>12</textSize>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="16949F88-6D9D-E911-814C-38C9861F66CD" controlTypeID="Button" x="483" y="468" w="29" h="28" zOrder="19">
+      <color>4279309603</color>
+      <borderVisible>False</borderVisible>
+      <font family="PingFang+HK" displayName="PingFang+HK+Regular" postScript="PingFangHK-Regular" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <text>C</text>
+      <textColor>4294967295</textColor>
       <textSize>12</textSize>
       <lineSpacing>0</lineSpacing>
       <selectedIndex>-1</selectedIndex>
