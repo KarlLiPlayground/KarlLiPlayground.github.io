@@ -26,7 +26,7 @@
       <lineSpacing>0</lineSpacing>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="A0BE8382-32B4-E911-AA4F-38C9861F66CD" controlTypeID="CompositeComboBox" x="131" y="119" w="197" h="24" zOrder="4">
+    <control controlID="A0BE8382-32B4-E911-AA4F-38C9861F66CD" controlTypeID="CompositeComboBox" x="131" y="121" w="197" h="24" zOrder="4">
       <color>4282400836</color>
       <groupChildrenDescriptors>
         <control controlID="EABF8382-32B4-E911-AA4F-38C9861F66CD" controlTypeID="TextInput" x="0" y="0" w="174" h="24" zOrder="0">

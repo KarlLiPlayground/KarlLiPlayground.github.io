@@ -1,5 +1,5 @@
 ﻿<mockup version="5.3" minAllowVersion="5.3" ID="8E23EFB6-3BB3-E911-ACAB-38C9861F66CD" platform="MtDesktop" defaultW="781" defaultH="604" measureW="1071" measureH="809" mobileScreenScale="0">
-  <controls controlCount="14">
+  <controls controlCount="12">
     <control controlID="123467E8-EE80-E911-A1D3-38C9861F66CD" controlTypeID="VRule" x="427" y="10" w="12" h="796" zOrder="0">
       <color>4278190080</color>
     </control>
@@ -72,27 +72,10 @@
       <lineSpacing>0</lineSpacing>
       <selectedIndex>-1</selectedIndex>
     </control>
-    <control controlID="DE83257D-5399-E911-8D3A-38C9861F66CD" controlTypeID="TextInput" x="224" y="148" w="138" h="24" zOrder="10">
-      <color>4282400836</color>
-      <borderColor>4294426045</borderColor>
-      <borderVisible>False</borderVisible>
-      <font family="PingFang+HK" displayName="PingFang+HK+Regular" postScript="PingFangHK-Regular" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
-      <textSize>12</textSize>
-      <lineSpacing>0</lineSpacing>
-      <selectedIndex>-1</selectedIndex>
-    </control>
-    <control controlID="2484257D-5399-E911-8D3A-38C9861F66CD" controlTypeID="Label" x="224" y="120" w="48" h="18" zOrder="11">
-      <font family="PingFang+HK" displayName="PingFang+HK+Light" postScript="PingFangHK-Light" weightStyle="Light" weight="200" isBold="False" isItalic="False"/>
-      <text>%E6%8A%80%E8%83%BD%E7%AD%89%E7%BA%A7</text>
-      <textColor>4294967295</textColor>
-      <textSize>12</textSize>
-      <lineSpacing>0</lineSpacing>
-      <selectedIndex>-1</selectedIndex>
-    </control>
-    <control controlID="A8EA2F63-5599-E911-8D3A-38C9861F66CD" controlTypeID="VRule" x="699" y="0" w="12" h="802" zOrder="12">
+    <control controlID="A8EA2F63-5599-E911-8D3A-38C9861F66CD" controlTypeID="VRule" x="699" y="0" w="12" h="802" zOrder="10">
       <color>4278190080</color>
     </control>
-    <control controlID="1C6B4708-D49B-E911-93B5-38C9861F66CD" controlTypeID="HRule" x="706" y="308" w="365" h="12" zOrder="13">
+    <control controlID="1C6B4708-D49B-E911-93B5-38C9861F66CD" controlTypeID="HRule" x="706" y="308" w="365" h="12" zOrder="11">
       <color>4278190080</color>
     </control>
   </controls>

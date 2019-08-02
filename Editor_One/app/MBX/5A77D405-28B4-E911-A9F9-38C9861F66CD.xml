@@ -20,7 +20,7 @@
     </control>
     <control controlID="EE2E8E39-12B4-E911-A9F9-38C9861F66CD" controlTypeID="Label" x="38" y="112" w="29" h="18" zOrder="3">
       <font family="PingFang+HK" displayName="PingFang+HK+Light" postScript="PingFangHK-Light" weightStyle="Light" weight="200" isBold="False" isItalic="False"/>
-      <text>%E6%95%B0%E5%80%BC1</text>
+      <text>%E8%8A%82%E7%82%B91</text>
       <textColor>4294967295</textColor>
       <textSize>12</textSize>
       <lineSpacing>0</lineSpacing>
@@ -61,7 +61,7 @@
     </control>
     <control controlID="F219DAA6-28B4-E911-A9F9-38C9861F66CD" controlTypeID="Label" x="38" y="152" w="31" h="18" zOrder="8">
       <font family="PingFang+HK" displayName="PingFang+HK+Light" postScript="PingFangHK-Light" weightStyle="Light" weight="200" isBold="False" isItalic="False"/>
-      <text>%E6%95%B0%E5%80%BC2</text>
+      <text>%E8%8A%82%E7%82%B92</text>
       <textColor>4294967295</textColor>
       <textSize>12</textSize>
       <lineSpacing>0</lineSpacing>
