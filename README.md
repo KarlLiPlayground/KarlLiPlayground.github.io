@@ -1,2 +1,0 @@
-# mwndemo
-mowuniang demo

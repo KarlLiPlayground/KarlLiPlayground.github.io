@@ -1,8 +1,0 @@
-{
-    "life": 2000,
-    "attack": 100,
-    "accuracy": 1000,
-    "dodge":100,
-    "action_interval":1000,
-    "fill_room":true
-}
