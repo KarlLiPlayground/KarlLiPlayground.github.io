@@ -1,10 +1,10 @@
 <html>
 
 <head>
+    <title>Kar</title>
     <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
-    <link type="text/css" rel="stylesheet" href="https://devmobilesource.zroadgame.com/css/index.css" />
-    <script type="text/javascript" src="https://devmobilesource.zroadgame.com/js/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="https://devmobilesource.zroadgame.com/js/jfsdk.min.js"></script>
+    <script data-ad-client="ca-pub-3014124640724186" async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
     <style type="text/css">
         #btn_login {
@@ -31,95 +31,18 @@
     <script type="text/javascript">
 
         function foo() {
-            jfsdk.login({
-                onLoginSuccess: function (res) {
-                    console.log("onLoginSuccess")
-                    console.log(res);
-                },
-                onLogout: function () {
-                    console.log("onLogout")
-                }
-            });
         }
 
-        // function foo2() {
-        //     let opts = {};
-
-        //     let data = {
-        //         serverId: 1,
-        //         cpOrderId: "3",
-        //         gameGoodsId: "100",
-        //         goodsName: "test item name",
-        //         goodsDesc: "test item desc",
-        //         goodsNum: 10,
-        //         goodsPrice: 10.01,
-        //         goodsAmount: 100.1,
-        //         extParams: ""
-        //     };
-
-        //     opts.data = data;
-        //     opts.onFinish = function () {
-        //         console.log("PAY: onFinish");
-        //     }
-        //     opts.onFail = function () {
-        //         console.log("PAY: onFail");
-        //     }
-        //     opts.onCancel = function () {
-        //         console.log("PAY: onCancel");
-        //     }
-
-        //     jfsdk.pay(opts);
-        // }
-
-
-        //--- SHARE 
         function foo2() {
-            console.log("foo2")
-
-            // jfsdk.shareFacebook({
-            //     quote: 'play with me',//随分享的链接一同显示的引文
-            //     shareId: '123',//用于跟踪邀请，
-            //     //通过jfsdk.login的onSuccess回传给CP方。
-            //     thumbnail: '',//facebook帖子的缩略图。
-            //     onFail: function (errorMessage) {
-            //         //接口调用失败的原因，比如登入的
-            //         //facebook账号跟已经绑定的facebook账号不匹配等。 
-            //         console.log("[jfsdk.shareFacebook] onFail");
-            //         console.log(errorMessage);
-            //     }
-            // });
-
-
-
-            
 
         }
 
-
-
-        window.onload = function () {
-            console.log("WINDOW LOADED")
-            jfsdk.init({
-                appId: "32000003", //平台方提供的游戏 ID
-                env: "test",
-                onSuccess: function () {
-                    // 初始化成功回调
-                    console.log("GAME SDK成功")
-                }
-            });
-
-        } 
     </script>
-
 </head>
+
 
 <body>
     <div id="btn_login" onclick="foo()"></div>
     <div id="btn_buy" onclick="foo2()"></div>
-
-    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.baidu.com"
-        target="_blank">share-facebook</a>
-
 </body>
-
 </html>
