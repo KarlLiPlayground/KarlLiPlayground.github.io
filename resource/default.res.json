@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json",
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,bullet_demo_png,global_param_json,bullet_png,car_red_02_png,car_red_01_png,car_blue_02_png,car_blue_01_png,gun_png,car_11_png,car_5_png",
 			"name": "preload"
 		}
 	],
@@ -132,9 +132,64 @@
 			"name": "egret_icon_png"
 		},
 		{
-			"name": "description_json",
+			"url": "config/description.json",
 			"type": "json",
-			"url": "config/description.json"
+			"name": "description_json"
+		},
+		{
+			"url": "game_core/bullets/bullet_demo.png",
+			"type": "image",
+			"name": "bullet_demo_png"
+		},
+		{
+			"url": "global_config_说明.txt",
+			"type": "text",
+			"name": "global_config_说明_txt"
+		},
+		{
+			"name": "global_param_json",
+			"type": "json",
+			"url": "global_param.json"
+		},
+		{
+			"name": "bullet_png",
+			"type": "image",
+			"url": "game_core/bullets/bullet.png"
+		},
+		{
+			"name": "car_red_02_png",
+			"type": "image",
+			"url": "game_core/cars/car_red_02.png"
+		},
+		{
+			"name": "car_red_01_png",
+			"type": "image",
+			"url": "game_core/cars/car_red_01.png"
+		},
+		{
+			"name": "car_blue_02_png",
+			"type": "image",
+			"url": "game_core/cars/car_blue_02.png"
+		},
+		{
+			"name": "car_blue_01_png",
+			"type": "image",
+			"url": "game_core/cars/car_blue_01.png"
+		},
+		{
+			"name": "gun_png",
+			"type": "image",
+			"url": "game_core/cars/gun.png"
+		},
+		{
+			"name": "car_11_png",
+			"type": "image",
+			"url": "game_core/cars/car_11.png"
+		},
+		{
+			"name": "car_5_png",
+			"type": "image",
+			"url": "game_core/cars/car_5.png"
 		}
 	]
 }

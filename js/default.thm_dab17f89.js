@@ -632,4 +632,68 @@ window.skins=window.skins||{};
 		return t;
 	};
 	return VSliderSkin;
+})(eui.Skin);generateEUI.paths['resource/module_skins/config/config.exml'] = window.config = (function (_super) {
+	__extends(config, _super);
+	function config() {
+		_super.call(this);
+		this.skinParts = [];
+		
+		this.height = 600;
+		this.width = 500;
+		this.elementsContent = [this._Rect1_i(),this._Rect2_i(),this._Group3_i()];
+	}
+	var _proto = config.prototype;
+
+	_proto._Rect1_i = function () {
+		var t = new eui.Rect();
+		t.fillColor = 0x216aae;
+		t.percentHeight = 100;
+		t.percentWidth = 100;
+		return t;
+	};
+	_proto._Rect2_i = function () {
+		var t = new eui.Rect();
+		t.fillColor = 0xFFFFFF;
+		t.height = 60;
+		t.percentWidth = 100;
+		return t;
+	};
+	_proto._Group3_i = function () {
+		var t = new eui.Group();
+		t.bottom = 0;
+		t.percentWidth = 100;
+		t.top = 60;
+		t.elementsContent = [this._Group1_i(),this._Group2_i()];
+		return t;
+	};
+	_proto._Group1_i = function () {
+		var t = new eui.Group();
+		t.bottom = 0;
+		t.left = 0;
+		t.percentWidth = 50;
+		t.top = 0;
+		t.elementsContent = [this._Label1_i()];
+		return t;
+	};
+	_proto._Label1_i = function () {
+		var t = new eui.Label();
+		t.height = 40;
+		t.percentWidth = 100;
+		t.right = 20;
+		t.text = "difficulty";
+		t.textAlign = "right";
+		t.textColor = 0xFFFFFF;
+		t.top = 10;
+		t.verticalAlign = "middle";
+		return t;
+	};
+	_proto._Group2_i = function () {
+		var t = new eui.Group();
+		t.bottom = 0;
+		t.percentWidth = 50;
+		t.right = 0;
+		t.top = 0;
+		return t;
+	};
+	return config;
 })(eui.Skin);

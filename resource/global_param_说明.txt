@@ -1,0 +1,36 @@
+world_move_speed
+玩家的车行进的速度
+越大越快
+默认 5
+
+bullet_speed
+子弹的飞行速度
+越大越快
+默认 15
+
+player_bullet_dmg
+子弹的伤害
+越大子弹伤害越高
+默认 14
+
+enemy_health_rand_min
+敌人车辆生命值随机的下限
+默认 50
+
+enemy_health_rand_max
+敌人车辆生命值随机的上限
+默认 50
+
+player_health
+玩家车辆的生命值
+默认 3
+
+bullet_emit
+子弹发射的间隔
+越小发射的子弹越多
+默认 14
+
+enemy_born
+敌人出生的间隔
+越小敌人出生的越快
+默认 80
