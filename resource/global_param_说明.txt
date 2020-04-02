@@ -11,11 +11,11 @@ bullet_speed
 player_bullet_dmg
 子弹的伤害
 越大子弹伤害越高
-默认 14
+默认 1
 
 enemy_health_rand_min
 敌人车辆生命值随机的下限
-默认 50
+默认 1
 
 enemy_health_rand_max
 敌人车辆生命值随机的上限
