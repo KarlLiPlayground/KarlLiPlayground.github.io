@@ -6,12 +6,12 @@ world_move_speed
 bullet_speed
 子弹的飞行速度
 越大越快
-默认 15
+默认 60
 
 player_bullet_dmg
 子弹的伤害
 越大子弹伤害越高
-默认 1
+默认 6
 
 enemy_health_rand_min
 敌人车辆生命值随机的下限
@@ -23,14 +23,25 @@ enemy_health_rand_max
 
 player_health
 玩家车辆的生命值
-默认 3
+默认 4
 
 bullet_emit
 子弹发射的间隔
 越小发射的子弹越多
-默认 14
+默认 8
 
 enemy_born
 敌人出生的间隔
 越小敌人出生的越快
 默认 80
+
+enemy_born_random_region
+敌人出生时的y轴随机范围
+越大，每一行的敌人越离散
+如果为0，则每一行的敌人都严格对齐
+默认 60
+
+enemy_move_speed_random_region
+敌人车辆移动速度的随机范围，如果为0，则与world_move_speed 相同
+默认 0
+
