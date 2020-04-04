@@ -45,3 +45,7 @@ enemy_move_speed_random_region
 敌人车辆移动速度的随机范围，如果为0，则与world_move_speed 相同
 默认 0
 
+stage_length
+关卡长度
+越大整个关卡的长度约长
+默认为 18000 （一分钟）

@@ -2,7 +2,7 @@
     "speed": {
         "world_move_speed": 5,
         "enemy_move_speed_random_region":0,
-        "bullet_speed":60
+        "bullet_speed":20
     },
     "dmg": {
         "player_bullet_dmg": 6
@@ -13,8 +13,11 @@
         "player_health":4
     },
     "interval":{
-        "bullet_emit":8,
+        "bullet_emit":3,
         "enemy_born":80,
         "enemy_born_random_region":100
+    },
+    "length":{
+        "stage_length":18000
     }
 }
