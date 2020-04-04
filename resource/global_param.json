@@ -1,7 +1,7 @@
 {
     "speed": {
         "world_move_speed": 5,
-        "enemy_move_speed_random_region":0.53,
+        "enemy_move_speed_random_region":0.5,
         "bullet_speed":20
     },
     "dmg": {
