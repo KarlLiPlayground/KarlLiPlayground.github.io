@@ -1,51 +1,59 @@
 world_move_speed
 玩家的车行进的速度
 越大越快
-默认 5
+基准值 5
 
 bullet_speed
 子弹的飞行速度
 越大越快
-默认 60
+基准值 60
 
 player_bullet_dmg
 子弹的伤害
 越大子弹伤害越高
-默认 6
+基准值 6
 
 enemy_health_rand_min
 敌人车辆生命值随机的下限
-默认 1
+基准值 1
 
 enemy_health_rand_max
 敌人车辆生命值随机的上限
-默认 50
+基准值 50
 
 player_health
 玩家车辆的生命值
-默认 4
+基准值 4
 
 bullet_emit
 子弹发射的间隔
 越小发射的子弹越多
-默认 8
+基准值 8
 
 enemy_born
 敌人出生的间隔
 越小敌人出生的越快
-默认 80
+基准值 80
 
 enemy_born_random_region
 敌人出生时的y轴随机范围
 越大，每一行的敌人越离散
 如果为0，则每一行的敌人都严格对齐
-默认 60
+基准值 60
 
 enemy_move_speed_random_region
 敌人车辆移动速度的随机范围，如果为0，则与world_move_speed 相同
-默认 0
+基准值 0
 
 stage_length
 关卡长度
 越大整个关卡的长度约长
-默认为 18000 （一分钟）
+基准值 18000 （一分钟）
+
+sensitivity.camera_motion
+视角晃动的灵敏度，如果为0则不摇晃
+基准值 20
+
+sensitivity.player_head_rotation
+手指移动时玩家车的晃动幅度，如果为0则不摇晃
+基准值 10
