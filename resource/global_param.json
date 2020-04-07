@@ -5,11 +5,11 @@
         "bullet_speed":20
     },
     "dmg": {
-        "player_bullet_dmg": 6
+        "player_bullet_dmg": 3
     },
     "health": {
         "enemy_health_rand_min": 1,
-        "enemy_health_rand_max": 90,
+        "enemy_health_rand_max": 60,
         "player_health":4
     },
     "interval":{
@@ -18,10 +18,10 @@
         "enemy_born_random_region":100
     },
     "length":{
-        "stage_length":27000
+        "stage_length":18000
     },  
     "sensitivity":{
-        "camera_motion":20,
-        "player_head_rotation":10
+        "camera_motion":4,
+        "player_head_rotation":2
     }
 }
