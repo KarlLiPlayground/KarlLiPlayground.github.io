@@ -1,6 +1,6 @@
 {
     "speed": {
-        "world_move_speed": 5,
+        "world_move_speed": 5.5,
         "enemy_move_speed_random_region":0.5,
         "bullet_speed":20
     },
@@ -9,16 +9,16 @@
     },
     "health": {
         "enemy_health_rand_min": 1,
-        "enemy_health_rand_max": 60,
+        "enemy_health_rand_max": 50,
         "player_health":4
     },
     "interval":{
         "bullet_emit":3,
-        "enemy_born":80,
+        "enemy_born":100,
         "enemy_born_random_region":100
     },
     "length":{
-        "stage_length":18000
+        "stage_length":36000
     },  
     "sensitivity":{
         "camera_motion":4,
