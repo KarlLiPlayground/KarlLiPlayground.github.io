@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,global_param_json,bullet_png,car_red_02_png,car_blue_02_png,gun_png,car_11_png,car_5_png,car_explosion_tex_png,car_explosion_mc_json",
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,global_param_json,bullet_png,car_red_02_png,car_blue_02_png,gun_png,car_11_png,car_5_png,car_explosion_tex_png,car_explosion_mc_json,exclamatory_png",
 			"name": "preload"
 		}
 	],
@@ -185,6 +185,11 @@
 			"url": "game_core/anims/car_explosion/car_explosion_mc.json",
 			"type": "json",
 			"name": "car_explosion_mc_json"
+		},
+		{
+			"name": "exclamatory_png",
+			"type": "image",
+			"url": "game_core/widgets/exclamatory.png"
 		}
 	]
 }

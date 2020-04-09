@@ -57,3 +57,9 @@ sensitivity.camera_motion
 sensitivity.player_head_rotation
 手指移动时玩家车的晃动幅度，如果为0则不摇晃
 基准值 10
+
+speed.barrier_move_speed_offset
+路障的移动速度偏移量
+如果为0，则路障相对于地面静止。
+越大运动越快，可以为负数。
+基准值 0
