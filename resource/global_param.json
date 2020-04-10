@@ -1,27 +1,27 @@
 {
     "speed": {
-        "world_move_speed": 5.5,
-        "bullet_speed": 20,
-        "enemy_move_speed_offset": 0,
-        "enemy_move_speed_random_region": 0.5,
+        "world_move_speed": 15,
+        "bullet_speed": 18,
+        "enemy_move_speed_offset": -9,
+        "enemy_move_speed_random_region": 0.4,
         "barrier_move_speed_offset": 0
     },
     "dmg": {
         "player_bullet_dmg": 3
     },
     "health": {
-        "enemy_health_rand_min": 1,
-        "enemy_health_rand_max": 50,
+        "enemy_health_rand_min": 5,
+        "enemy_health_rand_max": 25,
         "player_health": 4
     },
     "interval": {
-        "bullet_emit": 3,
-        "enemy_born": 100,
-        "enemy_born_random_region": 100,
-        "barrier_born_random_region": 0
+        "bullet_emit": 5,
+        "enemy_born": 70,
+        "enemy_born_random_region": 120,
+        "barrier_born_random_region": 100
     },
     "length": {
-        "stage_length": 36000,
+        "stage_length": 48000,
         "barrier_row_distance": 290
     },
     "sensitivity": {
