@@ -60,6 +60,25 @@ sensitivity.player_head_rotation
 
 speed.barrier_move_speed_offset
 路障的移动速度偏移量
-如果为0，则路障相对于地面静止。
+如果为0，则路障相对于地面静止，但是依然在向前运动。
 越大运动越快，可以为负数。
 基准值 0
+
+length.barrier_row_distance
+多行路障的行间距
+越大行与行之间就越远
+基准值 120
+
+
+interval.barrier_born_random_region
+路障出现时的y轴随机范围
+越大，每一行的路障越离散
+如果为0，则每一行的路障都严格对齐
+基准值 100
+
+speed.enemy_move_speed_offset
+敌人的移动速度偏移量
+如果为0，则敌人相对于地面静止，但是依然在向前运动。
+越大运动越快，可以为负数。
+基准值 0
+
