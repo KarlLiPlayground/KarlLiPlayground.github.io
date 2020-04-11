@@ -82,3 +82,17 @@ speed.enemy_move_speed_offset
 越大运动越快，可以为负数。
 基准值 0
 
+coefficient.player_collide_coin_coe
+玩家车辆与金币的碰撞体积的增量系数
+如果为1.0 则金币只有恰好碰到玩家车辆才能被玩家吃掉。
+越大玩家越容易吃到金币
+基准值 1.5
+
+coin_anim.fall_accelerator
+金币动画 下落的加速度
+基准值 2000
+
+coin_anim.initial_speed
+金币动画 初始速度
+基准值 600
+
