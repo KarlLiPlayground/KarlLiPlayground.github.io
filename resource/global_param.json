@@ -12,6 +12,8 @@
     "health": {
         "enemy_health_rand_min": 5,
         "enemy_health_rand_max": 25,
+        "barrier_health_rand_min": 100,
+        "barrier_health_rand_max": 200,
         "player_health": 4
     },
     "interval": {

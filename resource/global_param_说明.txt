@@ -96,3 +96,11 @@ coin_anim.initial_speed
 金币动画 初始速度
 基准值 600
 
+
+health.barrier_health_rand_min
+路障生命值随机的下限
+基准值 100
+
+health.barrier_health_rand_max
+路障生命值随机的上限
+基准值 200
