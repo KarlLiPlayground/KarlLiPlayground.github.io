@@ -1,0 +1,34 @@
+{
+    "speed": {
+        "========= world =========":"", 
+        "world_move_speed": 10,
+        "world_move_speed_progress_coe":5,
+        "========= bullet =========":"", 
+        "bullet_speed": 18,
+        "========= enemy_1 =========":"", 
+        "enemy_1_speed_offset_base":-4,
+        "enemy_1_speed_offset_progress_coe":2, 
+        "enemy_1_speed_offset_dispersion":0.4
+    },
+    "dmg": {
+        "player_bullet_dmg": 3
+    },
+    "health": {
+        "========= enemy_1 =========":"", 
+        "enemy_1_base":10,
+        "enemy_1_dispersion":5,
+        "enemy_1_progress_coe":10,
+        "========= barrier =========":"",
+        "barrier_health": 999
+    },
+    "interval": {
+        "bullet_emit": 5,
+        "========= enemy_common =========":"", 
+        "enemy_born_base": 80,
+        "enemy_born_progress_coe": -20, 
+        "enemy_born_y_offset": 120
+    },
+    "length": {
+        "stage_length": 48000 
+    }
+}

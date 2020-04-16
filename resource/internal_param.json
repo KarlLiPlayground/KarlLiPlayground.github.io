@@ -1,0 +1,25 @@
+{
+    "speed": { 
+        "barrier_move_speed_offset": 0
+    }, 
+    "health": { 
+        "player_health": 4
+    },
+    "interval": { 
+        "barrier_born_random_region": 100
+    },
+    "length": { 
+        "barrier_row_distance": 290
+    },
+    "sensitivity": {
+        "camera_motion": 4,
+        "player_head_rotation": 2
+    },
+    "coefficient": {
+        "player_collide_coin_coe": 1.5
+    },
+    "coin_anim":{
+        "fall_accelerator": 2000,
+        "initial_speed": 600
+    } 
+}

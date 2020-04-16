@@ -253,18 +253,16 @@ window.skins=window.skins||{};
 		
 		this.minHeight = 230;
 		this.minWidth = 450;
-		this.elementsContent = [this._Image1_i(),this.moveArea_i(),this.closeButton_i()];
+		this.elementsContent = [this._Rect1_i(),this.moveArea_i(),this.closeButton_i()];
 	}
 	var _proto = PanelSkin.prototype;
 
-	_proto._Image1_i = function () {
-		var t = new eui.Image();
-		t.bottom = 0;
-		t.left = 0;
-		t.right = 0;
-		t.scale9Grid = new egret.Rectangle(2,2,12,12);
-		t.source = "border_png";
-		t.top = 0;
+	_proto._Rect1_i = function () {
+		var t = new eui.Rect();
+		t.alpha = 0.8;
+		t.fillColor = 0x14173f;
+		t.percentHeight = 100;
+		t.percentWidth = 100;
 		return t;
 	};
 	_proto.moveArea_i = function () {
@@ -274,16 +272,7 @@ window.skins=window.skins||{};
 		t.left = 0;
 		t.right = 0;
 		t.top = 0;
-		t.elementsContent = [this._Image2_i(),this.titleDisplay_i()];
-		return t;
-	};
-	_proto._Image2_i = function () {
-		var t = new eui.Image();
-		t.bottom = 0;
-		t.left = 0;
-		t.right = 0;
-		t.source = "header_png";
-		t.top = 0;
+		t.elementsContent = [this.titleDisplay_i()];
 		return t;
 	};
 	_proto.titleDisplay_i = function () {
@@ -293,6 +282,7 @@ window.skins=window.skins||{};
 		t.left = 15;
 		t.right = 5;
 		t.size = 20;
+		t.textAlign = "center";
 		t.textColor = 0xFFFFFF;
 		t.verticalCenter = 0;
 		t.wordWrap = false;
