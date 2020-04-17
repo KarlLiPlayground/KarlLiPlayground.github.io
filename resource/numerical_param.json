@@ -11,24 +11,56 @@
         "enemy_1_speed_offset_dispersion":0.4
     },
     "dmg": {
-        "player_bullet_dmg": 3
+        "player_bullet_dmg": 5
     },
     "health": {
         "========= enemy_1 =========":"", 
         "enemy_1_base":10,
         "enemy_1_dispersion":5,
         "enemy_1_progress_coe":10,
+        "========= enemy_2 =========":"", 
+        "enemy_2_base":30,
+        "enemy_2_dispersion":10,
+        "enemy_2_progress_coe":15,
         "========= barrier =========":"",
         "barrier_health": 999
     },
-    "interval": {
+    "born": {
         "bullet_emit": 5,
         "========= enemy_common =========":"", 
         "enemy_born_base": 80,
         "enemy_born_progress_coe": -20, 
-        "enemy_born_y_offset": 120
+        "enemy_born_y_dispersion": 120 
+    },
+    
+    "barrier":{
+        "barrier_born_rand_min":2,
+        "barrier_born_rand_min_process_coe":2,
+        "barrier_born_rand_max":4,
+        "barrier_row_min":2,
+        "barrier_row_max":3, 
+        "barrier_born_y_dispersion":100,
+        "barrier_row_distance": 1000,
+        "barrier_row_distance_process_coe":-50,
+        "barrier_tip_distance":250,
+        "barrier_tip_distance_process_coe":-50
     },
     "length": {
-        "stage_length": 48000 
-    }
+        "stage_length": 48000
+    },
+    "probability":{
+        "enemy_1_born":90,
+        "enemy_1_born_progress_coe":-10
+    },
+    "event":{
+        "start":5000,
+        "start_dispersion":1000,
+        "interval":5000,
+        "interval_progress_coe":-1000,
+        "interval_dispersion":200,
+        "========= probability =========":"", 
+        "probability_bullet_enemy":0.3,
+        "probability_enemy2":0.4,
+        "probability_barrier":0.3 
+    } 
 }

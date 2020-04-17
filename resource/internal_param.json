@@ -6,10 +6,10 @@
         "player_health": 4
     },
     "interval": { 
-        "barrier_born_random_region": 100
+       
     },
     "length": { 
-        "barrier_row_distance": 290
+        
     },
     "sensitivity": {
         "camera_motion": 4,
