@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "button_down_png,button_up_png,description_json,bullet_png,car_red_02_png,car_blue_02_png,gun_png,car_11_png,car_5_png,car_explosion_tex_png,car_explosion_mc_json,exclamatory_png,coin_png,numerical_param_json,internal_param_json,level_debug_config_json",
+			"keys": "button_down_png,button_up_png,description_json,bullet_png,car_red_02_png,car_blue_02_png,gun_png,car_11_png,car_5_png,car_explosion_tex_png,car_explosion_mc_json,exclamatory_png,coin_png,numerical_param_json,internal_param_json,level_debug_config_json,internal_param2_json,internal_param说明_txt,level_debug_config2_json,level_debug_config说明_txt,numerical_param2_json,bullet_demo_png,car_w_emitter_png",
 			"name": "preload"
 		}
 	],
@@ -85,6 +85,41 @@
 			"url": "internal_param.json",
 			"type": "json",
 			"name": "internal_param_json"
+		},
+		{
+			"url": "internal_param.json",
+			"type": "json",
+			"name": "internal_param2_json"
+		},
+		{
+			"url": "internal_param说明.txt",
+			"type": "text",
+			"name": "internal_param说明_txt"
+		},
+		{
+			"url": "level_debug_config.json",
+			"type": "json",
+			"name": "level_debug_config2_json"
+		},
+		{
+			"url": "level_debug_config说明.txt",
+			"type": "text",
+			"name": "level_debug_config说明_txt"
+		},
+		{
+			"url": "numerical_param.json",
+			"type": "json",
+			"name": "numerical_param2_json"
+		},
+		{
+			"url": "game_core/bullets/bullet_demo.png",
+			"type": "image",
+			"name": "bullet_demo_png"
+		},
+		{
+			"url": "game_core/cars/car_w_emitter.png",
+			"type": "image",
+			"name": "car_w_emitter_png"
 		}
 	]
 }
