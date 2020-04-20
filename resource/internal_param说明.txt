@@ -40,3 +40,7 @@ coin_anim.fall_accelerator
 coin_anim.initial_speed
 金币动画 初始速度
 基准值 600
+
+length.enemy_with_bullet_dumb_gap
+发射子弹的敌人车辆在距离玩家多远时停止发射子弹
+基准值 100
