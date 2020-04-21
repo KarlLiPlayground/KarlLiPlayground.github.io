@@ -1,27 +1,26 @@
 {
     "speed": {
         "========= world =========": "",
-        "world_move_speed": 10,
-        "world_move_speed_progress_coe": 5,
+        "world_move_speed": 11,
+        "world_move_speed_progress_coe": 2,
         "========= bullet =========": "",
-        "bullet_speed": 18,
+        "bullet_speed": 15,
         "========= enemy_1 =========": "",
-        "enemy_1_speed_offset_base": -4,
-        "enemy_1_speed_offset_progress_coe": 2,
-        "enemy_1_speed_offset_dispersion": 0.4
-    },
+        "enemy_1_speed_offset_base": -5,
+        "enemy_1_speed_offset_progress_coe": 3,
+        "enemy_1_speed_offset_dispersion": 0.3    },
     "dmg": {
         "player_bullet_dmg": 5
     },
     "health": {
         "========= enemy_1 =========": "",
-        "enemy_1_base": 10,
-        "enemy_1_dispersion": 5,
-        "enemy_1_progress_coe": 10,
+        "enemy_1_base": 8,
+        "enemy_1_dispersion": 4,
+        "enemy_1_progress_coe": 0,
         "========= enemy_2 =========": "",
-        "enemy_2_base": 30,
-        "enemy_2_dispersion": 10,
-        "enemy_2_progress_coe": 15,
+        "enemy_2_base": 35,
+        "enemy_2_dispersion": 5,
+        "enemy_2_progress_coe": 10,
         "========= barrier =========": "",
         "barrier_health": 999
     },
@@ -30,7 +29,7 @@
         "========= enemy_common =========": "",
         "enemy_born_base": 80,
         "enemy_born_progress_coe": -20,
-        "enemy_born_y_dispersion": 120
+        "enemy_born_y_dispersion": 150
     }, 
     "length": {
         "stage_length": 48000
@@ -41,36 +40,35 @@
     },
     "event": {
         "start": 5000,
-        "start_dispersion": 1000,
-        "interval": 5000,
-        "interval_progress_coe": -1000,
-        "interval_dispersion": 200,
+        "start_dispersion": 500,
+        "interval": 6000,
+        "interval_progress_coe": -800,
+        "interval_dispersion": 100,
         "========= probability =========": "",
         "probability_bullet_enemy": 0.3,
         "probability_enemy2": 0.4,
         "probability_barrier": 0.3,
-        "evt_region_head_gap": 300,
-        "evt_region_tail_gap": 300
-    }, 
+        "evt_region_head_gap": 1000,
+        "evt_region_tail_gap": 1300    }, 
     "barrier": {
         "barrier_born_rand_min": 2,
         "barrier_born_rand_min_process_coe": 2,
         "barrier_born_rand_max": 4,
         "barrier_row_min": 2,
         "barrier_row_max": 3,
-        "barrier_born_y_dispersion": 100,
-        "barrier_row_distance": 1000,
+        "barrier_born_y_dispersion": 50,
+        "barrier_row_distance": 1200,
         "barrier_row_distance_process_coe": -50,
-        "barrier_tip_distance": 250,
+        "barrier_tip_distance": 450,
         "barrier_tip_distance_process_coe": -50
     },
     "enemy_with_bullet": {
-        "health_base": 15,
+        "health_base": 50,
         "health_dispersion": 2,
         "health_progress_coe": 5,
-        "speed_offset":-6,
+        "speed_offset":-7,
         "speed_offset_progress_coe":5,
-        "born_y_dispersion":180,
+        "born_y_dispersion":120,
         "bullet_speed":15,
         "bullet_dmg":1,
         "bullet_emit":80,
@@ -79,12 +77,12 @@
         "born_random_max_progress_coe":2
     },
     "enemy_numerous":{
-        "born_random_min":4,
+        "born_random_min":5,
         "born_random_max":5,
         "born_y_dispersion":120,
         "fixed_count":2, 
-        "enemy_1_probability":0.7,
-        "enemy_1_probability_progresss_coe":0.5,
+        "enemy_1_probability":0.2,
+        "enemy_1_probability_progresss_coe":-0.2,
         "health_base": 100,
         "health_dispersion": 20,
         "health_progress_coe": 30
