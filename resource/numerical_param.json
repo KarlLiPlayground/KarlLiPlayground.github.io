@@ -44,15 +44,15 @@
         "enemy_1_born_progress_coe": -0.1
     },
     "event": {
-        "start": 5000,
+        "start": 6000,
         "start_dispersion": 500,
         "interval": 6000,
         "interval_progress_coe": -2500,
         "interval_dispersion": 100,
         "========= probability =========": "",
         "probability_bullet_enemy": 0.3,
-        "probability_enemy2": 0.4,
-        "probability_barrier": 0.3,
+        "probability_enemy2": 0.5,
+        "probability_barrier": 0.2,
         "evt_region_head_gap": 900,
         "evt_region_tail_gap": 1000
     }, 
