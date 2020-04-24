@@ -96,6 +96,8 @@
         "row_distance": 1600,
         "row_distance_process_coe": -320,
         "row_min": 2,
-        "row_max": 3
+        "row_max": 3,
+        "drop_area_len": 400,
+        "drop_anim_duration":20
     }
 }

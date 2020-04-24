@@ -1,0 +1,5 @@
+drop_area_len
+下落动画的长度
+
+drop_anim_duration
+下落动画的时间
