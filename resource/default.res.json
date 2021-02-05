@@ -1,11 +1,105 @@
 {
 	"groups": [
 		{
-			"keys": "button_down_png,button_up_png,description_json,bullet_png,car_red_02_png,car_blue_02_png,gun_png,car_11_png,car_5_png,car_explosion_tex_png,car_explosion_mc_json,exclamatory_png,coin_png,numerical_param_json,internal_param_json,level_debug_config_json,internal_param2_json,level_debug_config2_json,numerical_param2_json,bullet_demo_png,car_w_emitter_png,enemy_n_png",
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,Battle_SmallBloodStick_01_png,Battle_SmallBloodStick_02_png,Common_Pic_Battle_BloodStrip_01_png,Common_Pic_Battle_BloodStrip_02_png,ground_bg_png,sky_png",
 			"name": "preload"
+		},
+		{
+			"keys": "C50810_ske_json,C50810_tex_json,C50710_ske_json,C50710_tex_json,C50810_tex_png,C50710_tex_png,C00000_png,C51910_tex_png,C51910_tex_json,C51910_ske_json",
+			"name": "characters"
 		}
 	],
 	"resources": [
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
 		{
 			"url": "assets/Button/button_down.png",
 			"type": "image",
@@ -17,104 +111,114 @@
 			"name": "button_up_png"
 		},
 		{
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
 			"url": "config/description.json",
 			"type": "json",
 			"name": "description_json"
 		},
 		{
-			"url": "game_core/bullets/bullet.png",
+			"url": "game_assets/characters/C50710/C50710_tex.png",
 			"type": "image",
-			"name": "bullet_png"
+			"name": "C50710_tex_png"
 		},
 		{
-			"url": "game_core/cars/car_red_02.png",
+			"url": "game_assets/characters/C50810/C50810_tex.png",
 			"type": "image",
-			"name": "car_red_02_png"
+			"name": "C50810_tex_png"
 		},
 		{
-			"url": "game_core/cars/car_blue_02.png",
-			"type": "image",
-			"name": "car_blue_02_png"
-		},
-		{
-			"url": "game_core/cars/gun.png",
-			"type": "image",
-			"name": "gun_png"
-		},
-		{
-			"url": "game_core/cars/car_11.png",
-			"type": "image",
-			"name": "car_11_png"
-		},
-		{
-			"url": "game_core/cars/car_5.png",
-			"type": "image",
-			"name": "car_5_png"
-		},
-		{
-			"url": "game_core/anims/car_explosion/car_explosion_tex.png",
-			"type": "image",
-			"name": "car_explosion_tex_png"
-		},
-		{
-			"url": "game_core/anims/car_explosion/car_explosion_mc.json",
+			"url": "game_assets/characters/C50710/C50710_tex.json",
 			"type": "json",
-			"name": "car_explosion_mc_json"
+			"name": "C50710_tex_json"
 		},
 		{
-			"url": "game_core/widgets/exclamatory.png",
+			"url": "game_assets/characters/C50710/C50710_ske.json",
+			"type": "json",
+			"name": "C50710_ske_json"
+		},
+		{
+			"url": "game_assets/characters/C50810/C50810_tex.json",
+			"type": "json",
+			"name": "C50810_tex_json"
+		},
+		{
+			"url": "game_assets/characters/C50810/C50810_ske.json",
+			"type": "json",
+			"name": "C50810_ske_json"
+		},
+		{
+			"url": "game_assets/C00000.png",
 			"type": "image",
-			"name": "exclamatory_png"
+			"name": "C00000_png"
 		},
 		{
-			"url": "game_core/miscellaneous/coin.png",
+			"url": "game_assets/characters/C51910/C51910_tex.png",
 			"type": "image",
-			"name": "coin_png"
+			"name": "C51910_tex_png"
 		},
 		{
-			"url": "level_debug_config.json",
+			"url": "game_assets/characters/C51910/C51910_tex.json",
 			"type": "json",
-			"name": "level_debug_config_json"
+			"name": "C51910_tex_json"
 		},
 		{
-			"url": "numerical_param.json",
+			"url": "game_assets/characters/C51910/C51910_ske.json",
 			"type": "json",
-			"name": "numerical_param_json"
+			"name": "C51910_ske_json"
 		},
 		{
-			"url": "internal_param.json",
-			"type": "json",
-			"name": "internal_param_json"
-		},
-		{
-			"url": "internal_param.json",
-			"type": "json",
-			"name": "internal_param2_json"
-		},
-		{
-			"url": "level_debug_config.json",
-			"type": "json",
-			"name": "level_debug_config2_json"
-		},
-		{
-			"url": "numerical_param.json",
-			"type": "json",
-			"name": "numerical_param2_json"
-		},
-		{
-			"url": "game_core/bullets/bullet_demo.png",
+			"url": "game_assets/health_bar/Battle_SmallBloodStick_01.png",
 			"type": "image",
-			"name": "bullet_demo_png"
+			"name": "Battle_SmallBloodStick_01_png"
 		},
 		{
-			"url": "game_core/cars/car_w_emitter.png",
+			"url": "game_assets/health_bar/Battle_SmallBloodStick_02.png",
 			"type": "image",
-			"name": "car_w_emitter_png"
+			"name": "Battle_SmallBloodStick_02_png"
 		},
 		{
-			"url": "game_core/cars/enemy_n.png",
+			"url": "game_assets/health_bar/Common_Pic_Battle_BloodStrip_01.png",
 			"type": "image",
-			"name": "enemy_n_png"
+			"name": "Common_Pic_Battle_BloodStrip_01_png"
+		},
+		{
+			"url": "game_assets/health_bar/Common_Pic_Battle_BloodStrip_02.png",
+			"type": "image",
+			"name": "Common_Pic_Battle_BloodStrip_02_png"
+		},
+		{
+			"url": "game_assets/ground_bg.png",
+			"type": "image",
+			"name": "ground_bg_png"
+		},
+		{
+			"url": "game_assets/sky.png",
+			"type": "image",
+			"name": "sky_png"
 		}
 	]
 }
