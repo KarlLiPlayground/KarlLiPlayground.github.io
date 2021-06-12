@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json,g1p0_jpg,g1p1_jpg,btn_return_png,btn_clear_png,red_cycle_png,snow_m4a,9_m4a,g1bg_0000_Layer 40_jpg,g1bg_0001_Layer 39_jpg,g1bg_0002_Layer 38_jpg,g1bg_0003_Layer 37_jpg,g1bg_0004_Layer 36_jpg,g1bg_0005_Layer 35_jpg,g1bg_0006_Layer 34_jpg,g1bg_0007_Layer 33_jpg,g1bg_0008_Layer 32_jpg,g1bg_0009_Layer 31_jpg,g1bg_0010_Layer 30_jpg,g1bg_0011_Layer 29_jpg,g1bg_0012_Layer 28_jpg,g1bg_0013_Layer 27_jpg,g1bg_0014_Layer 26_jpg,g1bg_0015_Layer 25_jpg,g1bg_0016_Layer 24_jpg,g1bg_0017_Layer 23_jpg,g1bg_0018_Layer 22_jpg,g1bg_0019_Layer 21_jpg,g1bg_0020_Layer 20_jpg,g1bg_0021_Layer 19_jpg,g1bg_0022_Layer 18_jpg,g1bg_0023_Layer 17_jpg,g1bg_0024_Layer 16_jpg,g1bg_0025_Layer 15_jpg,g1bg_0026_Layer 14_jpg,g1bg_0027_Layer 13_jpg,g1bg_0028_Layer 12_jpg,g1bg_0029_Layer 11_jpg,g1bg_0030_Layer 10_jpg,g1bg_0031_Layer 9_jpg,g1bg_0032_Layer 8_jpg,g1bg_0033_Layer 7_jpg,g1bg_0034_Layer 6_jpg,g1bg_0035_Layer 5_jpg,g1bg_0036_Layer 4_jpg,g1bg_0037_Layer 3_jpg,g1bg_0038_Layer 2_jpg,g1bg_0039_Layer 1_jpg,snow_png",
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,egret_icon_png,description_json,g1p0_jpg,g1p1_jpg,btn_return_png,btn_clear_png,red_cycle_png,g1bg_0000_Layer 40_jpg,g1bg_0001_Layer 39_jpg,g1bg_0002_Layer 38_jpg,g1bg_0003_Layer 37_jpg,g1bg_0004_Layer 36_jpg,g1bg_0005_Layer 35_jpg,g1bg_0006_Layer 34_jpg,g1bg_0007_Layer 33_jpg,g1bg_0008_Layer 32_jpg,g1bg_0009_Layer 31_jpg,g1bg_0010_Layer 30_jpg,g1bg_0011_Layer 29_jpg,g1bg_0012_Layer 28_jpg,g1bg_0013_Layer 27_jpg,g1bg_0014_Layer 26_jpg,g1bg_0015_Layer 25_jpg,g1bg_0016_Layer 24_jpg,g1bg_0017_Layer 23_jpg,g1bg_0018_Layer 22_jpg,g1bg_0019_Layer 21_jpg,g1bg_0020_Layer 20_jpg,g1bg_0021_Layer 19_jpg,g1bg_0022_Layer 18_jpg,g1bg_0023_Layer 17_jpg,g1bg_0024_Layer 16_jpg,g1bg_0025_Layer 15_jpg,g1bg_0026_Layer 14_jpg,g1bg_0027_Layer 13_jpg,g1bg_0028_Layer 12_jpg,g1bg_0029_Layer 11_jpg,g1bg_0030_Layer 10_jpg,g1bg_0031_Layer 9_jpg,g1bg_0032_Layer 8_jpg,g1bg_0033_Layer 7_jpg,g1bg_0034_Layer 6_jpg,g1bg_0035_Layer 5_jpg,g1bg_0036_Layer 4_jpg,g1bg_0037_Layer 3_jpg,g1bg_0038_Layer 2_jpg,g1bg_0039_Layer 1_jpg,snow_png,btn_play_voice_png,g1_correct_m4a,g1_fail_m4a,g1_bgm2_m4a,g1_bgm1_m4a",
 			"name": "preload"
 		}
 	],
@@ -122,11 +122,6 @@
 			"name": "track_sb_png"
 		},
 		{
-			"url": "assets/bg.jpg",
-			"type": "image",
-			"name": "bg_jpg"
-		},
-		{
 			"url": "assets/egret_icon.png",
 			"type": "image",
 			"name": "egret_icon_png"
@@ -160,16 +155,6 @@
 			"name": "red_cycle_png",
 			"type": "image",
 			"url": "imgs/common/red_cycle.png"
-		},
-		{
-			"name": "snow_m4a",
-			"type": "sound",
-			"url": "sounds/snow.m4a"
-		},
-		{
-			"name": "9_m4a",
-			"type": "sound",
-			"url": "sounds/9.m4a"
 		},
 		{
 			"name": "g1bg_0000_Layer 40_jpg",
@@ -375,6 +360,31 @@
 			"name": "snow_png",
 			"type": "image",
 			"url": "imgs/game1/snow.png"
+		},
+		{
+			"name": "btn_play_voice_png",
+			"type": "image",
+			"url": "imgs/common/btn_play_voice.png"
+		},
+		{
+			"name": "g1_correct_m4a",
+			"type": "sound",
+			"url": "sounds/g1_correct.m4a"
+		},
+		{
+			"name": "g1_fail_m4a",
+			"type": "sound",
+			"url": "sounds/g1_fail.m4a"
+		},
+		{
+			"name": "g1_bgm2_m4a",
+			"type": "sound",
+			"url": "sounds/g1_bgm2.m4a"
+		},
+		{
+			"name": "g1_bgm1_m4a",
+			"type": "sound",
+			"url": "sounds/g1_bgm1.m4a"
 		}
 	]
 }
