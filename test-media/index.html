@@ -17,15 +17,20 @@
 
     <script type="text/javascript">
 
-        var console = {};
-        console.log = function (message)
+        if (window.webkit && window.webkit.messageHandlers)
         {
-            window.webkit.messageHandlers['native_log'].postMessage(message)
-        };
-        console.error = function (message)
-        {
-            window.webkit.messageHandlers['native_error'].postMessage(message)
-        };
+            window.console = {};
+            console.log = function (message)
+            {
+                window.webkit.messageHandlers['native_log'].postMessage(message)
+            };
+            console.error = function (message)
+            {
+                window.webkit.messageHandlers['native_error'].postMessage(message)
+            };
+        }
+
+
 
         const constraints = window.constraints = {
             audio: false,
@@ -35,8 +40,14 @@
 
         function handleSuccess(stream)
         {
+             
             const video = document.querySelector('video');
             const videoTracks = stream.getVideoTracks();
+            for(let i = 0; i<videoTracks.length; i++)
+            {
+                console.log(`device ${i} : ${videoTracks[i].label}`);
+            }
+
             console.log('Got stream with constraints:', constraints);
             console.log(`Using video device: ${videoTracks[0].label}`);
             window.stream = stream; // make variable available to browser console
@@ -44,7 +55,7 @@
         }
 
         function handleError(error)
-        { 
+        {
             console.log(error.toString());
             if (error.name === 'ConstraintNotSatisfiedError')
             {
@@ -61,11 +72,11 @@
             {
                 errorMsg(error.toString());
             }
-             
+
         }
 
         function errorMsg(msg, error)
-        { 
+        {
             const errorElement = document.querySelector('#errorMsg');
             errorElement.innerHTML += `<p>${msg}</p>`;
             if (typeof error !== 'undefined')
